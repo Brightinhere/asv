@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+        app:defaultValue="True"
+        app:iconSpaceReserved="false"
+        app:key="com.battlelancer.seriesguide.autoupdate"
+        app:summary="@string/pref_autoupdatesummary"
+        app:title="@string/pref_autoupdate" />
+
+    <CheckBoxPreference
+        app:defaultValue="False"
+        app:iconSpaceReserved="false"
+        app:key="com.battlelancer.seriesguide.autoupdatewlanonly"
+        app:summary="@string/pref_updatewifionlysummary"
+        app:title="@string/pref_updatewifionly" />
+
+    <Preference
+        app:iconSpaceReserved="false"
+        app:key="screen_notifications"
+        app:title="@string/pref_notifications" />
+
+    <Preference
+        app:iconSpaceReserved="false"
+        app:key="screen_basic"
+        app:title="@string/prefs_category_advanced" />
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/backup">
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="com.battlelancer.seriesguide.settings.autobackup"
+            app:summary="@string/pref_autobackupsummary"
+            app:title="@string/pref_autobackup" />
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="com.battlelancer.seriesguide.settings.dataliberation"
+            app:summary="@string/backup_summary"
+            app:title="@string/backup" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/pref_appearance">
+
+        <ListPreference
+            app:defaultValue="0"
+            app:entries="@array/themeSelection"
+            app:entryValues="@array/themeSelectionData"
+            app:iconSpaceReserved="false"
+            app:key="com.uwetrottmann.seriesguide.theme"
+            app:title="@string/pref_theme" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="False"
+            app:iconSpaceReserved="false"
+            app:key="com.uwetrottmann.seriesguide.dynamiccolor"
+            app:title="@string/pref_dynamic_colors" />
+
+        <ListPreference
+            app:defaultValue="default"
+            app:entries="@array/numbers"
+            app:entryValues="@array/numberData"
+            app:iconSpaceReserved="false"
+            app:key="numberformat"
+            app:title="@string/pref_number" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/pref_other">
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="clearCache"
+            app:summary="@string/clear_cache_summary"
+            app:title="@string/clear_cache" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="True"
+            app:iconSpaceReserved="false"
+            app:key="com.battlelancer.seriesguide.sendErrorReports"
+            app:title="@string/pref_error_reports" />
+
+    </PreferenceCategory>
+
+    <!-- Danger Zone - not translated -->
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/pref_category_danger">
+
+        <!-- AppSettings -->
+        <SwitchPreferenceCompat
+            app:defaultValue="False"
+            app:iconSpaceReserved="false"
+            app:key="com.battlelancer.seriesguide.userDebugModeEnabled"
+            app:summary="@string/pref_user_debug_mode_summary"
+            app:title="@string/pref_user_debug_mode" />
+
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

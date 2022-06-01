@@ -1,0 +1,33 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/api/src/main/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/api/src/main/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/api/src/main/AndroidManifest.xml:1:1-8:12
+	package
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/api/src/main/AndroidManifest.xml
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/api/src/main/AndroidManifest.xml:1:1-8:12
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/api/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/api/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/api/src/main/AndroidManifest.xml:4:5-95
+	android:maxSdkVersion
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/api/src/main/AndroidManifest.xml:4:66-92
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/api/src/main/AndroidManifest.xml:4:22-65
+application
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/api/src/main/AndroidManifest.xml:6:5-7:19
+uses-sdk
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/api/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/api/src/main/AndroidManifest.xml
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/api/src/main/AndroidManifest.xml
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/api/src/main/AndroidManifest.xml
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/api/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/api/src/main/AndroidManifest.xml
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/api/src/main/AndroidManifest.xml
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/api/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/api/src/main/AndroidManifest.xml
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/api/src/main/AndroidManifest.xml
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/api/src/main/AndroidManifest.xml

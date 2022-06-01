@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <include
+        android:id="@+id/sgToolbar"
+        layout="@layout/toolbar_elevated"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineOverviewVerticalLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineOverviewVerticalRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <FrameLayout
+        android:id="@+id/fragment_show"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/guidelineOverviewVerticalLeft"
+        app:layout_constraintTop_toBottomOf="@+id/sgToolbar" />
+
+    <ImageView
+        android:id="@+id/imageViewOverviewBackground"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/guidelineOverviewVerticalLeft"
+        app:layout_constraintRight_toLeftOf="@+id/guidelineOverviewVerticalRight"
+        app:layout_constraintTop_toBottomOf="@+id/sgToolbar"
+        tools:src="#66ff0099" />
+
+    <FrameLayout
+        android:id="@+id/fragment_overview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/guidelineOverviewVerticalLeft"
+        app:layout_constraintRight_toLeftOf="@+id/guidelineOverviewVerticalRight"
+        app:layout_constraintTop_toBottomOf="@+id/sgToolbar" />
+
+    <View
+        android:id="@+id/viewOverviewShadowStart"
+        android:layout_width="4dp"
+        android:layout_height="0dp"
+        android:background="@drawable/sg_shadow_right_left"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/guidelineOverviewVerticalLeft"
+        app:layout_constraintTop_toBottomOf="@+id/sgToolbar" />
+
+    <View
+        android:id="@+id/viewOverviewShadowEnd"
+        android:layout_width="4dp"
+        android:layout_height="0dp"
+        android:background="@drawable/sg_shadow_left_right"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/guidelineOverviewVerticalRight"
+        app:layout_constraintTop_toBottomOf="@+id/sgToolbar" />
+
+    <FrameLayout
+        android:id="@+id/fragment_seasons"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/sgToolbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/guidelineOverviewVerticalRight"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sgToolbar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

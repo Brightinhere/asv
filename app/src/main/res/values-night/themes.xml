@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SeriesGuide.DayNight" parent="Theme.SeriesGuide.Dark" />
+    <style name="Theme.SeriesGuide.DayNight.Immersive" parent="Theme.SeriesGuide.Dark.Immersive" />
+
+</resources>

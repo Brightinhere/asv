@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Screens with more than 590dp of available width. This would
+    include phone devices in landscape. -->
+
+    <integer name="grid_column_count">2</integer>
+
+</resources>

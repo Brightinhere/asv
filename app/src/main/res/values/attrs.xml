@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Special drawables -->
+    <attr name="sgBorderlessButtonBackground" format="reference" />
+
+    <!-- Text colors -->
+    <attr name="sgTextColorSecondaryDim" format="reference|color" />
+
+    <!-- Other colors -->
+    <attr name="sgColorBackgroundDim" format="reference|color" />
+    <attr name="sgColorIcon" format="reference|color" />
+    <attr name="sgColorIconInactive" format="reference|color" />
+    <attr name="sgColorDivider" format="reference|color" />
+    <attr name="sgColorShadow" format="reference|color" />
+    <attr name="sgColorStatusBarOverlay" format="reference|color" />
+    <attr name="sgColorTopAppBar" format="reference|color" />
+
+    <!-- Custom view attributes -->
+    <declare-styleable name="EmptyView">
+        <attr name="emptyViewMessage" format="string" />
+        <attr name="emptyViewButtonText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="FeatureStatusView">
+        <attr name="featureSupported" format="boolean" />
+        <attr name="featureDescription" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="FilterBox">
+        <attr name="filterBoxDescription" format="string" />
+    </declare-styleable>
+
+    <!-- App Widget -->
+    <attr name="sgAppWidgetRadius" format="dimension" />
+    <attr name="sgAppWidgetPosterWidth" format="reference" />
+    <attr name="sgAppWidgetPosterHeight" format="reference" />
+    <attr name="sgAppWidgetTextSize" format="reference" />
+
+</resources>

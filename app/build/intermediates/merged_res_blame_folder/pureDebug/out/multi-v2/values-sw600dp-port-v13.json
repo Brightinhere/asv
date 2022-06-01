@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.battlelancer.seriesguide.app-mergePureDebugResources-54:/values-sw600dp-port-v13/values-sw600dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/res/values-sw600dp-port/bools.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endColumns": "50",
+                        "endOffsets": "102"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "50",
+                        "endOffsets": "101"
+                    }
+                },
+                {
+                    "source": "/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/res/values-sw600dp-port/layouts.xml",
+                    "from": {
+                        "startLines": "5,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "278,370",
+                        "endColumns": "91,80",
+                        "endOffsets": "365,446"
+                    },
+                    "to": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "106,198",
+                        "endColumns": "91,80",
+                        "endOffsets": "193,274"
+                    }
+                }
+            ]
+        }
+    ]
+}

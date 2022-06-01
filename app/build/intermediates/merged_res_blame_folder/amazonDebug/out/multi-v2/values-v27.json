@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.battlelancer.seriesguide.app-mergeAmazonDebugResources-54:/values-v27/values-v27.xml",
+            "map": [
+                {
+                    "source": "/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/res/values-v27/themes.xml",
+                    "from": {
+                        "startLines": "3,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "56,503",
+                        "endLines": "13,28",
+                        "endColumns": "12,12",
+                        "endOffsets": "497,1133"
+                    },
+                    "to": {
+                        "startLines": "2,13",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,350",
+                        "endLines": "12,26",
+                        "endColumns": "12,12",
+                        "endOffsets": "345,772"
+                    }
+                }
+            ]
+        }
+    ]
+}

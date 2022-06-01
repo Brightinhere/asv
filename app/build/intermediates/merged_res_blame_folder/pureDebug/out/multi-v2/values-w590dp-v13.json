@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.battlelancer.seriesguide.app-mergePureDebugResources-54:/values-w590dp-v13/values-w590dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/res/values-w590dp/layouts.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endColumns": "91",
+                        "endOffsets": "143"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "91",
+                        "endOffsets": "192"
+                    }
+                },
+                {
+                    "source": "/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/res/values-w590dp/styles.xml",
+                    "from": {
+                        "startLines": "18,14,9,3",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "510,412,290,56",
+                        "endLines": "20,16,11,7",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "601,504,387,284"
+                    },
+                    "to": {
+                        "startLines": "4,7,10,13",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "197,293,390,492",
+                        "endLines": "6,9,12,17",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "288,385,487,720"
+                    }
+                },
+                {
+                    "source": "/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/res/values-w590dp/dimens.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "170",
+                        "endColumns": "49",
+                        "endOffsets": "215"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "49",
+                        "endOffsets": "100"
+                    }
+                }
+            ]
+        }
+    ]
+}

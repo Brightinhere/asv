@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "PROCESSED_RES",
+    "kind": "Directory"
+  },
+  "applicationId": "com.battlelancer.seriesguide",
+  "variantName": "pureDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 2106405,
+      "versionName": "64.0.5",
+      "outputFile": "resources-pureDebug.ap_"
+    }
+  ],
+  "elementType": "File"
+}

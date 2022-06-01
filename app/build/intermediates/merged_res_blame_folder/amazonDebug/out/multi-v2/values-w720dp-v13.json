@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.battlelancer.seriesguide.app-mergeAmazonDebugResources-54:/values-w720dp-v13/values-w720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/res/values-w720dp/dimens.xml",
+                    "from": {
+                        "startLines": "7,16,12,13,10,11,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "205,605,393,445,285,336,503,551",
+                        "endColumns": "53,53,51,57,50,56,47,53",
+                        "endOffsets": "254,654,440,498,331,388,546,600"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,109,163,215,273,324,381,429",
+                        "endColumns": "53,53,51,57,50,56,47,53",
+                        "endOffsets": "104,158,210,268,319,376,424,478"
+                    }
+                }
+            ]
+        }
+    ]
+}

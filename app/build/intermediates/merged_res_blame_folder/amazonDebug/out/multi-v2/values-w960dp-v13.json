@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.battlelancer.seriesguide.app-mergeAmazonDebugResources-54:/values-w960dp-v13/values-w960dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/res/values-w960dp/layouts.xml",
+                    "from": {
+                        "startLines": "7,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "251,169",
+                        "endColumns": "84,81",
+                        "endOffsets": "331,246"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,140",
+                        "endColumns": "84,81",
+                        "endOffsets": "135,217"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+com.battlelancer.seriesguide.api.test.api-jetified-annotation-experimental-1.1.0-0 /Users/irfanbilir/.gradle/caches/transforms-3/4508d460215e2eb115394f0678c64f50/transformed/jetified-annotation-experimental-1.1.0/res
+com.battlelancer.seriesguide.api.test.api-lifecycle-runtime-2.3.1-1 /Users/irfanbilir/.gradle/caches/transforms-3/4d1871682a31ab92ee87c10cb6bfe269/transformed/lifecycle-runtime-2.3.1/res
+com.battlelancer.seriesguide.api.test.api-core-1.7.0-2 /Users/irfanbilir/.gradle/caches/transforms-3/edc170de79d193cd8c818050621e4f49/transformed/core-1.7.0/res
+com.battlelancer.seriesguide.api.test.api-androidTest-3 /Users/irfanbilir/Documents/SeriesGuide-dev/api/build/generated/res/resValues/androidTest/debug
+com.battlelancer.seriesguide.api.test.api-androidTest-4 /Users/irfanbilir/Documents/SeriesGuide-dev/api/build/generated/res/rs/androidTest/debug
+com.battlelancer.seriesguide.api.test.api-mergeDebugAndroidTestResources-5 /Users/irfanbilir/Documents/SeriesGuide-dev/api/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.battlelancer.seriesguide.api.test.api-mergeDebugAndroidTestResources-6 /Users/irfanbilir/Documents/SeriesGuide-dev/api/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.battlelancer.seriesguide.api.test.api-merged_res-7 /Users/irfanbilir/Documents/SeriesGuide-dev/api/build/intermediates/merged_res/debugAndroidTest
+com.battlelancer.seriesguide.api.test.api-packaged_res-8 /Users/irfanbilir/Documents/SeriesGuide-dev/api/build/intermediates/packaged_res/debug
+com.battlelancer.seriesguide.api.test.api-androidTest-9 /Users/irfanbilir/Documents/SeriesGuide-dev/api/src/androidTest/res
+com.battlelancer.seriesguide.api.test.api-androidTestDebug-10 /Users/irfanbilir/Documents/SeriesGuide-dev/api/src/androidTestDebug/res

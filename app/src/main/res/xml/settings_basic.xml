@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <CheckBoxPreference
+        app:defaultValue="False"
+        app:iconSpaceReserved="false"
+        app:key="com.battlelancer.seriesguide.trakt.quickcheckin"
+        app:summary="@string/pref_quick_checkin_summary"
+        app:title="@string/pref_quick_checkin" />
+
+    <Preference
+        app:iconSpaceReserved="false"
+        app:key="com.uwetrottmann.seriesguide.watch.region"
+        app:title="@string/action_stream"
+        tools:summary="@string/action_select_region" />
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/shows">
+
+        <CheckBoxPreference
+            app:defaultValue="False"
+            app:iconSpaceReserved="false"
+            app:key="com.battlelancer.seriesguide.PREVENT_SPOILERS"
+            app:summary="@string/pref_nospoilers_summary"
+            app:title="@string/pref_nospoilers" />
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="com.battlelancer.seriesguide.languageFallback"
+            app:title="@string/pref_language_fallback" />
+
+        <CheckBoxPreference
+            app:defaultValue="False"
+            app:iconSpaceReserved="false"
+            app:key="onlySeasonEpisodes"
+            app:summary="@string/pref_onlyseasonepssummary"
+            app:title="@string/pref_onlyseasoneps" />
+
+        <CheckBoxPreference
+            app:defaultValue="False"
+            app:iconSpaceReserved="false"
+            app:key="com.battlelancer.seriesguide.shows.exactdate"
+            app:summary="@string/pref_exactdates_summary"
+            app:title="@string/pref_exactdates" />
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="com.battlelancer.seriesguide.timeoffset"
+            app:title="@string/pref_offset" />
+
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

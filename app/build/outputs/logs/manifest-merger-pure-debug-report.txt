@@ -1,0 +1,1442 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:41:5-374:19
+MERGED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:41:5-374:19
+MERGED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:41:5-374:19
+MERGED from [:api] /Users/irfanbilir/Documents/SeriesGuide-dev/api/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-15:19
+MERGED from [:api] /Users/irfanbilir/Documents/SeriesGuide-dev/api/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-15:19
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:13:5-105:19
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:13:5-105:19
+MERGED from [com.google.android.material:material:1.5.0] /Users/irfanbilir/.gradle/caches/transforms-3/692e04fc548daa12ca817ce9eacf34a4/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.5.0] /Users/irfanbilir/.gradle/caches/transforms-3/692e04fc548daa12ca817ce9eacf34a4/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/irfanbilir/.gradle/caches/transforms-3/40c2de0bb749c732e8b38b49c8532d1f/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/irfanbilir/.gradle/caches/transforms-3/40c2de0bb749c732e8b38b49c8532d1f/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-view:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/90c0a2acb66d4a3b92bcd33ad9ce1193/transformed/jetified-debugdrawer-view-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-view:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/90c0a2acb66d4a3b92bcd33ad9ce1193/transformed/jetified-debugdrawer-view-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-commons:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/13a0ef5678ff47a5dd7eafc4d187ef2f/transformed/jetified-debugdrawer-commons-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-commons:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/13a0ef5678ff47a5dd7eafc4d187ef2f/transformed/jetified-debugdrawer-commons-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-actions:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/db1f405c878d9a8b526dfe5516eea3dc/transformed/jetified-debugdrawer-actions-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-actions:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/db1f405c878d9a8b526dfe5516eea3dc/transformed/jetified-debugdrawer-actions-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-timber:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/3be5bb92dcd9a46af86ba763db23907a/transformed/jetified-debugdrawer-timber-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-timber:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/3be5bb92dcd9a46af86ba763db23907a/transformed/jetified-debugdrawer-timber-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-base:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/4203c875a8c863c3447df88050cf0a7f/transformed/jetified-debugdrawer-base-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-base:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/4203c875a8c863c3447df88050cf0a7f/transformed/jetified-debugdrawer-base-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:22:5-38:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/irfanbilir/.gradle/caches/transforms-3/52ced65251cb11efe168801810a3225c/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/irfanbilir/.gradle/caches/transforms-3/52ced65251cb11efe168801810a3225c/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/3948f2452a49e34e52dac25f92485ff7/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/3948f2452a49e34e52dac25f92485ff7/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/fa1e8114388cde3c06ff5db880a076e2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/fa1e8114388cde3c06ff5db880a076e2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.5] /Users/irfanbilir/.gradle/caches/transforms-3/db1a76638686052a6c0db87371af54f3/transformed/jetified-firebase-crashlytics-18.2.5/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.5] /Users/irfanbilir/.gradle/caches/transforms-3/db1a76638686052a6c0db87371af54f3/transformed/jetified-firebase-crashlytics-18.2.5/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c631db3bf1692d875d4bcff78d5e29eb/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c631db3bf1692d875d4bcff78d5e29eb/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/f590d69ada7f002162f673aa5cee6dbb/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/f590d69ada7f002162f673aa5cee6dbb/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/dac627cba0fc351408f67f5c77ff92e1/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/dac627cba0fc351408f67f5c77ff92e1/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/c0007fa3761acadf9af1dd62dc20ebfb/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/c0007fa3761acadf9af1dd62dc20ebfb/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.2] /Users/irfanbilir/.gradle/caches/transforms-3/6e5e8e051727fc1bcf0a58999918b6ed/transformed/jetified-firebase-measurement-connector-18.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.2] /Users/irfanbilir/.gradle/caches/transforms-3/6e5e8e051727fc1bcf0a58999918b6ed/transformed/jetified-firebase-measurement-connector-18.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/8461959dd50ef71e602c3e28aef056f4/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/8461959dd50ef71e602c3e28aef056f4/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/irfanbilir/.gradle/caches/transforms-3/1f6e248c1a74e94c0ad66f28c4551acf/transformed/jetified-picasso-2.8/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/irfanbilir/.gradle/caches/transforms-3/1f6e248c1a74e94c0ad66f28c4551acf/transformed/jetified-picasso-2.8/AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/91d421735ba02ebf8987ff9ae3c7a969/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/91d421735ba02ebf8987ff9ae3c7a969/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] /Users/irfanbilir/.gradle/caches/transforms-3/edc170de79d193cd8c818050621e4f49/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/irfanbilir/.gradle/caches/transforms-3/edc170de79d193cd8c818050621e4f49/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b540aba49f5f45bf487924b8c028f0ee/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b540aba49f5f45bf487924b8c028f0ee/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/bdcbfd0bb1eb1394d6e7a7eddcfb30ab/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/bdcbfd0bb1eb1394d6e7a7eddcfb30ab/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.room:room-runtime:2.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/9261a4cb67a96138a203c81f923c0e98/transformed/room-runtime-2.4.1/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/9261a4cb67a96138a203c81f923c0e98/transformed/room-runtime-2.4.1/AndroidManifest.xml:24:5-29:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b7ac9f62a9f0ff774d7a61b793ac0197/transformed/jetified-transport-backend-cct-3.1.1/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b7ac9f62a9f0ff774d7a61b793ac0197/transformed/jetified-transport-backend-cct-3.1.1/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4904a92c0bdaf6c1c2d51502a22b34e8/transformed/jetified-transport-runtime-3.1.1/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4904a92c0bdaf6c1c2d51502a22b34e8/transformed/jetified-transport-runtime-3.1.1/AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c0f8141d2383c6f66a7c9d55a2292b64/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c0f8141d2383c6f66a7c9d55a2292b64/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/5a5e945bf17f85057edab755d37f1e5f/transformed/jetified-threetenabp-1.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/5a5e945bf17f85057edab755d37f1e5f/transformed/jetified-threetenabp-1.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:5.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/76c2a40360d9aeef954363c3fd981e75/transformed/jetified-timber-5.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:5.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/76c2a40360d9aeef954363c3fd981e75/transformed/jetified-timber-5.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.android.billingclient:billing:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/07d4b4f49317270ffffce62569eb6b1d/transformed/jetified-billing-4.0.0/AndroidManifest.xml:12:5-22:19
+MERGED from [com.android.billingclient:billing:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/07d4b4f49317270ffffce62569eb6b1d/transformed/jetified-billing-4.0.0/AndroidManifest.xml:12:5-22:19
+	android:roundIcon
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:51:9-54
+	tools:ignore
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml:8:18-69
+	android:icon
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:48:9-43
+	android:fullBackupOnly
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:46:9-38
+	android:backupAgent
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:44:9-73
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/irfanbilir/.gradle/caches/transforms-3/edc170de79d193cd8c818050621e4f49/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:52:9-36
+	android:label
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:49:9-41
+	android:hardwareAccelerated
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:47:9-43
+	android:fullBackupContent
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:45:9-62
+	android:allowBackup
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:43:9-35
+	android:restrictedAccountType
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:50:9-57
+	android:theme
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:53:9-56
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:42:9-58
+provider#com.battlelancer.seriesguide.provider.SeriesGuideProvider
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:66:9-70:54
+	android:authorities
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml
+provider#androidx.core.content.FileProvider
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:73:9-81:20
+	android:authorities
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:2:1-376:12
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:2:1-376:12
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:2:1-376:12
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:2:1-376:12
+MERGED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:2:1-376:12
+MERGED from [androidx.databinding:viewbinding:7.2.0] /Users/irfanbilir/.gradle/caches/transforms-3/2979623c3d3cae0a62a5baddf16bd4aa/transformed/jetified-viewbinding-7.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.uwetrottmann.androidutils:androidutils:3.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/25a217de780ac5d347ecafb64e4bdca1/transformed/jetified-androidutils-3.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [:billing] /Users/irfanbilir/Documents/SeriesGuide-dev/billing/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:widgets] /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.preference:preference-ktx:1.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/26717b0bdcddd325ca2217de088342d7/transformed/jetified-preference-ktx-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/38cedae8fd4e4ab39614a6759793f377/transformed/jetified-fragment-ktx-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/7483bdd498409ea43d48d3e8d83d0f98/transformed/jetified-activity-ktx-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.paging:paging-runtime-ktx:3.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/ba376e12344aca5c0235ee994b369e78/transformed/jetified-paging-runtime-ktx-3.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.paging:paging-runtime:3.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/2c3a85b7c890bbf49911abab59040cfe/transformed/paging-runtime-3.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/3a2dcc0f2e225091ebe989f273706e00/transformed/jetified-lifecycle-viewmodel-ktx-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/7a8fcbf5209816dc8d739f22df322edd/transformed/jetified-lifecycle-runtime-ktx-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-paging:2.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/92e8e674bc4621d80da6a57082f4c639/transformed/jetified-room-paging-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-ktx:2.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/f3c421a07253d40af0bd6bdf2fa5d759/transformed/jetified-room-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/c8bbdc306b4e2d846e8b75f9040aff0b/transformed/jetified-lifecycle-livedata-ktx-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.billingclient:billing-ktx:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/5290c73ede5b6b4c3868402a4c553f21/transformed/jetified-billing-ktx-4.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [:backend] /Users/irfanbilir/Documents/SeriesGuide-dev/backend/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:api] /Users/irfanbilir/Documents/SeriesGuide-dev/api/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:2:1-107:12
+MERGED from [com.google.android.material:material:1.5.0] /Users/irfanbilir/.gradle/caches/transforms-3/692e04fc548daa12ca817ce9eacf34a4/transformed/material-1.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/irfanbilir/.gradle/caches/transforms-3/40c2de0bb749c732e8b38b49c8532d1f/transformed/constraintlayout-2.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.getkeepsafe.taptargetview:taptargetview:1.13.3] /Users/irfanbilir/.gradle/caches/transforms-3/8fc50290b5f883ffa5ddc52ba3041104/transformed/jetified-taptargetview-1.13.3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-view:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/90c0a2acb66d4a3b92bcd33ad9ce1193/transformed/jetified-debugdrawer-view-0.9.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-commons:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/13a0ef5678ff47a5dd7eafc4d187ef2f/transformed/jetified-debugdrawer-commons-0.9.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-actions:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/db1f405c878d9a8b526dfe5516eea3dc/transformed/jetified-debugdrawer-actions-0.9.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-timber:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/3be5bb92dcd9a46af86ba763db23907a/transformed/jetified-debugdrawer-timber-0.9.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-base:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/4203c875a8c863c3447df88050cf0a7f/transformed/jetified-debugdrawer-base-0.9.0/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.preference:preference:1.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4f1df1e15ce8ee2b3a5df84d8fa4d63f/transformed/preference-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/6fcd002bc665cf0ecd110818c10da287/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:17:1-40:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta01] /Users/irfanbilir/.gradle/caches/transforms-3/cc18d93221368789477b2bed61a42616/transformed/jetified-viewpager2-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [com.uwetrottmann.photoview:library:1.2.4] /Users/irfanbilir/.gradle/caches/transforms-3/13d45c06abedd1fb06d990fdcbfe58b4/transformed/jetified-library-1.2.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c2ffa706b748184c0cc00d50f6bf01bc/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/irfanbilir/.gradle/caches/transforms-3/52ced65251cb11efe168801810a3225c/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:17:1-83:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/99834b3e7dcb1b43b454d68d8ed8b41e/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/05cd049fcc70d40e77901c8ceae84dca/transformed/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/3948f2452a49e34e52dac25f92485ff7/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/fa1e8114388cde3c06ff5db880a076e2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.5] /Users/irfanbilir/.gradle/caches/transforms-3/db1a76638686052a6c0db87371af54f3/transformed/jetified-firebase-crashlytics-18.2.5/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c631db3bf1692d875d4bcff78d5e29eb/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/099ec3b23995f6b87ef24ead7597bf31/transformed/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/f590d69ada7f002162f673aa5cee6dbb/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/dac627cba0fc351408f67f5c77ff92e1/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/c0007fa3761acadf9af1dd62dc20ebfb/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.2] /Users/irfanbilir/.gradle/caches/transforms-3/6e5e8e051727fc1bcf0a58999918b6ed/transformed/jetified-firebase-measurement-connector-18.0.2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/8461959dd50ef71e602c3e28aef056f4/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/83d745f5becc518f069d3ab34eaa86d4/transformed/fragment-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/irfanbilir/.gradle/caches/transforms-3/1a317764bc534ba3b0e8725a229f28ee/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/62d29d656a6270232a0feefd38433222/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0bccef338676ed410c10a00665c96a9/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/irfanbilir/.gradle/caches/transforms-3/1f6e248c1a74e94c0ad66f28c4551acf/transformed/jetified-picasso-2.8/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/6305442424ffbc12be658dbd0b95d802/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/8f661088c483ad01dac9bc0b5347c5c2/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/88bb3a06d2035a39a2df844a3d72fd52/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/98e1100ef961b94f3055393bc752b2bc/transformed/jetified-activity-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/6a600d5bef4791802b00a59c50c3efbf/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/f0179f713fd570ed9c0e221d538be06b/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/91d421735ba02ebf8987ff9ae3c7a969/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/e10b363bf03ae1caaf208bf563977a08/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/a0f66dd6e7b5fa1680d1caeb46054f18/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/58db62eb02857cf50d2101e4c1622c65/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/irfanbilir/.gradle/caches/transforms-3/3682c208ca4aa8b77aa8cbb159dd5230/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/f685a02195a674ca8618169808525751/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/68a3378d2989b4912fb920453ec0ff17/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.palette:palette-ktx:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/52e1ca6cde3e94bb228e072f555454a8/transformed/jetified-palette-ktx-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.palette:palette:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2b70036652685fb6cdec704a95c9efc5/transformed/palette-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:10.2.3] /Users/irfanbilir/.gradle/caches/transforms-3/8f722e09303835441b5e7dd3ac45e65b/transformed/jetified-butterknife-10.2.3/AndroidManifest.xml:2:1-7:12
+MERGED from [com.jakewharton:butterknife-runtime:10.2.3] /Users/irfanbilir/.gradle/caches/transforms-3/6a7a7a68693d9689f4ce7fb480d8b854/transformed/jetified-butterknife-runtime-10.2.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/884fe1b29ef03aefd20b61295e9f4f49/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/0ec0dc9bef5fa1ecfe083671c59fbb03/transformed/loader-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/f4569e7cef1c13535a95803078f63670/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/cc401aad63a4b3ef0b722491243d2e3d/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/16e1ce708d1ea7a76181bb5521c0193d/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/e52668862ab806bbe2dc9b985bf3c129/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] /Users/irfanbilir/.gradle/caches/transforms-3/edc170de79d193cd8c818050621e4f49/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/8524a94ea4db33dbc85dc4bf8eb8244e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/442abbb6de3657ed1d14150b5060f2a0/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/irfanbilir/.gradle/caches/transforms-3/16011a182d39166df62a17896e3b38ab/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/91f458e437c6b7dabb36968ad16eaa46/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b540aba49f5f45bf487924b8c028f0ee/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/0737fa665f97c38eba636651f9e9c6ac/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/3e57392ec3cf3678f7eb0c29063d66a0/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/7ed98f9edf3aeb44020830bdd0a6fd4c/transformed/lifecycle-viewmodel-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/bdcbfd0bb1eb1394d6e7a7eddcfb30ab/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/irfanbilir/.gradle/caches/transforms-3/8a4a34f10508853bda1402b161c43b45/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/247a8f786c071c7e0baf009894127ccd/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/9261a4cb67a96138a203c81f923c0e98/transformed/room-runtime-2.4.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/irfanbilir/.gradle/caches/transforms-3/1620c73cce186e652df96abf6f8169a8/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/irfanbilir/.gradle/caches/transforms-3/f94ccbe00cc529c70a6d15d0056b20fe/transformed/sqlite-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/cae2f7f22c838f122216b5d240e4171d/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b7ac9f62a9f0ff774d7a61b793ac0197/transformed/jetified-transport-backend-cct-3.1.1/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4904a92c0bdaf6c1c2d51502a22b34e8/transformed/jetified-transport-runtime-3.1.1/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/0c8cb3ec3ded908df83ab9eafa2e6913/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/9ba6172ea4af87503563b8a3e06dff88/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/f9e55aea40ffc81972177c896ca46ca6/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c0f8141d2383c6f66a7c9d55a2292b64/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/52c8c0af31368d90425787fd9bec714d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/489f8fbc73277222118584f78c1fd545/transformed/lifecycle-livedata-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/426f4d1de1b9ac60a45ded0500a4f539/transformed/jetified-lifecycle-livedata-core-ktx-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/663810bfefc1d56cb0cd8d3ef4de6bbf/transformed/lifecycle-livedata-core-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/cfa29c6311f5193b924c2ffeb85c193d/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/7797c541ee3cda5b60f7510834532f71/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/a9eb5f33ad3ecee218b42255376bb206/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/43798412586c6fb7b28792cad4335d00/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.greenrobot:eventbus:3.3.1] /Users/irfanbilir/.gradle/caches/transforms-3/ffeb3fa55028a3465b6311f8f1e4b38c/transformed/jetified-eventbus-3.3.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/5a5e945bf17f85057edab755d37f1e5f/transformed/jetified-threetenabp-1.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.jakewharton.timber:timber:5.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/76c2a40360d9aeef954363c3fd981e75/transformed/jetified-timber-5.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/4508d460215e2eb115394f0678c64f50/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.billingclient:billing:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/07d4b4f49317270ffffce62569eb6b1d/transformed/jetified-billing-4.0.0/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml:2:1-34:12
+	package
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:2:1-376:12
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:2:1-376:12
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:2:1-376:12
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:5:5-79
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c631db3bf1692d875d4bcff78d5e29eb/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c631db3bf1692d875d4bcff78d5e29eb/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b7ac9f62a9f0ff774d7a61b793ac0197/transformed/jetified-transport-backend-cct-3.1.1/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b7ac9f62a9f0ff774d7a61b793ac0197/transformed/jetified-transport-backend-cct-3.1.1/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4904a92c0bdaf6c1c2d51502a22b34e8/transformed/jetified-transport-runtime-3.1.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4904a92c0bdaf6c1c2d51502a22b34e8/transformed/jetified-transport-runtime-3.1.1/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.5] /Users/irfanbilir/.gradle/caches/transforms-3/db1a76638686052a6c0db87371af54f3/transformed/jetified-firebase-crashlytics-18.2.5/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.5] /Users/irfanbilir/.gradle/caches/transforms-3/db1a76638686052a6c0db87371af54f3/transformed/jetified-firebase-crashlytics-18.2.5/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c631db3bf1692d875d4bcff78d5e29eb/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c631db3bf1692d875d4bcff78d5e29eb/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b7ac9f62a9f0ff774d7a61b793ac0197/transformed/jetified-transport-backend-cct-3.1.1/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b7ac9f62a9f0ff774d7a61b793ac0197/transformed/jetified-transport-backend-cct-3.1.1/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:9:5-66
+MERGED from [:widgets] /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-66
+MERGED from [:widgets] /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:9:22-63
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:11:5-13:38
+	android:maxSdkVersion
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:13:9-35
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:12:9-55
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:14:5-16:38
+	android:maxSdkVersion
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:16:9-35
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:15:9-58
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:17:5-19:38
+	android:maxSdkVersion
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:19:9-35
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:18:9-64
+uses-permission#android.permission.READ_SYNC_STATS
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:20:5-74
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:20:22-71
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:21:5-77
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:21:22-74
+uses-permission#android.permission.WRITE_SYNC_SETTINGS
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:22:5-78
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:22:22-75
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:24:5-88
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:24:22-85
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:26:22-76
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:29:9-52
+queries
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:34:5-39:15
+intent#action:name:com.battlelancer.seriesguide.api.SeriesGuideExtension
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:35:9-37:18
+action#com.battlelancer.seriesguide.api.SeriesGuideExtension
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:36:13-92
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:36:21-89
+package#com.battlelancer.seriesguide.x
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:38:9-66
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:38:18-63
+uses-sdk
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.2.0] /Users/irfanbilir/.gradle/caches/transforms-3/2979623c3d3cae0a62a5baddf16bd4aa/transformed/jetified-viewbinding-7.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.2.0] /Users/irfanbilir/.gradle/caches/transforms-3/2979623c3d3cae0a62a5baddf16bd4aa/transformed/jetified-viewbinding-7.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.uwetrottmann.androidutils:androidutils:3.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/25a217de780ac5d347ecafb64e4bdca1/transformed/jetified-androidutils-3.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.uwetrottmann.androidutils:androidutils:3.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/25a217de780ac5d347ecafb64e4bdca1/transformed/jetified-androidutils-3.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [:billing] /Users/irfanbilir/Documents/SeriesGuide-dev/billing/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:billing] /Users/irfanbilir/Documents/SeriesGuide-dev/billing/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:widgets] /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:widgets] /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.preference:preference-ktx:1.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/26717b0bdcddd325ca2217de088342d7/transformed/jetified-preference-ktx-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/26717b0bdcddd325ca2217de088342d7/transformed/jetified-preference-ktx-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/38cedae8fd4e4ab39614a6759793f377/transformed/jetified-fragment-ktx-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/38cedae8fd4e4ab39614a6759793f377/transformed/jetified-fragment-ktx-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/7483bdd498409ea43d48d3e8d83d0f98/transformed/jetified-activity-ktx-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/7483bdd498409ea43d48d3e8d83d0f98/transformed/jetified-activity-ktx-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.paging:paging-runtime-ktx:3.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/ba376e12344aca5c0235ee994b369e78/transformed/jetified-paging-runtime-ktx-3.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.paging:paging-runtime-ktx:3.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/ba376e12344aca5c0235ee994b369e78/transformed/jetified-paging-runtime-ktx-3.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.paging:paging-runtime:3.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/2c3a85b7c890bbf49911abab59040cfe/transformed/paging-runtime-3.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.paging:paging-runtime:3.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/2c3a85b7c890bbf49911abab59040cfe/transformed/paging-runtime-3.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/3a2dcc0f2e225091ebe989f273706e00/transformed/jetified-lifecycle-viewmodel-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/3a2dcc0f2e225091ebe989f273706e00/transformed/jetified-lifecycle-viewmodel-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/7a8fcbf5209816dc8d739f22df322edd/transformed/jetified-lifecycle-runtime-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/7a8fcbf5209816dc8d739f22df322edd/transformed/jetified-lifecycle-runtime-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-paging:2.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/92e8e674bc4621d80da6a57082f4c639/transformed/jetified-room-paging-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-paging:2.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/92e8e674bc4621d80da6a57082f4c639/transformed/jetified-room-paging-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/f3c421a07253d40af0bd6bdf2fa5d759/transformed/jetified-room-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/f3c421a07253d40af0bd6bdf2fa5d759/transformed/jetified-room-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/c8bbdc306b4e2d846e8b75f9040aff0b/transformed/jetified-lifecycle-livedata-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/c8bbdc306b4e2d846e8b75f9040aff0b/transformed/jetified-lifecycle-livedata-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.billingclient:billing-ktx:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/5290c73ede5b6b4c3868402a4c553f21/transformed/jetified-billing-ktx-4.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.billingclient:billing-ktx:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/5290c73ede5b6b4c3868402a4c553f21/transformed/jetified-billing-ktx-4.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [:backend] /Users/irfanbilir/Documents/SeriesGuide-dev/backend/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:backend] /Users/irfanbilir/Documents/SeriesGuide-dev/backend/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:api] /Users/irfanbilir/Documents/SeriesGuide-dev/api/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:api] /Users/irfanbilir/Documents/SeriesGuide-dev/api/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.material:material:1.5.0] /Users/irfanbilir/.gradle/caches/transforms-3/692e04fc548daa12ca817ce9eacf34a4/transformed/material-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.5.0] /Users/irfanbilir/.gradle/caches/transforms-3/692e04fc548daa12ca817ce9eacf34a4/transformed/material-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/irfanbilir/.gradle/caches/transforms-3/40c2de0bb749c732e8b38b49c8532d1f/transformed/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/irfanbilir/.gradle/caches/transforms-3/40c2de0bb749c732e8b38b49c8532d1f/transformed/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.getkeepsafe.taptargetview:taptargetview:1.13.3] /Users/irfanbilir/.gradle/caches/transforms-3/8fc50290b5f883ffa5ddc52ba3041104/transformed/jetified-taptargetview-1.13.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.getkeepsafe.taptargetview:taptargetview:1.13.3] /Users/irfanbilir/.gradle/caches/transforms-3/8fc50290b5f883ffa5ddc52ba3041104/transformed/jetified-taptargetview-1.13.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-view:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/90c0a2acb66d4a3b92bcd33ad9ce1193/transformed/jetified-debugdrawer-view-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-view:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/90c0a2acb66d4a3b92bcd33ad9ce1193/transformed/jetified-debugdrawer-view-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-commons:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/13a0ef5678ff47a5dd7eafc4d187ef2f/transformed/jetified-debugdrawer-commons-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-commons:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/13a0ef5678ff47a5dd7eafc4d187ef2f/transformed/jetified-debugdrawer-commons-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-actions:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/db1f405c878d9a8b526dfe5516eea3dc/transformed/jetified-debugdrawer-actions-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-actions:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/db1f405c878d9a8b526dfe5516eea3dc/transformed/jetified-debugdrawer-actions-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-timber:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/3be5bb92dcd9a46af86ba763db23907a/transformed/jetified-debugdrawer-timber-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-timber:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/3be5bb92dcd9a46af86ba763db23907a/transformed/jetified-debugdrawer-timber-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-base:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/4203c875a8c863c3447df88050cf0a7f/transformed/jetified-debugdrawer-base-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lenguyenthanh.debugdrawer:debugdrawer-base:0.9.0] /Users/irfanbilir/.gradle/caches/transforms-3/4203c875a8c863c3447df88050cf0a7f/transformed/jetified-debugdrawer-base-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.preference:preference:1.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4f1df1e15ce8ee2b3a5df84d8fa4d63f/transformed/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4f1df1e15ce8ee2b3a5df84d8fa4d63f/transformed/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/6fcd002bc665cf0ecd110818c10da287/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/6fcd002bc665cf0ecd110818c10da287/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta01] /Users/irfanbilir/.gradle/caches/transforms-3/cc18d93221368789477b2bed61a42616/transformed/jetified-viewpager2-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta01] /Users/irfanbilir/.gradle/caches/transforms-3/cc18d93221368789477b2bed61a42616/transformed/jetified-viewpager2-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [com.uwetrottmann.photoview:library:1.2.4] /Users/irfanbilir/.gradle/caches/transforms-3/13d45c06abedd1fb06d990fdcbfe58b4/transformed/jetified-library-1.2.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.uwetrottmann.photoview:library:1.2.4] /Users/irfanbilir/.gradle/caches/transforms-3/13d45c06abedd1fb06d990fdcbfe58b4/transformed/jetified-library-1.2.4/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c2ffa706b748184c0cc00d50f6bf01bc/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c2ffa706b748184c0cc00d50f6bf01bc/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/irfanbilir/.gradle/caches/transforms-3/52ced65251cb11efe168801810a3225c/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/irfanbilir/.gradle/caches/transforms-3/52ced65251cb11efe168801810a3225c/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/99834b3e7dcb1b43b454d68d8ed8b41e/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/99834b3e7dcb1b43b454d68d8ed8b41e/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/05cd049fcc70d40e77901c8ceae84dca/transformed/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/05cd049fcc70d40e77901c8ceae84dca/transformed/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/3948f2452a49e34e52dac25f92485ff7/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/3948f2452a49e34e52dac25f92485ff7/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/fa1e8114388cde3c06ff5db880a076e2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/fa1e8114388cde3c06ff5db880a076e2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.5] /Users/irfanbilir/.gradle/caches/transforms-3/db1a76638686052a6c0db87371af54f3/transformed/jetified-firebase-crashlytics-18.2.5/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.5] /Users/irfanbilir/.gradle/caches/transforms-3/db1a76638686052a6c0db87371af54f3/transformed/jetified-firebase-crashlytics-18.2.5/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c631db3bf1692d875d4bcff78d5e29eb/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c631db3bf1692d875d4bcff78d5e29eb/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/099ec3b23995f6b87ef24ead7597bf31/transformed/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/099ec3b23995f6b87ef24ead7597bf31/transformed/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/f590d69ada7f002162f673aa5cee6dbb/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/f590d69ada7f002162f673aa5cee6dbb/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/dac627cba0fc351408f67f5c77ff92e1/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/dac627cba0fc351408f67f5c77ff92e1/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/c0007fa3761acadf9af1dd62dc20ebfb/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/c0007fa3761acadf9af1dd62dc20ebfb/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.2] /Users/irfanbilir/.gradle/caches/transforms-3/6e5e8e051727fc1bcf0a58999918b6ed/transformed/jetified-firebase-measurement-connector-18.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.2] /Users/irfanbilir/.gradle/caches/transforms-3/6e5e8e051727fc1bcf0a58999918b6ed/transformed/jetified-firebase-measurement-connector-18.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/8461959dd50ef71e602c3e28aef056f4/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/8461959dd50ef71e602c3e28aef056f4/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/83d745f5becc518f069d3ab34eaa86d4/transformed/fragment-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/83d745f5becc518f069d3ab34eaa86d4/transformed/fragment-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/irfanbilir/.gradle/caches/transforms-3/1a317764bc534ba3b0e8725a229f28ee/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/irfanbilir/.gradle/caches/transforms-3/1a317764bc534ba3b0e8725a229f28ee/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/62d29d656a6270232a0feefd38433222/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/62d29d656a6270232a0feefd38433222/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0bccef338676ed410c10a00665c96a9/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0bccef338676ed410c10a00665c96a9/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/irfanbilir/.gradle/caches/transforms-3/1f6e248c1a74e94c0ad66f28c4551acf/transformed/jetified-picasso-2.8/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/irfanbilir/.gradle/caches/transforms-3/1f6e248c1a74e94c0ad66f28c4551acf/transformed/jetified-picasso-2.8/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/6305442424ffbc12be658dbd0b95d802/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/6305442424ffbc12be658dbd0b95d802/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/8f661088c483ad01dac9bc0b5347c5c2/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/8f661088c483ad01dac9bc0b5347c5c2/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/88bb3a06d2035a39a2df844a3d72fd52/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/88bb3a06d2035a39a2df844a3d72fd52/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/98e1100ef961b94f3055393bc752b2bc/transformed/jetified-activity-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/98e1100ef961b94f3055393bc752b2bc/transformed/jetified-activity-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/6a600d5bef4791802b00a59c50c3efbf/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/6a600d5bef4791802b00a59c50c3efbf/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/f0179f713fd570ed9c0e221d538be06b/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/f0179f713fd570ed9c0e221d538be06b/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/91d421735ba02ebf8987ff9ae3c7a969/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/91d421735ba02ebf8987ff9ae3c7a969/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/e10b363bf03ae1caaf208bf563977a08/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/e10b363bf03ae1caaf208bf563977a08/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/a0f66dd6e7b5fa1680d1caeb46054f18/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/a0f66dd6e7b5fa1680d1caeb46054f18/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/58db62eb02857cf50d2101e4c1622c65/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/58db62eb02857cf50d2101e4c1622c65/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/irfanbilir/.gradle/caches/transforms-3/3682c208ca4aa8b77aa8cbb159dd5230/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/irfanbilir/.gradle/caches/transforms-3/3682c208ca4aa8b77aa8cbb159dd5230/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/f685a02195a674ca8618169808525751/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/f685a02195a674ca8618169808525751/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/68a3378d2989b4912fb920453ec0ff17/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/68a3378d2989b4912fb920453ec0ff17/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.palette:palette-ktx:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/52e1ca6cde3e94bb228e072f555454a8/transformed/jetified-palette-ktx-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette-ktx:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/52e1ca6cde3e94bb228e072f555454a8/transformed/jetified-palette-ktx-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2b70036652685fb6cdec704a95c9efc5/transformed/palette-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2b70036652685fb6cdec704a95c9efc5/transformed/palette-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:10.2.3] /Users/irfanbilir/.gradle/caches/transforms-3/8f722e09303835441b5e7dd3ac45e65b/transformed/jetified-butterknife-10.2.3/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.2.3] /Users/irfanbilir/.gradle/caches/transforms-3/8f722e09303835441b5e7dd3ac45e65b/transformed/jetified-butterknife-10.2.3/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.3] /Users/irfanbilir/.gradle/caches/transforms-3/6a7a7a68693d9689f4ce7fb480d8b854/transformed/jetified-butterknife-runtime-10.2.3/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.3] /Users/irfanbilir/.gradle/caches/transforms-3/6a7a7a68693d9689f4ce7fb480d8b854/transformed/jetified-butterknife-runtime-10.2.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/884fe1b29ef03aefd20b61295e9f4f49/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/884fe1b29ef03aefd20b61295e9f4f49/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/0ec0dc9bef5fa1ecfe083671c59fbb03/transformed/loader-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/0ec0dc9bef5fa1ecfe083671c59fbb03/transformed/loader-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/f4569e7cef1c13535a95803078f63670/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/f4569e7cef1c13535a95803078f63670/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/cc401aad63a4b3ef0b722491243d2e3d/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/cc401aad63a4b3ef0b722491243d2e3d/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/16e1ce708d1ea7a76181bb5521c0193d/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/16e1ce708d1ea7a76181bb5521c0193d/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/e52668862ab806bbe2dc9b985bf3c129/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/e52668862ab806bbe2dc9b985bf3c129/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] /Users/irfanbilir/.gradle/caches/transforms-3/edc170de79d193cd8c818050621e4f49/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/irfanbilir/.gradle/caches/transforms-3/edc170de79d193cd8c818050621e4f49/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/8524a94ea4db33dbc85dc4bf8eb8244e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/8524a94ea4db33dbc85dc4bf8eb8244e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/442abbb6de3657ed1d14150b5060f2a0/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/442abbb6de3657ed1d14150b5060f2a0/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/irfanbilir/.gradle/caches/transforms-3/16011a182d39166df62a17896e3b38ab/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/irfanbilir/.gradle/caches/transforms-3/16011a182d39166df62a17896e3b38ab/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/91f458e437c6b7dabb36968ad16eaa46/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/91f458e437c6b7dabb36968ad16eaa46/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b540aba49f5f45bf487924b8c028f0ee/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b540aba49f5f45bf487924b8c028f0ee/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/0737fa665f97c38eba636651f9e9c6ac/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/0737fa665f97c38eba636651f9e9c6ac/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/3e57392ec3cf3678f7eb0c29063d66a0/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/3e57392ec3cf3678f7eb0c29063d66a0/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/7ed98f9edf3aeb44020830bdd0a6fd4c/transformed/lifecycle-viewmodel-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/7ed98f9edf3aeb44020830bdd0a6fd4c/transformed/lifecycle-viewmodel-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/bdcbfd0bb1eb1394d6e7a7eddcfb30ab/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/bdcbfd0bb1eb1394d6e7a7eddcfb30ab/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/irfanbilir/.gradle/caches/transforms-3/8a4a34f10508853bda1402b161c43b45/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/irfanbilir/.gradle/caches/transforms-3/8a4a34f10508853bda1402b161c43b45/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/247a8f786c071c7e0baf009894127ccd/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/247a8f786c071c7e0baf009894127ccd/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/9261a4cb67a96138a203c81f923c0e98/transformed/room-runtime-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/9261a4cb67a96138a203c81f923c0e98/transformed/room-runtime-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/irfanbilir/.gradle/caches/transforms-3/1620c73cce186e652df96abf6f8169a8/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/irfanbilir/.gradle/caches/transforms-3/1620c73cce186e652df96abf6f8169a8/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/irfanbilir/.gradle/caches/transforms-3/f94ccbe00cc529c70a6d15d0056b20fe/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/irfanbilir/.gradle/caches/transforms-3/f94ccbe00cc529c70a6d15d0056b20fe/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/cae2f7f22c838f122216b5d240e4171d/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/cae2f7f22c838f122216b5d240e4171d/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b7ac9f62a9f0ff774d7a61b793ac0197/transformed/jetified-transport-backend-cct-3.1.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b7ac9f62a9f0ff774d7a61b793ac0197/transformed/jetified-transport-backend-cct-3.1.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4904a92c0bdaf6c1c2d51502a22b34e8/transformed/jetified-transport-runtime-3.1.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4904a92c0bdaf6c1c2d51502a22b34e8/transformed/jetified-transport-runtime-3.1.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/0c8cb3ec3ded908df83ab9eafa2e6913/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/0c8cb3ec3ded908df83ab9eafa2e6913/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/9ba6172ea4af87503563b8a3e06dff88/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/9ba6172ea4af87503563b8a3e06dff88/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/f9e55aea40ffc81972177c896ca46ca6/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/f9e55aea40ffc81972177c896ca46ca6/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c0f8141d2383c6f66a7c9d55a2292b64/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c0f8141d2383c6f66a7c9d55a2292b64/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/52c8c0af31368d90425787fd9bec714d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/52c8c0af31368d90425787fd9bec714d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/489f8fbc73277222118584f78c1fd545/transformed/lifecycle-livedata-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/489f8fbc73277222118584f78c1fd545/transformed/lifecycle-livedata-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/426f4d1de1b9ac60a45ded0500a4f539/transformed/jetified-lifecycle-livedata-core-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/426f4d1de1b9ac60a45ded0500a4f539/transformed/jetified-lifecycle-livedata-core-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/663810bfefc1d56cb0cd8d3ef4de6bbf/transformed/lifecycle-livedata-core-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/663810bfefc1d56cb0cd8d3ef4de6bbf/transformed/lifecycle-livedata-core-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/cfa29c6311f5193b924c2ffeb85c193d/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/cfa29c6311f5193b924c2ffeb85c193d/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/7797c541ee3cda5b60f7510834532f71/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/7797c541ee3cda5b60f7510834532f71/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/a9eb5f33ad3ecee218b42255376bb206/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/a9eb5f33ad3ecee218b42255376bb206/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/43798412586c6fb7b28792cad4335d00/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/43798412586c6fb7b28792cad4335d00/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [org.greenrobot:eventbus:3.3.1] /Users/irfanbilir/.gradle/caches/transforms-3/ffeb3fa55028a3465b6311f8f1e4b38c/transformed/jetified-eventbus-3.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [org.greenrobot:eventbus:3.3.1] /Users/irfanbilir/.gradle/caches/transforms-3/ffeb3fa55028a3465b6311f8f1e4b38c/transformed/jetified-eventbus-3.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/5a5e945bf17f85057edab755d37f1e5f/transformed/jetified-threetenabp-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/5a5e945bf17f85057edab755d37f1e5f/transformed/jetified-threetenabp-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.timber:timber:5.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/76c2a40360d9aeef954363c3fd981e75/transformed/jetified-timber-5.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.timber:timber:5.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/76c2a40360d9aeef954363c3fd981e75/transformed/jetified-timber-5.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/4508d460215e2eb115394f0678c64f50/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/irfanbilir/.gradle/caches/transforms-3/4508d460215e2eb115394f0678c64f50/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.billingclient:billing:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/07d4b4f49317270ffffce62569eb6b1d/transformed/jetified-billing-4.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.billingclient:billing:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/07d4b4f49317270ffffce62569eb6b1d/transformed/jetified-billing-4.0.0/AndroidManifest.xml:6:5-8:41
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml
+uses-permission#com.android.vending.BILLING
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml:6:5-67
+MERGED from [com.android.billingclient:billing-ktx:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/5290c73ede5b6b4c3868402a4c553f21/transformed/jetified-billing-ktx-4.0.0/AndroidManifest.xml:9:5-67
+MERGED from [com.android.billingclient:billing-ktx:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/5290c73ede5b6b4c3868402a4c553f21/transformed/jetified-billing-ktx-4.0.0/AndroidManifest.xml:9:5-67
+MERGED from [com.android.billingclient:billing:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/07d4b4f49317270ffffce62569eb6b1d/transformed/jetified-billing-4.0.0/AndroidManifest.xml:10:5-67
+MERGED from [com.android.billingclient:billing:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/07d4b4f49317270ffffce62569eb6b1d/transformed/jetified-billing-4.0.0/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml:6:22-64
+meta-data#com.google.android.backup.api_key
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml:11:9-13:51
+	android:value
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml:13:13-48
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml:12:13-61
+receiver#com.battlelancer.seriesguide.extensions.GooglePlayExtensionReceiver
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml:16:9-26:20
+	android:label
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml:21:13-58
+	android:exported
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml:19:13-37
+	tools:ignore
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml:22:13-44
+	android:icon
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml:20:13-42
+	android:description
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml:18:13-76
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml:17:13-95
+intent-filter#action:name:com.battlelancer.seriesguide.api.SeriesGuideExtension
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml:23:13-25:29
+service#com.battlelancer.seriesguide.extensions.GooglePlayExtension
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml:27:9-30:72
+	android:exported
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml:29:13-36
+	android:permission
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml:30:13-69
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/pure/AndroidManifest.xml:28:13-87
+uses-library#android.test.runner
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:56:9-58:40
+	android:required
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:57:13-47
+meta-data#com.samsung.android.sdk.multiwindow.enable
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:61:9-63:36
+	android:value
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:63:13-33
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:62:13-70
+activity#com.battlelancer.seriesguide.ui.ShowsActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:84:9-103:20
+	android:launchMode
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:87:13-43
+	android:exported
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:86:13-36
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:85:13-73
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:88:13-91:29
+action#android.intent.action.MAIN
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:89:17-69
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:89:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:90:17-77
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:90:27-74
+intent-filter#action:name:com.battlelancer.seriesguide.api.action.VIEW_EPISODE+action:name:com.battlelancer.seriesguide.api.action.VIEW_SHOW+category:name:android.intent.category.DEFAULT
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:92:13-97:29
+action#com.battlelancer.seriesguide.api.action.VIEW_EPISODE
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:93:17-95
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:93:25-92
+action#com.battlelancer.seriesguide.api.action.VIEW_SHOW
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:94:17-92
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:94:25-89
+category#android.intent.category.DEFAULT
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:96:17-76
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:96:27-73
+meta-data#android.app.shortcuts
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:100:13-102:53
+	android:resource
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:102:17-50
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:101:17-53
+activity#com.battlelancer.seriesguide.backend.CloudSetupActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:106:9-108:47
+	android:label
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:108:13-44
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:107:13-83
+activity#com.battlelancer.seriesguide.ui.OverviewActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:111:9-118:20
+	android:parentActivityName
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:114:13-87
+	android:exported
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:113:13-36
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:112:13-76
+meta-data#android.app.default_searchable
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:115:13-117:82
+	android:value
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:116:17-62
+activity#com.battlelancer.seriesguide.shows.episodes.EpisodesActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:119:9-97
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:119:19-94
+activity#com.battlelancer.seriesguide.ui.ListsActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:120:9-122:45
+	android:label
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:122:13-42
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:121:13-73
+activity#com.battlelancer.seriesguide.history.HistoryActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:123:9-125:51
+	android:label
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:125:13-48
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:124:13-52
+activity#com.battlelancer.seriesguide.ui.SearchActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:126:9-151:20
+	android:launchMode
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:129:13-43
+	android:windowSoftInputMode
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:130:13-54
+	android:exported
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:128:13-36
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:127:13-74
+intent-filter#action:name:android.intent.action.SEARCH
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:132:13-134:29
+action#android.intent.action.SEARCH
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:133:17-71
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:133:25-68
+meta-data#android.app.searchable
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:135:13-137:54
+	android:resource
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:137:17-51
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:136:17-54
+intent-filter#action:name:com.google.android.gms.actions.SEARCH_ACTION+category:name:android.intent.category.DEFAULT
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:140:13-143:29
+action#com.google.android.gms.actions.SEARCH_ACTION
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:141:17-87
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:141:25-84
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:text/plain
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:146:13-150:29
+action#android.intent.action.SEND
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:147:17-69
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:147:25-66
+data
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:149:17-55
+	android:mimeType
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:149:23-52
+activity#com.battlelancer.seriesguide.shows.search.similar.SimilarShowsActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:152:9-79
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:152:19-76
+activity#com.battlelancer.seriesguide.shows.search.discover.TraktShowsActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:153:9-155:63
+	android:parentActivityName
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:155:13-60
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:154:13-69
+activity#com.battlelancer.seriesguide.ui.MoviesActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:158:9-160:46
+	android:label
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:160:13-43
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:159:13-74
+activity#com.battlelancer.seriesguide.movies.search.MoviesSearchActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:161:9-164:57
+	android:parentActivityName
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:163:13-88
+	android:windowSoftInputMode
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:164:13-54
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:162:13-63
+activity#com.battlelancer.seriesguide.movies.details.MovieDetailsActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:165:9-167:91
+	android:parentActivityName
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:167:13-88
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:166:13-64
+activity#com.battlelancer.seriesguide.preferences.MoreOptionsActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:170:9-69
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:170:19-66
+activity#com.battlelancer.seriesguide.preferences.AboutActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:171:9-173:60
+	android:label
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:173:13-57
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:172:13-54
+activity#com.battlelancer.seriesguide.ui.SeriesGuidePreferences
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:174:9-186:20
+	android:label
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:177:13-48
+	android:exported
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:176:13-36
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:175:13-82
+intent-filter#action:name:android.intent.action.MANAGE_NETWORK_USAGE+category:name:android.intent.category.DEFAULT
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:178:13-181:29
+action#android.intent.action.MANAGE_NETWORK_USAGE
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:179:17-85
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:179:25-82
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.NOTIFICATION_PREFERENCES
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:182:13-185:29
+category#android.intent.category.NOTIFICATION_PREFERENCES
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:184:17-93
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:184:27-90
+activity#com.battlelancer.seriesguide.extensions.ExtensionsConfigurationActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:187:9-190:67
+	android:label
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:190:13-64
+	android:exported
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:189:13-36
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:188:13-99
+activity#com.battlelancer.seriesguide.dataliberation.DataLiberationActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:193:9-195:46
+	android:label
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:195:13-43
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:194:13-94
+activity#com.battlelancer.seriesguide.traktapi.ConnectTraktActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:198:9-200:45
+	android:label
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:200:13-42
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:199:13-86
+activity#com.battlelancer.seriesguide.traktapi.TraktAuthActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:201:9-215:20
+	android:label
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:203:13-50
+	android:launchMode
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:204:13-44
+	android:exported
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:205:13-36
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:202:13-83
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:sgoauth
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:207:13-214:29
+action#android.intent.action.VIEW
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:208:17-69
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:208:25-66
+category#android.intent.category.BROWSABLE
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:211:17-78
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:211:27-75
+activity#com.battlelancer.seriesguide.comments.TraktCommentsActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:216:9-218:57
+	android:windowSoftInputMode
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:218:13-54
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:217:13-87
+activity#com.battlelancer.seriesguide.billing.BillingActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:221:9-89
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:221:19-86
+activity#com.battlelancer.seriesguide.stats.StatsActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:222:9-224:50
+	android:label
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:224:13-47
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:223:13-48
+activity#com.battlelancer.seriesguide.traktapi.QuickCheckInActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:225:9-228:85
+	android:exported
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:227:13-36
+	android:taskAffinity
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:228:13-82
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:226:13-86
+activity#com.battlelancer.seriesguide.ui.FullscreenImageActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:229:9-231:77
+	android:configChanges
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:231:13-74
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:230:13-83
+activity#com.battlelancer.seriesguide.people.PeopleActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:232:9-87
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:232:19-84
+activity#com.battlelancer.seriesguide.people.PersonActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:233:9-87
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:233:19-84
+receiver#com.battlelancer.seriesguide.notifications.NotificationActionReceiver
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:236:9-78
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:236:19-75
+receiver#com.battlelancer.seriesguide.notifications.NotificationAlarmReceiver
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:237:9-242:20
+	android:exported
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:238:13-37
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:237:19-74
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:239:13-241:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:240:17-79
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:240:25-76
+activity#com.battlelancer.seriesguide.appwidget.ListWidgetPreferenceActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:245:9-252:20
+	android:exported
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:248:13-37
+	android:taskAffinity
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:247:13-83
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:246:13-95
+intent-filter#action:name:android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:249:13-251:29
+action#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:250:17-87
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:250:25-84
+receiver#com.battlelancer.seriesguide.appwidget.ListWidgetProvider
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:255:9-269:20
+	android:label
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:257:13-45
+	android:exported
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:258:13-37
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:256:13-85
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:259:13-261:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:260:17-84
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:260:25-81
+intent-filter#action:name:com.battlelancer.seriesguide.appwidget.UPDATE
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:262:13-264:29
+action#com.battlelancer.seriesguide.appwidget.UPDATE
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:263:17-88
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:263:25-85
+meta-data#android.appwidget.provider
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:266:13-268:62
+	android:resource
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:268:17-59
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:267:17-58
+service#com.battlelancer.seriesguide.appwidget.ListWidgetService
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:270:9-272:72
+	android:permission
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:272:13-69
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:271:13-84
+receiver#com.battlelancer.seriesguide.extensions.ExtensionActionReceiver
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:275:9-278:47
+	android:exported
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:277:13-36
+	tools:ignore
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:278:13-44
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:276:13-91
+receiver#com.battlelancer.seriesguide.extensions.AmazonExtensionReceiver
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:281:9-294:20
+	android:label
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:286:13-53
+	android:exported
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:284:13-37
+	tools:ignore
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:287:13-44
+	android:icon
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:285:13-42
+	android:description
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:283:13-71
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:282:13-91
+meta-data#settingsActivity
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:291:13-293:107
+	android:value
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:293:17-104
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:292:17-48
+service#com.battlelancer.seriesguide.extensions.AmazonExtension
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:295:9-298:72
+	android:exported
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:297:13-36
+	android:permission
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:298:13-69
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:296:13-83
+receiver#com.battlelancer.seriesguide.extensions.YouTubeExtensionReceiver
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:300:9-310:20
+	android:label
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:305:13-54
+	android:exported
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:303:13-37
+	tools:ignore
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:306:13-44
+	android:icon
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:304:13-42
+	android:description
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:302:13-72
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:301:13-92
+service#com.battlelancer.seriesguide.extensions.YouTubeExtension
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:311:9-314:72
+	android:exported
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:313:13-36
+	android:permission
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:314:13-69
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:312:13-84
+receiver#com.battlelancer.seriesguide.extensions.VodsterExtensionReceiver
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:316:9-326:20
+	android:label
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:321:13-54
+	android:exported
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:319:13-37
+	tools:ignore
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:322:13-44
+	android:icon
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:320:13-42
+	android:description
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:318:13-72
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:317:13-92
+service#com.battlelancer.seriesguide.extensions.VodsterExtension
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:327:9-330:72
+	android:exported
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:329:13-36
+	android:permission
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:330:13-69
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:328:13-84
+receiver#com.battlelancer.seriesguide.extensions.WebSearchExtensionReceiver
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:332:9-342:20
+	android:label
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:337:13-47
+	android:exported
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:335:13-37
+	tools:ignore
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:338:13-44
+	android:icon
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:336:13-42
+	android:description
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:334:13-75
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:333:13-94
+service#com.battlelancer.seriesguide.extensions.WebSearchExtension
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:343:9-346:72
+	android:exported
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:345:13-36
+	android:permission
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:346:13-69
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:344:13-86
+service#com.battlelancer.seriesguide.sync.SgAuthenticationService
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:349:9-360:19
+	android:exported
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:351:13-36
+	tools:ignore
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:352:13-43
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:350:13-85
+intent-filter#action:name:android.accounts.AccountAuthenticator
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:353:13-355:29
+action#android.accounts.AccountAuthenticator
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:354:17-80
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:354:25-77
+meta-data#android.accounts.AccountAuthenticator
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:357:13-359:55
+	android:resource
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:359:17-52
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:358:17-69
+service#com.battlelancer.seriesguide.sync.SgSyncService
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:361:9-372:19
+	android:exported
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:363:13-36
+	tools:ignore
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:364:13-43
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:362:13-75
+intent-filter#action:name:android.content.SyncAdapter
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:365:13-367:29
+action#android.content.SyncAdapter
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:366:17-70
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:366:25-67
+meta-data#android.content.SyncAdapter
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:369:13-371:60
+	android:resource
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:371:17-57
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:370:17-59
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:api] /Users/irfanbilir/Documents/SeriesGuide-dev/api/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-12:38
+	android:maxSdkVersion
+		ADDED from [:api] /Users/irfanbilir/Documents/SeriesGuide-dev/api/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-35
+	android:name
+		ADDED from [:api] /Users/irfanbilir/Documents/SeriesGuide-dev/api/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-52
+meta-data#com.google.android.gms.version
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:14:9-16:69
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/8461959dd50ef71e602c3e28aef056f4/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/8461959dd50ef71e602c3e28aef056f4/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:16:13-66
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:15:13-58
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:17:9-19:63
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:19:13-60
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:18:13-58
+activity#com.firebase.ui.auth.KickoffActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:21:9-25:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:24:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:23:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:25:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:22:13-64
+activity#com.firebase.ui.auth.ui.idp.SingleSignInActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:26:9-30:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:29:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:28:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:30:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:27:13-76
+activity#com.firebase.ui.auth.ui.credentials.CredentialSaveActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:31:9-35:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:34:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:33:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:35:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:32:13-86
+activity#com.firebase.ui.auth.ui.email.RecoverPasswordActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:36:9-40:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:39:13-72
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:40:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:37:13-81
+activity#com.firebase.ui.auth.ui.email.EmailActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:41:9-45:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:44:13-56
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:45:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:42:13-71
+activity#com.firebase.ui.auth.ui.phone.PhoneActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:46:9-50:77
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:49:13-66
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:50:13-74
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:47:13-71
+activity#com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:51:9-55:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:54:13-70
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:55:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:52:13-76
+activity#com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:56:9-60:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:59:13-75
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:60:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:57:13-83
+activity#com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:61:9-65:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:64:13-75
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:65:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:63:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:62:13-84
+activity#com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:66:9-71:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:69:13-29
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:71:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:68:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:70:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:67:13-82
+activity#com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:72:9-76:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:75:13-56
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:76:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:74:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:73:13-88
+activity#com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:77:9-80:65
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:80:13-62
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:79:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:78:13-80
+activity#com.facebook.FacebookActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:81:9-85:48
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:84:13-45
+	tools:ignore
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:85:13-45
+	android:configChanges
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:83:13-96
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:82:13-57
+activity#com.facebook.CustomTabActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:86:9-98:20
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:88:13-36
+	tools:ignore
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:89:13-45
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:87:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/facebook_login_protocol_scheme
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:90:13-97:29
+provider#com.firebase.ui.auth.data.client.AuthUiInitProvider
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:100:9-104:38
+	android:authorities
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:102:13-70
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:103:13-37
+	android:initOrder
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:104:13-35
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:101:13-79
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:34:13-89
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+service#com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+	android:enabled
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+intent-filter#action:name:com.google.firebase.auth.api.gms.service.START+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+action#com.google.firebase.auth.api.gms.service.START
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.5] /Users/irfanbilir/.gradle/caches/transforms-3/db1a76638686052a6c0db87371af54f3/transformed/jetified-firebase-crashlytics-18.2.5/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.5] /Users/irfanbilir/.gradle/caches/transforms-3/db1a76638686052a6c0db87371af54f3/transformed/jetified-firebase-crashlytics-18.2.5/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c631db3bf1692d875d4bcff78d5e29eb/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c631db3bf1692d875d4bcff78d5e29eb/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/dac627cba0fc351408f67f5c77ff92e1/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/dac627cba0fc351408f67f5c77ff92e1/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/dac627cba0fc351408f67f5c77ff92e1/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/dac627cba0fc351408f67f5c77ff92e1/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:75:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/fa1e8114388cde3c06ff5db880a076e2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/fa1e8114388cde3c06ff5db880a076e2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/fa1e8114388cde3c06ff5db880a076e2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/fa1e8114388cde3c06ff5db880a076e2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar
+ADDED from [com.google.firebase:firebase-crashlytics:18.2.5] /Users/irfanbilir/.gradle/caches/transforms-3/db1a76638686052a6c0db87371af54f3/transformed/jetified-firebase-crashlytics-18.2.5/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crashlytics:18.2.5] /Users/irfanbilir/.gradle/caches/transforms-3/db1a76638686052a6c0db87371af54f3/transformed/jetified-firebase-crashlytics-18.2.5/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics:18.2.5] /Users/irfanbilir/.gradle/caches/transforms-3/db1a76638686052a6c0db87371af54f3/transformed/jetified-firebase-crashlytics-18.2.5/AndroidManifest.xml:19:17-115
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c631db3bf1692d875d4bcff78d5e29eb/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c631db3bf1692d875d4bcff78d5e29eb/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c631db3bf1692d875d4bcff78d5e29eb/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/dac627cba0fc351408f67f5c77ff92e1/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/dac627cba0fc351408f67f5c77ff92e1/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/dac627cba0fc351408f67f5c77ff92e1/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/dac627cba0fc351408f67f5c77ff92e1/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/dac627cba0fc351408f67f5c77ff92e1/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/dac627cba0fc351408f67f5c77ff92e1/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.8] /Users/irfanbilir/.gradle/caches/transforms-3/1f6e248c1a74e94c0ad66f28c4551acf/transformed/jetified-picasso-2.8/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.8] /Users/irfanbilir/.gradle/caches/transforms-3/1f6e248c1a74e94c0ad66f28c4551acf/transformed/jetified-picasso-2.8/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.8] /Users/irfanbilir/.gradle/caches/transforms-3/1f6e248c1a74e94c0ad66f28c4551acf/transformed/jetified-picasso-2.8/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.8] /Users/irfanbilir/.gradle/caches/transforms-3/1f6e248c1a74e94c0ad66f28c4551acf/transformed/jetified-picasso-2.8/AndroidManifest.xml:9:13-64
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/91d421735ba02ebf8987ff9ae3c7a969/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/bdcbfd0bb1eb1394d6e7a7eddcfb30ab/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/bdcbfd0bb1eb1394d6e7a7eddcfb30ab/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c0f8141d2383c6f66a7c9d55a2292b64/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c0f8141d2383c6f66a7c9d55a2292b64/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/91d421735ba02ebf8987ff9ae3c7a969/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/91d421735ba02ebf8987ff9ae3c7a969/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/91d421735ba02ebf8987ff9ae3c7a969/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/91d421735ba02ebf8987ff9ae3c7a969/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/91d421735ba02ebf8987ff9ae3c7a969/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/91d421735ba02ebf8987ff9ae3c7a969/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/91d421735ba02ebf8987ff9ae3c7a969/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/bdcbfd0bb1eb1394d6e7a7eddcfb30ab/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/bdcbfd0bb1eb1394d6e7a7eddcfb30ab/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/bdcbfd0bb1eb1394d6e7a7eddcfb30ab/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/9261a4cb67a96138a203c81f923c0e98/transformed/room-runtime-2.4.1/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/9261a4cb67a96138a203c81f923c0e98/transformed/room-runtime-2.4.1/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/9261a4cb67a96138a203c81f923c0e98/transformed/room-runtime-2.4.1/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/9261a4cb67a96138a203c81f923c0e98/transformed/room-runtime-2.4.1/AndroidManifest.xml:26:13-74
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b7ac9f62a9f0ff774d7a61b793ac0197/transformed/jetified-transport-backend-cct-3.1.1/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4904a92c0bdaf6c1c2d51502a22b34e8/transformed/jetified-transport-runtime-3.1.1/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4904a92c0bdaf6c1c2d51502a22b34e8/transformed/jetified-transport-runtime-3.1.1/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b7ac9f62a9f0ff774d7a61b793ac0197/transformed/jetified-transport-backend-cct-3.1.1/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b7ac9f62a9f0ff774d7a61b793ac0197/transformed/jetified-transport-backend-cct-3.1.1/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b7ac9f62a9f0ff774d7a61b793ac0197/transformed/jetified-transport-backend-cct-3.1.1/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b7ac9f62a9f0ff774d7a61b793ac0197/transformed/jetified-transport-backend-cct-3.1.1/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b7ac9f62a9f0ff774d7a61b793ac0197/transformed/jetified-transport-backend-cct-3.1.1/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4904a92c0bdaf6c1c2d51502a22b34e8/transformed/jetified-transport-runtime-3.1.1/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4904a92c0bdaf6c1c2d51502a22b34e8/transformed/jetified-transport-runtime-3.1.1/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4904a92c0bdaf6c1c2d51502a22b34e8/transformed/jetified-transport-runtime-3.1.1/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4904a92c0bdaf6c1c2d51502a22b34e8/transformed/jetified-transport-runtime-3.1.1/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4904a92c0bdaf6c1c2d51502a22b34e8/transformed/jetified-transport-runtime-3.1.1/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4904a92c0bdaf6c1c2d51502a22b34e8/transformed/jetified-transport-runtime-3.1.1/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4904a92c0bdaf6c1c2d51502a22b34e8/transformed/jetified-transport-runtime-3.1.1/AndroidManifest.xml:33:13-132
+meta-data#com.google.android.play.billingclient.version
+ADDED from [com.android.billingclient:billing:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/07d4b4f49317270ffffce62569eb6b1d/transformed/jetified-billing-4.0.0/AndroidManifest.xml:13:9-15:37
+	android:value
+		ADDED from [com.android.billingclient:billing:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/07d4b4f49317270ffffce62569eb6b1d/transformed/jetified-billing-4.0.0/AndroidManifest.xml:15:13-34
+	android:name
+		ADDED from [com.android.billingclient:billing:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/07d4b4f49317270ffffce62569eb6b1d/transformed/jetified-billing-4.0.0/AndroidManifest.xml:14:13-73
+activity#com.android.billingclient.api.ProxyBillingActivity
+ADDED from [com.android.billingclient:billing:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/07d4b4f49317270ffffce62569eb6b1d/transformed/jetified-billing-4.0.0/AndroidManifest.xml:17:9-21:75
+	android:exported
+		ADDED from [com.android.billingclient:billing:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/07d4b4f49317270ffffce62569eb6b1d/transformed/jetified-billing-4.0.0/AndroidManifest.xml:20:13-37
+	android:configChanges
+		ADDED from [com.android.billingclient:billing:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/07d4b4f49317270ffffce62569eb6b1d/transformed/jetified-billing-4.0.0/AndroidManifest.xml:19:13-96
+	android:theme
+		ADDED from [com.android.billingclient:billing:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/07d4b4f49317270ffffce62569eb6b1d/transformed/jetified-billing-4.0.0/AndroidManifest.xml:21:13-72
+	android:name
+		ADDED from [com.android.billingclient:billing:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/07d4b4f49317270ffffce62569eb6b1d/transformed/jetified-billing-4.0.0/AndroidManifest.xml:18:13-78

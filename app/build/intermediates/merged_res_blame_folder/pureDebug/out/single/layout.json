@@ -1,0 +1,598 @@
+[
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/buttons_show_bottom.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/buttons_show_bottom.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_data_liberation.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_data_liberation.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_seasons.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_seasons.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_now.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_now.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_addshow.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_addshow.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/appwidget_day_night.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/appwidget_day_night.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_action_add.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_action_add.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/tabstrip_item_transparent.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/tabstrip_item_transparent.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/activity_movies_search.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/activity_movies_search.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/layout_episode.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/layout_episode.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/activity_about.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/activity_about.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_inventory.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_inventory.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_movies_search.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_movies_search.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/view_filter_shows.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/view_filter_shows.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_shows.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_shows.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_overview.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_overview.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_calendar2.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_calendar2.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_grid_link.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_grid_link.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/activity_fullscreen_image.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/activity_fullscreen_image.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_stats.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_stats.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/activity_person.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/activity_person.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/activity_lists.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/activity_lists.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/ratings_shows_narrow.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/ratings_shows_narrow.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_season.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_season.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_show_narrow.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_show_narrow.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_list_checked.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_list_checked.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_show_search.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_show_search.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_cloud_setup.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_cloud_setup.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/appwidget_row_dark_large.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/appwidget_row_dark_large.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_person.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_person.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/buttons_services_wide.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/buttons_services_wide.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/appwidget_preview.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/appwidget_preview.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_shows_discover.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_shows_discover.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/view_filter_box.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/view_filter_box.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_list.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_list.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/activity_episodes.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/activity_episodes.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/appwidget_compact_light.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/appwidget_compact_light.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_action.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_action.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/dialog_localization.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/dialog_localization.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_discover_header.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_discover_header.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/dialog_addshow.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/dialog_addshow.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_episode.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_episode.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_stream.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_stream.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/empty_view.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/empty_view.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_episode.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_episode.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/activity_shows.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/activity_shows.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_show_list.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_show_list.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_extension_add.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_extension_add.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/activity_singlepane.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/activity_singlepane.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/dialog_manage_lists.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/dialog_manage_lists.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/activity_stats.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/activity_stats.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/feedback_view_include.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/feedback_view_include.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/view_webview.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/view_webview.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/activity_search.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/activity_search.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/appwidget_light.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/appwidget_light.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_comment.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_comment.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/activity_episodes_multipane.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/activity_episodes_multipane.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_grid_header.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_grid_header.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/layout_snackbar_sg.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/layout_snackbar_sg.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_shows_similar.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_shows_similar.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/dialog_remove.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/dialog_remove.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/ratings_shows.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/ratings_shows.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/dialog_notification_selection.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/dialog_notification_selection.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/dialog_notification_threshold.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/dialog_notification_threshold.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/activity_billing.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/activity_billing.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/ratings_movies.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/ratings_movies.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/toolbar_gradient_fit.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/toolbar_gradient_fit.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_calendar.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_calendar.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_episodes.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_episodes.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_watch_provider.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_watch_provider.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/appwidget_row_light_large.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/appwidget_row_light_large.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/activity_overview_multipane.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/activity_overview_multipane.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_search_result.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_search_result.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/activity_episodes_multipane_wide.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/activity_episodes_multipane_wide.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_discover_link.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_discover_link.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/appwidget_row.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/appwidget_row.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/dialog_streaming_info.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/dialog_streaming_info.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_list.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_list.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_shows_popular.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_shows_popular.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/layout_add_indicator.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/layout_add_indicator.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/buttons_movie.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/buttons_movie.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_extensions_configuration.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_extensions_configuration.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/toolbar_search.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/toolbar_search.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/buttons_services.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/buttons_services.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/dialog_time_offset.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/dialog_time_offset.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/buttons_episode_more.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/buttons_episode_more.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/activity_trakt_shows.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/activity_trakt_shows.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_notification_selection.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_notification_selection.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/appwidget_dark.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/appwidget_dark.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/activity_people_twopane.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/activity_people_twopane.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/activity_more_options.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/activity_more_options.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/appwidget_compact_dark.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/appwidget_compact_dark.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_comments_wide.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_comments_wide.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_discover_movie.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_discover_movie.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/dialog_lists_reorder.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/dialog_lists_reorder.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/activity_movie.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/activity_movie.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_connect_trakt_credentials.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_connect_trakt_credentials.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/activity_people.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/activity_people.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_now_more.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_now_more.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/cast_and_crew.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/cast_and_crew.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/appwidget_compact.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/appwidget_compact.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_show_regular.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_show_regular.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_dropdown.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_dropdown.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/appwidget_row_dark.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/appwidget_row_dark.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/dialog_list_manage.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/dialog_list_manage.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_people.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_people.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/appwidget_compact_day_night.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/appwidget_compact_day_night.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_first_run.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_first_run.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/view_feature_status.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/view_feature_status.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/activity_oauth.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/activity_oauth.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/dialog_shows_distillation.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/dialog_shows_distillation.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_movies_discover.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_movies_discover.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_show.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_show.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_person.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_person.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_shows_discover_filter.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_shows_discover_filter.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_debug_view.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_debug_view.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/feedback_view.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/feedback_view.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/divider_horizontal.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/divider_horizontal.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/toolbar_elevated.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/toolbar_elevated.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/buttons_episode.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/buttons_episode.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_show_meta.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_show_meta.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_about.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_about.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_movies.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_movies.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/activity_overview_multipane_wide.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/activity_overview_multipane_wide.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/view_sync_status.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/view_sync_status.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/dialog_checkin.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/dialog_checkin.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/activity_settings.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/appwidget_row_day_night_large.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/appwidget_row_day_night_large.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/toolbar_gradient.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/toolbar_gradient.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/appwidget.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/appwidget.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/toolbar_progress.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/toolbar_progress.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_extension.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_extension.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_movie.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_movie.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_auto_backup.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_auto_backup.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/toolbar.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/toolbar.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/activity_overview.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/activity_overview.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/appwidget_row_day_night.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/appwidget_row_day_night.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/dialog_trakt_rate.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/dialog_trakt_rate.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_history.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_history.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_movies_watched.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_movies_watched.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/view_first_run.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/view_first_run.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/appwidget_row_light.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/appwidget_row_light.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/activity_tabs_drawer.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/activity_tabs_drawer.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_addshow_trakt.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_addshow_trakt.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/layout_movie.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/layout_movie.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/view_sort_shows.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/view_sort_shows.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_search.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/item_movie.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/item_movie.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergePureDebugResources-55:/layout/fragment_comments.xml",
+        "source": "com.battlelancer.seriesguide.app-main-58:/layout/fragment_comments.xml"
+    }
+]

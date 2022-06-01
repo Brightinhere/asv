@@ -1,0 +1,94 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.battlelancer.seriesguide.app-mergePureDebugResources-54:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/res/values-night/colors.xml",
+                    "from": {
+                        "startLines": "10,9,5,7,3,4",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "436,371,204,307,56,128",
+                        "endColumns": "62,64,77,62,71,75",
+                        "endOffsets": "494,431,277,365,123,199"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,118,183,261,324,396",
+                        "endColumns": "62,64,77,62,71,75",
+                        "endOffsets": "113,178,256,319,391,467"
+                    }
+                },
+                {
+                    "source": "/Users/irfanbilir/.gradle/caches/transforms-3/692e04fc548daa12ca817ce9eacf34a4/transformed/material-1.5.0/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,130,241,330,431,538,645,744,847,935,1059,1161,1263,1379,1481,1595,1723,1839,1961,2097,2217,2351,2471,2583,2709,2826,2950,3080,3202,3340,3474,3590",
+                        "endColumns": "74,110,88,100,106,106,98,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
+                        "endOffsets": "125,236,325,426,533,640,739,842,930,1054,1156,1258,1374,1476,1590,1718,1834,1956,2092,2212,2346,2466,2578,2704,2821,2945,3075,3197,3335,3469,3585,3705"
+                    },
+                    "to": {
+                        "startLines": "15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,44,45,46,47,48,49,50,51",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1104,1179,1290,1379,1480,1587,1694,1793,1896,1984,2108,2210,2312,2428,2530,2644,2772,2888,3010,3146,3266,3400,3520,3632,4235,4352,4476,4606,4728,4866,5000,5116",
+                        "endColumns": "74,110,88,100,106,106,98,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
+                        "endOffsets": "1174,1285,1374,1475,1582,1689,1788,1891,1979,2103,2205,2307,2423,2525,2639,2767,2883,3005,3141,3261,3395,3515,3627,3753,4347,4471,4601,4723,4861,4995,5111,5231"
+                    }
+                },
+                {
+                    "source": "/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/res/values-night/styles_appwidget.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "56,156",
+                        "endColumns": "99,111",
+                        "endOffsets": "151,263"
+                    },
+                    "to": {
+                        "startLines": "39,40",
+                        "startColumns": "4,4",
+                        "startOffsets": "3758,3857",
+                        "endColumns": "98,110",
+                        "endOffsets": "3852,3963"
+                    }
+                },
+                {
+                    "source": "/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/res/values-night/themes.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "56,136",
+                        "endColumns": "79,99",
+                        "endOffsets": "131,231"
+                    },
+                    "to": {
+                        "startLines": "41,42",
+                        "startColumns": "4,4",
+                        "startOffsets": "3968,4047",
+                        "endColumns": "78,98",
+                        "endOffsets": "4042,4141"
+                    }
+                },
+                {
+                    "source": "/Users/irfanbilir/.gradle/caches/transforms-3/6fcd002bc665cf0ecd110818c10da287/transformed/appcompat-1.4.1/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "8,9,10,11,12,13,14,43",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "472,542,626,710,806,908,1010,4146",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "537,621,705,801,903,1005,1099,4230"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.battlelancer.seriesguide.app-mergePureDebugResources-54:/values-w800dp-land-v13/values-w800dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/res/values-w800dp-land/bools.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endColumns": "50",
+                        "endOffsets": "102"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "50",
+                        "endOffsets": "101"
+                    }
+                },
+                {
+                    "source": "/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/res/values-w800dp-land/layouts.xml",
+                    "from": {
+                        "startLines": "8,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "407,504",
+                        "endColumns": "96,80",
+                        "endOffsets": "499,580"
+                    },
+                    "to": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "106,203",
+                        "endColumns": "96,80",
+                        "endOffsets": "198,279"
+                    }
+                }
+            ]
+        }
+    ]
+}

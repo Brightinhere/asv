@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main Menu -->
+    <string name="shows">المسلسلات</string>
+    <string name="lists">القوائم</string>
+    <string name="movies">الأفلام</string>
+    <string name="statistics">الإحصائيات</string>
+    <string name="navigation_more">المزيد</string>
+    <string name="search">بحث</string>
+    <string name="preferences">الإعدادات</string>
+    <string name="help">مساعدة</string>
+    <string name="no_more_updates">SeriesGuide لن يتحصل على المزيد من التحديثات على نسخة الأندرويد الحالية.</string>
+    <!-- Media items -->
+    <string name="show_details">التفاصيل</string>
+    <string name="episode">الحلقة</string>
+    <string name="episode_number">الحلقة %d</string>
+    <string name="episodes">الحلقات</string>
+    <string name="season">الموسم</string>
+    <string name="season_number">الموسم %d</string>
+    <string name="specialseason">حلقات خاصة</string>
+    <string name="ratings">التقييم</string>
+    <!-- Descriptions -->
+    <string name="description_overview">نظرة عامة</string>
+    <string name="description_poster">إظهار الملصقات</string>
+    <string name="description_image">صورة الحلقة</string>
+    <string name="description_menu_overflow">خيارات اضافية</string>
+    <!-- Actions -->
+    <string name="clear">تنظيف</string>
+    <string name="discard">تجاهل</string>
+    <string name="save_selection">حفظ التحديد</string>
+    <string name="action_display_all">عرض الكل</string>
+    <string name="web_search">البحث في الانترنت</string>
+    <string name="add_to_homescreen">إضافة إلى الشاشة الرئيسية</string>
+    <string name="action_open">افتح</string>
+    <string name="sync_manually">قم بالمزامنة يدوياً</string>
+    <string name="sync_and_update">المزامنة &amp; والتحديث</string>
+    <string name="sync_and_download_all">المزامنة &amp; وتحميل كل البيانات</string>
+    <string name="action_stream">بث أو شراء</string>
+    <string name="action_stream_info">معلومات البث أو الشراء</string>
+    <string name="action_select_region">حدد المنطقة</string>
+    <string name="action_include_any_watch_provider">تضمين أي</string>
+    <!-- Search -->
+    <string name="clear_search_history">إزالة تاريخ البحث</string>
+    <string name="search_hint">البحث عن الحلقات</string>
+    <!-- Status messages -->
+    <string name="updated">تم التحديث إلى الإصدار الأخير</string>
+    <string name="updated_details">التفاصيل</string>
+    <string name="norating">لا يوجد</string>
+    <string name="unknown">غير معروف</string>
+    <string name="offline">اتصل بالشبكة، ثم حاول مرة أخرى</string>
+    <string name="app_not_available">ليس هناك تطبيق متاح للتعامل مع هذا</string>
+    <string name="people_empty">لا أحد هنا ؟! قم باللمس من أجل المحاولة مرة أخرى.</string>
+    <string name="database_error">لا يمكن تعديل البيانات.</string>
+    <string name="reinstall_info">حاول أخد نسخة احتياطية، اعادة تثبيت البرنامج ومن ثم استعادة البيانات</string>
+    <string name="api_error_generic">لا يمكن الاتصال بـ %s. الرجاء المحاولة لاحقا.</string>
+    <string name="api_failed">فشل: %s</string>
+    <string name="copy_to_clipboard">تم النسخ إلى الحافظة</string>
+    <string name="not_migrated">Show not migrated to TMDB data. Some actions incl. Trakt and Cloud sync might not work. Maybe search for a replacement and remove this show. Tap to view details.</string>
+    <!-- Sharing -->
+    <string name="share">مشاركة</string>
+    <string name="share_show">مشاركة المسلسل</string>
+    <string name="share_episode">مشاركة الحلقة</string>
+    <string name="share_movie">مشاركة فيلم</string>
+    <string name="addtocalendar">إضافة إلى التقويم</string>
+    <string name="addtocalendar_failed">.لا يمكن إنشاء حدث تقويم</string>
+    <string name="links">الروابط</string>
+    <!-- Comments -->
+    <string name="comments">التعليقات</string>
+    <string name="shout_hint">اكتب تعليق (الإنجليزية، 5 كلمات أو أكثر)</string>
+    <string name="shout_invalid">إن تعليقك مخالف للقواعد!</string>
+    <string name="action_post">انشر</string>
+    <string name="isspoiler">تنبيه حرق!</string>
+    <string name="no_shouts">كن أول من يعلّق!</string>
+    <string name="refresh">تحديث</string>
+    <plurals name="replies_plural">
+        <item quantity="one">رد %d</item>
+        <item quantity="zero">رد %d</item>
+        <item quantity="two">%d ردود</item>
+        <item quantity="few">%d ردود</item>
+        <item quantity="many">%d رد</item>
+        <item quantity="other">%d رد</item>
+    </plurals>
+    <!-- Metadata -->
+    <string name="episode_number_disk">DVD</string>
+    <string name="episode_firstaired">تاريخ الإصدار</string>
+    <string name="episode_firstaired_unknown">تاريخ الإصدار غير معروف</string>
+    <string name="episode_dvdnumber">حلقة DVD</string>
+    <string name="original_release">الإصدار الأصلي</string>
+    <string name="show_genres">الأنواع</string>
+    <string name="show_contentrating">تقييم المحتوى</string>
+    <string name="show_release_times">أوقات العرض</string>
+    <string name="episode_directors">إخراج</string>
+    <string name="episode_gueststars">ضيوف الحلقة</string>
+    <string name="episode_writers">تأليف</string>
+    <string name="show_isalive">مستمر</string>
+    <string name="show_isnotalive">انتهى</string>
+    <string name="show_isUpcoming">القادم</string>
+    <string name="show_status_in_production">في الانتاج</string>
+    <string name="show_status_pilot">طيار</string>
+    <string name="show_status_canceled">ملغى</string>
+    <string name="no_translation">لا يوجد وصف باللغة %1$s متاحة على موقع %2$s.</string>
+    <string name="no_translation_title">غير مترجمة</string>
+    <string name="no_spoilers">يتم إخفاء بعض التفاصيل لمنع الحرق. لإيقاف هذا الانتقال إلى إعدادات.</string>
+    <string name="format_source">المصدر: %s</string>
+    <string name="last_updated">Last updated</string>
+    <!-- Date and Time -->
+    <string name="today">اليوم</string>
+    <string name="now">الآن</string>
+    <string name="daily">يومي</string>
+    <string name="runtime_minutes">%s دقيقة</string>
+    <!-- Flagging -->
+    <string name="mark_all">تعيين الجميع بمشاهد</string>
+    <string name="unmark_all">تعيين الجميع بغير مشاهد</string>
+    <string name="action_watched_up_to">تم المشاهدة إلى هنا</string>
+    <string name="confirmation_watched_up_to">تعليم كل الحلقات إلى هذه الحلقة بتمت مشاهدتها؟</string>
+    <string name="collect_all">جمع الكل</string>
+    <string name="uncollect_all">لم يتم جمع شئ</string>
+    <string name="action_skip">تخطي</string>
+    <string name="action_dont_skip">عدم التخطي</string>
+    <string name="action_collection_add">إضافة إلى مجموعة</string>
+    <string name="action_collection_remove">إزالة من المجموعة</string>
+    <string name="action_watched">تعيين كمشاهد</string>
+    <string name="action_unwatched">تعيين كغير مشاهد</string>
+    <string name="state_watched">تمت مشاهدتها</string>
+    <string name="state_watched_multiple_format">شاهدت (%d)</string>
+    <string name="state_skipped">تم تخطيه</string>
+    <string name="state_in_collection">قيد التحصيل</string>
+    <string name="state_on_watchlist">في قائمة المراقبة</string>
+    <string name="state_favorite">مفضل</string>
+    <!-- Shows -->
+    <string name="confirm_delete">هل تريد فعلاً إزالة %s؟</string>
+    <string name="delete_error">لم تتم إزالة المسلسل، حاول مرة أخرى.</string>
+    <string name="delete_show">إزالة</string>
+    <string name="no_nextepisode">لم يتم العثور على حلقة قادمة</string>
+    <string name="context_favorite">أضف إلى المفضلة</string>
+    <string name="context_unfavorite">إزالة من المفضلة</string>
+    <string name="favorited">تمت الإضافة إلى المفضلة</string>
+    <string name="unfavorited">تمت الإزالة من المفضلة</string>
+    <string name="action_episode_notifications_on">تشغيل الإشعارات للحلقات الجديدة</string>
+    <string name="action_episode_notifications_off">إغلاق الإشعارات للحلقات الجديدة</string>
+    <string name="context_hide">إخفاء</string>
+    <string name="context_unhide">إظهار</string>
+    <string name="hidden">تم الإخفاء</string>
+    <string name="unhidden">تم إظهار المسلسل</string>
+    <string name="action_shows_add">إضافة مسلسل</string>
+    <string name="action_shows_filter">فلترة المسلسلات</string>
+    <string name="empty_filter">إزالة كل عوامل التصفية</string>
+    <string name="action_shows_filter_favorites">المفضلة</string>
+    <string name="action_shows_filter_unwatched">الغير مشاهدة</string>
+    <string name="action_shows_filter_upcoming">القادم</string>
+    <string name="action_shows_filter_hidden">المخفي</string>
+    <string name="state_shows_filter_disabled">معطَّل</string>
+    <string name="state_shows_filter_included">متضمن</string>
+    <string name="state_shows_filter_excluded">مستبعدة</string>
+    <string name="action_shows_make_all_visible">اظهار الجميع</string>
+    <string name="description_make_all_visible_format">هل تريد إظهار كل المسلسلات المخفية %s مرة أخرى؟</string>
+    <string name="action_shows_sort">ترتيب المسلسلات</string>
+    <string name="action_shows_sort_title">العنوان</string>
+    <string name="action_shows_sort_latest_episode">آخر حلقة</string>
+    <string name="action_shows_sort_oldest_episode">أقدم حلقة</string>
+    <string name="action_shows_sort_last_watched">آخر حلقة شاهدتها</string>
+    <string name="action_shows_sort_remaining">الحلقات المتبقية</string>
+    <string name="action_shows_sort_status">الحالة</string>
+    <string name="action_shows_sort_favorites">المفضلة أولاً</string>
+    <string name="context_updateshow">تحديث</string>
+    <string name="context_marknext">تم مشاهدة الحلقة، الحلقة التالية</string>
+    <string name="action_episodes_switch_view">تغيير طريقة العرض</string>
+    <string name="next_to_watch">Next to watch</string>
+    <!-- History -->
+    <string name="user_stream">السجل</string>
+    <string name="recently_watched">تم مشاهدته مؤخراً</string>
+    <string name="friends_recently">أصدقائك على موقع Trakt</string>
+    <string name="now_empty">لا يوجد شيء جديد. شاهد بعض المسلسلات!</string>
+    <string name="now_movies_empty">لا يوجد شيء جديد. شاهد بعض الأفلام!</string>
+    <!-- Calendar -->
+    <string name="upcoming">القادم</string>
+    <string name="recent">مؤخراً</string>
+    <string name="released_today">صدر اليوم</string>
+    <string name="noupcoming">لا توجد حلقات قادمة</string>
+    <string name="norecent">لا توجد حلقات حالية</string>
+    <string name="calendar_settings">إعدادات التقويم</string>
+    <string name="only_favorites">فقط المسلسلات المفضلة</string>
+    <string name="calendar_only_collected">الحلقات المجمعة فقط</string>
+    <string name="calendar_only_premieres">العرض الأول فقط</string>
+    <string name="pref_infinite_scrolling">رزنامة النهائية</string>
+    <!-- Updating -->
+    <string name="update_scheduled">جار التحديث&#8230;</string>
+    <string name="update_no_connection">ليتم التحديث اتصل بالإنترنت</string>
+    <string name="update_inprogress">التحديث قيد التقدم, حاول مرة أخرى.</string>
+    <!-- Seasons -->
+    <string name="season_allwatched">تم مشاهدة جميع الحلقات</string>
+    <plurals name="other_episodes_plural">
+        <item quantity="zero">%d حلقات أخرى</item>
+        <item quantity="one">%d حلقة أخرى</item>
+        <item quantity="two">%d حلقتين أخرى</item>
+        <item quantity="few">%d حلقات أخرى</item>
+        <item quantity="many">%d حلقة أخرى</item>
+        <item quantity="other">%d حلقة أخرى</item>
+    </plurals>
+    <plurals name="not_released_episodes_plural">
+        <item quantity="zero">%d يمكن اطلاقها</item>
+        <item quantity="one">%d يمكن اطلاقها</item>
+        <item quantity="two">%d يمكن اطلاقها</item>
+        <item quantity="few">%d يمكن اطلاقها</item>
+        <item quantity="many">%d يمكن اطلاقها</item>
+        <item quantity="other">%d يمكن اطلاقها</item>
+    </plurals>
+    <plurals name="remaining_episodes_plural">
+        <item quantity="zero">%d المتبقية</item>
+        <item quantity="one">%d المتبقية</item>
+        <item quantity="two">%d المتبقية</item>
+        <item quantity="few">%d المتبقية</item>
+        <item quantity="many">%d المتبقية</item>
+        <item quantity="other">%d المتبقية</item>
+    </plurals>
+    <!-- Add show -->
+    <string name="checkin_searchhint">إبحث عن إسم المسلسل</string>
+    <string name="add_empty">لا توجد مسلسلات هنا.</string>
+    <string name="no_results">.لا نتائج, جرّب كلمات كاملة</string>
+    <string name="empty_show_search">غير متوفر في قائمة العرض الخاصة بك</string>
+    <string name="action_try_again">حاول مرة أخرى</string>
+    <string name="tvdb_error_does_not_exist">هذا المسلسل غير موجود (حتى الآن) على TMDB. حاول مرة أخرى.</string>
+    <string name="add_all">إضافة الكل </string>
+    <string name="add_multiple">كافة البرامج سوف تظهر في قائمة برامجك قريبا</string>
+    <string name="add_started">%s سوف تظهر في قائمة العرض الخاص بك قريبا.</string>
+    <string name="add_error">تعذر إضافة %s.</string>
+    <string name="add_already_exists">%s موجود بالفعل في قائمة العرض الخاصة بك.</string>
+    <string name="title_new_episodes">حلقات جديدة</string>
+    <string name="watched_shows">تمت مشاهدتها</string>
+    <string name="shows_collection">مجموعة</string>
+    <string name="watchlist">قائمة المشاهدة</string>
+    <!-- Similar shows -->
+    <string name="empty_no_results">لا توجد نتائج</string>
+    <string name="title_similar_shows">عروض مشابهة</string>
+    <!-- Lists -->
+    <string name="first_list">القائمة الأولى</string>
+    <string name="list_add">إضافة قائمة</string>
+    <string name="list_title_hint">اسم القائمة الخاصة بك</string>
+    <string name="list_remove">إزالة القائمة</string>
+    <string name="list_manage">إدارة القائمة</string>
+    <string name="list_item_manage">إدارة القوائم</string>
+    <string name="list_item_remove">إزالة من القائمة</string>
+    <string name="list_empty">يمكنك إضافة مسلسلات إلى هذه القائمة</string>
+    <string name="action_lists_sort">ترتيب القوائم</string>
+    <string name="action_lists_reorder">إعادة ترتيب القوائم</string>
+    <string name="error_name_already_exists">يوجد بالفعل قائمة بهذا الإسم</string>
+    <!-- Movies -->
+    <string name="title_discover">استكشاف</string>
+    <string name="title_popular">الأكثر شعبية</string>
+    <string name="title_digital_releases">الإصدارات الرقمية</string>
+    <string name="title_disc_releases">إصدارات القرص</string>
+    <string name="movies_in_theatres">حاليا في السينما</string>
+    <string name="movies_collection">مجموعة</string>
+    <string name="movies_watchlist">قائمة المشاهدة</string>
+    <string name="movies_watched">تمت مشاهدتها</string>
+    <string name="watchlist_add">إضافة لقائمة المشاهدة</string>
+    <string name="watchlist_remove">إلزالة من قائمة المشاهدة</string>
+    <string name="watchlist_added">تمت الإضافة إلى قائمة المشاهدة</string>
+    <string name="watchlist_removed">تمت الإزالة من قائمة المشاهدة</string>
+    <string name="movies_search_hint">أكتب إسم الفيلم</string>
+    <string name="movies_collection_empty">لم تقم بإضافة الأفلام إلى مجموعتك.</string>
+    <string name="movies_watchlist_empty">لم تقم بإضافة أي فلم إلى قائمة المشاهدة.</string>
+    <string name="trailer">العرض الدعائي</string>
+    <string name="movie_cast">طاقم التمثيل</string>
+    <string name="movie_crew">طاقم</string>
+    <string name="action_movies_sort">فرز الأفلام</string>
+    <string name="action_movies_sort_title">العنوان</string>
+    <string name="action_movies_sort_release">تاريخ الإصدار</string>
+    <string name="action_movies_filter">تصفية الأفلام</string>
+    <!-- Statistics -->
+    <string name="statistics_failed">خطأ في الإحصائيات.</string>
+    <string name="shows_finished">%s انتهى مشاهدة</string>
+    <string name="shows_with_next">%s مع الحلقات القادمة</string>
+    <string name="shows_continuing">%s مستمرة</string>
+    <string name="episodes_watched">%s تمت مشاهدتها</string>
+    <string name="movies_on_watchlist">%s في قائمة المشاهدة لاحقا</string>
+    <string name="stats_in_collection_format">إضافة إلى مجموعة (%d)</string>
+    <string name="movies_watched_format">%s تمت مشاهدتها</string>
+    <plurals name="days_plural">
+        <item quantity="one">يومان</item>
+        <item quantity="zero">يوم</item>
+        <item quantity="two">%d أيام</item>
+        <item quantity="few">%d أيام</item>
+        <item quantity="many">%d أيام</item>
+        <item quantity="other">%d أيام</item>
+    </plurals>
+    <plurals name="hours_plural">
+        <item quantity="zero">ساعة</item>
+        <item quantity="one">ساعتان</item>
+        <item quantity="two">%d ساعات</item>
+        <item quantity="few">%d ساعات</item>
+        <item quantity="many">%d ساعات</item>
+        <item quantity="other">%d ساعات</item>
+    </plurals>
+    <plurals name="minutes_plural">
+        <item quantity="zero">دقيقة</item>
+        <item quantity="one">دقيقتان</item>
+        <item quantity="two">%d دقائق</item>
+        <item quantity="few">%d دقائق</item>
+        <item quantity="many">%d دقائق</item>
+        <item quantity="other">%d دقائق</item>
+    </plurals>
+    <!-- Features -->
+    <string name="feature_supported">مدعوم</string>
+    <string name="feature_not_supported">غير مدعوم</string>
+    <string name="feature_history">التاريخ الشخصى و تاريخ الأصدقاء</string>
+    <string name="feature_comments">أضف تعليق</string>
+    <string name="feature_sync">نقل بيانات</string>
+    <!-- Hexagon -->
+    <string name="hexagon_warning">تجريبي</string>
+    <string name="hexagon_description">يساعد سيرايس جايد كلاود على حفظ مسلسلاتك و افلامك على حسابك الخاص اونلاين.</string>
+    <string name="hexagon_warning_trakt">عندما تسجل الدخول لسيرايس كلاود سيتم فقد بعض خصائص موقع تراكت.</string>
+    <string name="hexagon_signin">تسجيل الدخول</string>
+    <string name="hexagon_signout">تسجيل الخروج</string>
+    <string name="hexagon_setup_incomplete">لم يتم إكمال إعداد سحابة تخزين دليل المسلسلات.</string>
+    <string name="hexagon_setup_fail_auth">حسابك ليس لديه عنوان بريد إلكتروني</string>
+    <string name="hexagon_remove_account">إزالة الحساب</string>
+    <string name="hexagon_remove_account_success">تم إلغاء الحساب.</string>
+    <string name="hexagon_remove_account_failure">لم نستطع إزالة حسابك</string>
+    <string name="hexagon_remove_account_confirmation">إزالة حسابك ستؤدي إلى إلغاء كل مسلسلاتك و افلامك من سحابة SeriesGuide. تأكد من إزالته من الأجهزة الأخرى المتصلة أيضا.</string>
+    <string name="hexagon_api_queued">جار الإرسال إلى سحابة دليل المسلسلات.</string>
+    <string name="hexagon_signed_out">تسجيل الخروج من SeriesGuide Cloud.</string>
+    <string name="hexagon_signin_fail_format">خطأ في تسجيل الدخول (%s)</string>
+    <string name="hexagon_signin_google_only">يتطلب عنوان البريد الإلكتروني تسجيل دخول Google</string>
+    <!-- trakt -->
+    <string name="trakt_submitqueued">تقديم إلى تراكت.</string>
+    <string name="checkin_success_trakt">تم فحص %s على التراكت.</string>
+    <string name="checkin_canceled_success_trakt">تم إلغاء تسجيل الدخول على التراكت.</string>
+    <string name="traktcheckin_cancel">تجاهل</string>
+    <string name="traktcheckin_inprogress">أنت بالفعل تشاهد حلقة أو فيلم. إما أن تتجاوز ما تشاهده الآن أو تنتظر %s وتحاول مرة أخرى.</string>
+    <string name="traktcheckin_wait">سوف أنتظر</string>
+    <string name="trakt_success">تم إرسالها إلى Trakt.</string>
+    <string name="trakt_error_account_locked">حسابك في Trakt مقفل. اتصل في Trakt لالدعم.</string>
+    <string name="trakt_error_credentials">حدث خطأ ما. يرجى التحقق من بيانات اعتمادك وحاول مرة أخرى.</string>
+    <string name="trakt_error_not_exists">غير متوفر (حتى الآن) على trakt. حاول مرة أخرى.</string>
+    <string name="trakt_notice_not_exists">لا يمكن تتبعه بواسطة trakt بعد.</string>
+    <!-- Connect trakt -->
+    <string name="connect_trakt">الإتصال بموقع Trakt</string>
+    <string name="trakt_reconnect">ربط برنامج دليل المسلسلات بحساب Trak</string>
+    <string name="trakt_reconnect_details">تحقق من بيانات الأعتماد الخاصة بك في trakt</string>
+    <string name="waitplease">لحظات, من فضلك&#8230;</string>
+    <string name="connect">الاتصال</string>
+    <string name="disconnect">قطع الاتصال</string>
+    <string name="use_integrated_browser">استخدام متصفح متكامل</string>
+    <string name="show_library">إضافة مسلسلات من Trakt</string>
+    <string name="about_trakt">يساعدك trait على حفظ ما تشاهده من أفلام و مسلسلات.<a href="http://trakt.tv">مزيد من المعلومات</a></string>
+    <!-- trakt ratings -->
+    <string name="action_rate">التقييم</string>
+    <string name="your_rating">تقييمك</string>
+    <string name="love">أعجبني!</string>
+    <string name="hate">لم يعجبني :(</string>
+    <string name="rating2">سيء</string>
+    <string name="rating3">سيء</string>
+    <string name="rating4">ضعيف</string>
+    <string name="rating5">عادي</string>
+    <string name="rating6">مقبول</string>
+    <string name="rating7">جيد</string>
+    <string name="rating8">ممتاز</string>
+    <string name="rating9">رائع</string>
+    <plurals name="votes">
+        <item quantity="zero">صوت</item>
+        <item quantity="one">صوتان</item>
+        <item quantity="two">%d أصوات</item>
+        <item quantity="few">%d أصوات</item>
+        <item quantity="many">%d أصوات</item>
+        <item quantity="other">%d أصوات</item>
+    </plurals>
+    <!-- Check Ins -->
+    <string name="checkin">أشاهده الآن</string>
+    <string name="checkin_hint">اكتب رسالة (اختياري)</string>
+    <string name="paste_title">إلصق عنوان</string>
+    <string name="pref_quick_checkin">تحقق سريع</string>
+    <string name="pref_quick_checkin_summary">لا تسأل عن رسالة التحقق مرة أخرى</string>
+    <!-- Help -->
+    <string name="feedback">أرسل ملاحظاتك</string>
+    <string name="action_open_in_browser">فتح في المتصفح</string>
+    <!-- Settings -->
+    <string name="action_translate">ترجم هذا التطبيق</string>
+    <string name="action_contribute_content">ترجمة أو تحسين المحتوى</string>
+    <string name="prefs_category_advanced">متقدم</string>
+    <string name="prefs_category_about">حول</string>
+    <string name="pref_onlyfuture">عدم إظهار الحلقات التي تم عرضها</string>
+    <string name="pref_onlyfuturesummary">عدم عرض الحلقات التي تم بثها مسبقاً</string>
+    <string name="pref_onlyseasoneps">إخفاء الحلقات الخاصة</string>
+    <string name="pref_onlyseasonepssummary">سيتم إخفاء الحلقات الخاصة من كل مكان عدا من قائمة الموسم</string>
+    <string name="pref_exactdates">عرض التواريخ بشكل دقيق</string>
+    <string name="pref_exactdates_summary">\"31 أكتوبر\" بدلاً من \"في 3 أيام\"</string>
+    <string name="pref_nospoilers">منع المفسدين</string>
+    <string name="pref_nospoilers_summary">إخفاء التفاصيل حتى هو شاهد الحلقة</string>
+    <string name="pref_seasonsorting">ترتيب المواسم حسب&#8230;</string>
+    <string name="pref_episodesorting">ترتيب الحلقات حسب&#8230;</string>
+    <string name="pref_language">اللغة المفضلة</string>
+    <string name="pref_language_fallback">اللغة البديلة</string>
+    <string name="pref_updatewifionly">تحميل الصور بواسطة الواي فاي فقط</string>
+    <string name="pref_updatewifionlysummary">لتخفيض الكلفة، لا تحمّل عبر شبكات الجوال أو الشبكات الغير مجانية</string>
+    <string name="pref_error_reports">الإبلاغ عن الأخطاء لمطور التطبيق</string>
+    <plurals name="days_before_plural">
+        <item quantity="zero">قبل يوم من %d</item>
+        <item quantity="one">قبل يوم من %d</item>
+        <item quantity="two">قبل يوم من %d</item>
+        <item quantity="few">قبل يوم من %d</item>
+        <item quantity="many">قبل يوم من %d</item>
+        <item quantity="other">قبل يوم من %d</item>
+    </plurals>
+    <plurals name="hours_before_plural">
+        <item quantity="zero">قبل يوم من %d</item>
+        <item quantity="one">قبل يوم من %d</item>
+        <item quantity="two">قبل يوم من %d</item>
+        <item quantity="few">قبل يوم من %d</item>
+        <item quantity="many">قبل يوم من %d</item>
+        <item quantity="other">قبل يوم من %d</item>
+    </plurals>
+    <plurals name="minutes_before_plural">
+        <item quantity="zero">قبل دقائق من %d</item>
+        <item quantity="one">قبل دقائق من %d</item>
+        <item quantity="two">قبل دقائق من %d</item>
+        <item quantity="few">قبل دقائق من %d</item>
+        <item quantity="many">قبل دقائق من %d</item>
+        <item quantity="other">قبل دقائق من %d</item>
+    </plurals>
+    <!-- About screen -->
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="licence_themoviedb">هذا البرنامج يستخدم وصلة TMDB ولكنه غير مدعوم ولامعتمد من TMDB.</string>
+    <string name="licence_trakt">هذا البرنامج يستخدم البيانات والصور من تطبيق Trakt.</string>
+    <string name="about_open_source">برنامج دليل المسلسلات بني باستخدام برمجيات المصدر المفتوح.</string>
+    <string name="licences_and_credits">تراخيص مفتوحة المصدر</string>
+    <!-- Sort -->
+    <string name="sort">ترتيب حسب</string>
+    <string name="action_sort_ignore_articles">تجاهل المقال</string>
+    <!-- Sort orders -->
+    <string name="sort_order_latest_first">الأحدث أولاً</string>
+    <string name="sort_order_oldest_first">الأقدم أولاً</string>
+    <string name="sort_order_unwatched_first">غير المُشاهدة أولاً</string>
+    <string name="sort_order_alphabetical">A-Z</string>
+    <string name="sort_order_top_rated_first">أعلى تقييم</string>
+    <string name="sort_order_latest_first_dvd">الأحدث أولاً-دي في دي</string>
+    <string name="sort_order_oldest_first_dvd">الأقدم أولاً-دي في دي</string>
+    <!-- Upcoming thresholds -->
+    <string name="pref_upcominglimit">الترتيب حسب القادم</string>
+    <string name="upcoming_upto_now">الآن</string>
+    <string name="upcoming_upto_one_day">يوم</string>
+    <string name="upcoming_upto_three_days">ثلاثة أيام</string>
+    <string name="upcoming_upto_one_week">أسبوع</string>
+    <string name="upcoming_upto_two_weeks">أسبوعين</string>
+    <string name="upcoming_upto_one_month">شهر</string>
+    <string name="upcoming_all">الكل</string>
+    <!-- Appearance settings -->
+    <string name="pref_appearance">المظهر</string>
+    <string name="pref_theme">التصميم</string>
+    <string name="pref_dynamic_colors">استخدام ألوان النظام</string>
+    <!-- Themes -->
+    <string name="theme_app_follow_system">استخدام الإعداد التلقائي للنظام</string>
+    <string name="theme_app_auto_battery">تفعيل ميزة \"توفير شحن البطارية\"</string>
+    <string name="theme_app_dark">داكن</string>
+    <string name="theme_app_light">فاتح</string>
+    <!-- Other advanced settings -->
+    <string name="pref_other">أخرى</string>
+    <string name="pref_autoupdatesummary">مزامنة وتحديث بيانات SeriesGuide تلقائيا</string>
+    <string name="backup">النسخ الإحتياطي / الإستعادة</string>
+    <string name="backup_summary">لعمل نسخ إحتياطي للمسلسلات أو إستعادتها</string>
+    <string name="pref_number">تنسيق الأرقام</string>
+    <string name="pref_offset">تغيير وقت العرض بشكل يدوي</string>
+    <string name="pref_offsetsummary">بدء وقت العرض قبل %d ساعات</string>
+    <string name="clear_cache">تنظيف ذاكرة التخزين المؤقتة للصور</string>
+    <string name="clear_cache_summary">إزالة جميع الصور المخزنة مؤقتاً من الجهاز</string>
+    <!-- Backup and Restore -->
+    <string name="backup_full_dump">يتضمن الأوصاف، و التفاصيل، و التقييمات</string>
+    <string name="backup_failed_file_access">لايمكن عمل نسخ إحتياطي، ملف النسخة الإحتياطي لايمكن إجاده أو لا يمكن الوصل إليه.</string>
+    <string name="backup_success">لقد نجحت عملية النسخ الإحتياطي.</string>
+    <string name="backup_failed">فشل النسخ الاحتياطي.</string>
+    <string name="import_failed_nosd">لايمكن إستعادة النسخ الإحتياطي، مجلد النسخ الإحتياطي غير متوفر.</string>
+    <string name="import_failed_nofile">لا يوجد ملف نسخ إحتياطي للقراءة.</string>
+    <string name="import_success">تم إستعادة النسخ الإحتياطي بنجاح.</string>
+    <string name="import_failed">فشل في إستعادة النسخ الإحتياطي.</string>
+    <string name="backup_button">نسخ احتياطي</string>
+    <string name="import_button">استعادة</string>
+    <string name="import_warning">أنا أفهم أن المسلسلات الحالية، القوائم والأفلام سوف تستبدل!</string>
+    <string name="no_file_selected">لم يتم إختيار أي ملف</string>
+    <string name="action_select_file">حدد ملف</string>
+    <!-- Auto backup -->
+    <string name="pref_autobackup">نسخ احتياطي تلقائي</string>
+    <string name="pref_autobackupsummary">نسخ إحتياطي أسبوعي للمسلسلات، القوائم والأفلام</string>
+    <string name="autobackup_details">هذه النسخ الإحتياطية غير متوفرة إذا تم تثبيت التطبيق مرة أخرى ما لم يتم تشغيل النسخ الإحتياطي لبيانات التطبيق لهذا الجهاز (أندرويد 6+). بالتالي قم بإنشاء نسخ للحفاظ عليها.</string>
+    <string name="last_auto_backup">آخر عملية نسخ تلقائية: %s</string>
+    <string name="restore_auto_backup">استعادة النسخ الاحتياطي التلقائي</string>
+    <string name="autobackup_failed">تم فشل آخر عملية للنسخ الإحتياطي التلقائي</string>
+    <string name="autobackup_files_missing">لإستخدام النسخ الإحتياطي التلقائي، حدد ملفات النسخ الإحتياطية الصالحة.</string>
+    <string name="autobackup_create_user_copy">أنشى نسخة بعد كل نسخة احتياطية</string>
+    <string name="autobackup_restore_available">قد تكون النسخة الاحتياطية التلقائية متاحة للاستعادة منها.</string>
+    <!-- Welcome dialog -->
+    <string name="get_started">بدء</string>
+    <string name="dismiss">إبعاد</string>
+    <!-- Notifications -->
+    <string name="upcoming_episodes_number">%s حلقات جديدة</string>
+    <string name="more">%d أكثر</string>
+    <string name="upcoming_display">حدد هذا الخيار لعرض المسلسلات القادمة</string>
+    <string name="pref_notifications">التنبيهات</string>
+    <string name="pref_notificationssummary">التنبيه عن الحلقات الجديدة</string>
+    <string name="pref_ringtone">نغمة التنبيه</string>
+    <string name="pref_vibrate">إهتزاز</string>
+    <string name="pref_vibratesummary">إهتزاز عند عرض التنبيه</string>
+    <string name="pref_notifications_treshold">موعد التنبيه</string>
+    <string name="pref_notifications_select_shows">اختار العروض</string>
+    <string name="pref_notifications_select_shows_summary">يظهر عدد الاشعارات المتاحه للعروض (%d)</string>
+    <string name="pref_notifications_hidden">تجاهل المسلسلات المخفيه</string>
+    <string name="pref_notifications_hidden_summary">حتي لو ان الأشعارات مفعلة, لا تبلغني عن المسلسلات المخفية</string>
+    <string name="pref_notification_channel_errors">أخطاء</string>
+    <string name="pref_notifications_next_episodes_only">فقط لمشاهدة الحلقات التالية</string>
+    <string name="pref_notifications_next_episodes_only_summary">تنبيه فقط اذا الحلقة الجديدة ستشاهد تالياً</string>
+    <string name="pref_notifications_battery_settings">إعدادات البطارية</string>
+    <string name="pref_notifications_battery_settings_summary">الذهاب إلى إعدادات البطارية لتعطيل تحسينات البطارية للإشعارات الموثوقة</string>
+    <!-- List Widget -->
+    <string name="hide_watched">إخفاء الحلقات المشاهدة</string>
+    <string name="pref_widget_opacity">خلفية القطعة العائمة</string>
+    <string name="pref_widget_type">نوع القطعة العائمة</string>
+    <string name="pref_large_font">استخدام الخط الكبير</string>
+    <string name="pref_hide_watch_button">إخفاء زر المشهود</string>
+    <!-- Widget background options -->
+    <string name="widget_background_transparent">شفافية</string>
+    <string name="widget_background_25">25%</string>
+    <string name="widget_background_50">50%</string>
+    <string name="widget_background_75">75%</string>
+    <string name="widget_background_opaque">شفاف</string>
+    <!-- Google In-App Billing -->
+    <string name="onlyx">فقط للداعمين</string>
+    <string name="action_upgrade">فتح كافة الميزات</string>
+    <string name="billing_action_subscribe">إشتراك</string>
+    <string name="billing_action_manage_subscriptions">إدارة الإشتراكات</string>
+    <string name="billing_action_pass">أحصل على X Pass App</string>
+    <string name="billing_price_subscribe">%1$s/سنة، جرب مجاناً، و قم بالإلغاء في أي وقت عبر %2$s</string>
+    <string name="billing_duration_format">%1$s/سنة</string>
+    <string name="billing_sub_description">جرب 30 يوماً مجاناً، قم بإلغاء أي وقت.</string>
+    <string name="billing_price_pass">الشراء يكون مرة واحدة</string>
+    <string name="upgrade_description">كل اشتراك يفتح جميع الميزات ويدعم التحديثات المستقبلية. ليس مطلوب الاشتراك لاستخدام هذا التطبيق.</string>
+    <string name="upgrade_success">شكرا لك لدعم SeriesGuide! . لديك حق الوصول إلى كافة الميزات .</string>
+    <string name="billing_unlock_detected">تم اكتشاف تطبيق X Pass . يمكنك الاشتراك لدعم التحديثات المستقبلية.</string>
+    <string name="billing_learn_more">المزيد من المعلومات والمساعدة</string>
+    <string name="subscription_expired">انتهت مدة الإشتراك</string>
+    <string name="subscription_expired_details">انتهت مدة اشتراك في البرنامج المدفوع.</string>
+    <!-- Amazon In-App Billing -->
+    <string name="subscription_not_signed_in">قم بتسجيل الدخول في حساب أمازون الخاص بك !</string>
+    <string name="subscription_unavailable">الإشتراك غير متوفر حاليا .</string>
+    <string name="subscription_failed">الشراء لم يكتمل.</string>
+    <string name="pass_unavailable">X Pass غير متوفر حاليا.</string>
+    <!-- Extensions -->
+    <string name="action_extensions_configure">تخصيص الإضافات</string>
+    <string name="action_extensions_add">إضافة ملحق</string>
+    <string name="action_extensions_search">المزيد من الإضافات</string>
+    <string name="action_extension_remove">إزالة</string>
+    <string name="extension_amazon">البحث في أمازون</string>
+    <string name="description_extension_amazon">البحث المحلي بواسطة موقع أمازون</string>
+    <string name="pref_amazon_domain">موقع أمازون</string>
+    <string name="extension_google_play">البحث في متجر قوقل</string>
+    <string name="description_extension_google_play">البحث في متجر قوقل</string>
+    <string name="extension_youtube">البحث في اليوتيوب</string>
+    <string name="description_extension_youtube">بحث اليوتيوب لمقاطع الفيديو</string>
+    <string name="description_extension_web_search">البحث عن المواقع و الصور</string>
+    <!-- People -->
+    <string name="person_biography">السيرة الذاتية</string>
+    <!-- Feedback -->
+    <string name="feedback_question_enjoy">هل انت راض و مستمتع ب SeriesGuide؟</string>
+    <string name="feedback_action_yes">تم!</string>
+    <string name="feedback_action_notreally">ليس في الحقيقة</string>
+    <string name="feedback_question_rate_google">قيم على Google Play؟</string>
+    <string name="feedback_question_rate_amazon">صنفه في الأمازون؟</string>
+    <string name="feedback_question_feedback">اخبرني كيف احسنها ؟</string>
+    <string name="feedback_action_ok">بالتأكيد</string>
+    <string name="feedback_action_nothanks">لا، شكرا</string>
+    <!-- Support -->
+    <string name="support_the_dev">دعم المطور؟</string>
+</resources>

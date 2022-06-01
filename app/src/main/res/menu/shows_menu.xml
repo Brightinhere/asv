@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="AlwaysShowAction">
+
+    <!-- Search action of activity is left-most. -->
+    <item
+        android:id="@+id/menu_action_shows_filter"
+        android:icon="@drawable/ic_filter_white_24dp"
+        android:orderInCategory="1"
+        android:title="@string/action_shows_filter"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_action_shows_add"
+        android:orderInCategory="2"
+        android:title="@string/action_shows_add"
+        app:showAsAction="never" />
+
+</menu>

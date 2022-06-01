@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootItemPerson"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/activatedBackgroundIndicator">
+
+    <ImageView
+        android:id="@+id/imageViewPerson"
+        android:layout_width="@dimen/icon_large_size"
+        android:layout_height="@dimen/icon_large_size"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@null"
+        android:src="@color/protection_dark"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewPersonDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewPerson" />
+
+    <TextView
+        android:id="@+id/textViewPerson"
+        style="@style/Widget.SeriesGuide.TextView.SingleLine"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:ellipsize="end"
+        android:textAppearance="@style/TextAppearance.SeriesGuide.Subtitle1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewPerson"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Bryan Cranston" />
+
+    <TextView
+        android:id="@+id/textViewPersonDescription"
+        style="@style/Widget.SeriesGuide.TextView.SingleLine"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:ellipsize="end"
+        android:textAppearance="@style/TextAppearance.SeriesGuide.Body2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewPerson"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPerson"
+        tools:text="Walter White" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

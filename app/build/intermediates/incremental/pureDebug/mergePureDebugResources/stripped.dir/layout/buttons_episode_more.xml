@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Need to define root ID in include tag or view binding breaks. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:showIn="@layout/buttons_services">
+
+    <Button
+        android:id="@+id/buttonEpisodeTmdb"
+        style="@style/Widget.SeriesGuide.Button.Borderless.Sheet"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/tmdb"
+        app:icon="@drawable/ic_link_black_24dp"
+        app:iconGravity="start" />
+
+    <Button
+        android:id="@+id/buttonEpisodeTrakt"
+        style="@style/Widget.SeriesGuide.Button.Borderless.Sheet"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/trakt"
+        app:icon="@drawable/ic_link_black_24dp"
+        app:iconGravity="start" />
+
+    <Button
+        android:id="@+id/buttonEpisodeImdb"
+        style="@style/Widget.SeriesGuide.Button.Borderless.Sheet"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/imdb"
+        app:icon="@drawable/ic_link_black_24dp"
+        app:iconGravity="start" />
+
+    <Button
+        android:id="@+id/buttonEpisodeShare"
+        style="@style/Widget.SeriesGuide.Button.Borderless.Sheet"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/share_episode"
+        app:icon="@drawable/ic_share_white_24dp"
+        app:iconGravity="start" />
+
+    <Button
+        android:id="@+id/buttonEpisodeCalendar"
+        style="@style/Widget.SeriesGuide.Button.Borderless.Sheet"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/addtocalendar"
+        app:icon="@drawable/ic_event_white_24dp"
+        app:iconGravity="start" />
+
+    <Button
+        android:id="@+id/buttonEpisodeComments"
+        style="@style/Widget.SeriesGuide.Button.Borderless.Sheet"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/comments"
+        app:icon="@drawable/ic_forum_black_24dp"
+        app:iconGravity="start" />
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.battlelancer.seriesguide.app-mergePureDebugResources-54:/values-v26/values-v26.xml",
+            "map": [
+                {
+                    "source": "/Users/irfanbilir/.gradle/caches/transforms-3/6fcd002bc665cf0ecd110818c10da287/transformed/appcompat-1.4.1/res/values-v26/values-v26.xml",
+                    "from": {
+                        "startLines": "2,3,4,8,12,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,431,657,896",
+                        "endLines": "2,3,7,11,15,16",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,426,652,891,984"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,10,14,18",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "174,249,336,500,676,915",
+                        "endLines": "4,5,9,13,17,18",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "244,331,495,671,910,1003"
+                    }
+                },
+                {
+                    "source": "/Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/res/values-v26/values-v26.xml",
+                    "from": {
+                        "startLines": "2,6,10,14",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,253,438,631",
+                        "endLines": "5,9,13,17",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "248,433,626,806"
+                    },
+                    "to": {
+                        "startLines": "19,23,27,31",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1008,1206,1391,1584",
+                        "endLines": "22,26,30,34",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "1201,1386,1579,1759"
+                    }
+                },
+                {
+                    "source": "/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/res/values-v26/dimens.xml",
+                    "from": {
+                        "startLines": "5,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "171,112",
+                        "endColumns": "59,58",
+                        "endOffsets": "226,166"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,115",
+                        "endColumns": "59,58",
+                        "endOffsets": "110,169"
+                    }
+                }
+            ]
+        }
+    ]
+}

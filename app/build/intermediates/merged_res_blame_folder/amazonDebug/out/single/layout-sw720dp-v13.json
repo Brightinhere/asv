@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergeAmazonDebugResources-55:/layout-sw720dp-v13/item_show_list.xml",
+        "source": "com.battlelancer.seriesguide.app-main-60:/layout-sw720dp/item_show_list.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergeAmazonDebugResources-55:/layout-sw720dp-v13/item_show.xml",
+        "source": "com.battlelancer.seriesguide.app-main-60:/layout-sw720dp/item_show.xml"
+    },
+    {
+        "merged": "com.battlelancer.seriesguide.app-mergeAmazonDebugResources-55:/layout-sw720dp-v13/item_addshow.xml",
+        "source": "com.battlelancer.seriesguide.app-main-60:/layout-sw720dp/item_addshow.xml"
+    }
+]

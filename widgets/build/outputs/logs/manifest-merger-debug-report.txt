@@ -1,0 +1,29 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/src/main/AndroidManifest.xml:1:1-6:12
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/src/main/AndroidManifest.xml:1:1-6:12
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/src/main/AndroidManifest.xml:1:1-6:12
+	package
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/src/main/AndroidManifest.xml
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/src/main/AndroidManifest.xml:1:1-6:12
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/src/main/AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/src/main/AndroidManifest.xml:4:22-63
+uses-sdk
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/src/main/AndroidManifest.xml
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/src/main/AndroidManifest.xml
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/src/main/AndroidManifest.xml
+INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/src/main/AndroidManifest.xml
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/src/main/AndroidManifest.xml
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/src/main/AndroidManifest.xml
+		ADDED from /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/src/main/AndroidManifest.xml
+		INJECTED from /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/src/main/AndroidManifest.xml

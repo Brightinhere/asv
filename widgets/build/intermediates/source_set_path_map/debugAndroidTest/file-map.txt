@@ -1,0 +1,17 @@
+com.uwetrottmann.seriesguide.widgets.test.widgets-jetified-fragment-ktx-1.4.1-0 /Users/irfanbilir/.gradle/caches/transforms-3/38cedae8fd4e4ab39614a6759793f377/transformed/jetified-fragment-ktx-1.4.1/res
+com.uwetrottmann.seriesguide.widgets.test.widgets-lifecycle-runtime-2.3.1-1 /Users/irfanbilir/.gradle/caches/transforms-3/4d1871682a31ab92ee87c10cb6bfe269/transformed/lifecycle-runtime-2.3.1/res
+com.uwetrottmann.seriesguide.widgets.test.widgets-recyclerview-1.2.0-2 /Users/irfanbilir/.gradle/caches/transforms-3/558847c8d8ebe99887ad9ed3dd476e28/transformed/recyclerview-1.2.0/res
+com.uwetrottmann.seriesguide.widgets.test.widgets-lifecycle-viewmodel-2.3.1-3 /Users/irfanbilir/.gradle/caches/transforms-3/78d8d00881c351e50f4690ccaf8618a2/transformed/lifecycle-viewmodel-2.3.1/res
+com.uwetrottmann.seriesguide.widgets.test.widgets-fragment-1.4.1-4 /Users/irfanbilir/.gradle/caches/transforms-3/83d745f5becc518f069d3ab34eaa86d4/transformed/fragment-1.4.1/res
+com.uwetrottmann.seriesguide.widgets.test.widgets-swiperefreshlayout-1.1.0-5 /Users/irfanbilir/.gradle/caches/transforms-3/8f661088c483ad01dac9bc0b5347c5c2/transformed/swiperefreshlayout-1.1.0/res
+com.uwetrottmann.seriesguide.widgets.test.widgets-jetified-savedstate-1.1.0-6 /Users/irfanbilir/.gradle/caches/transforms-3/91f458e437c6b7dabb36968ad16eaa46/transformed/jetified-savedstate-1.1.0/res
+com.uwetrottmann.seriesguide.widgets.test.widgets-core-1.3.2-7 /Users/irfanbilir/.gradle/caches/transforms-3/c9677e6aa11c094f4258c540ce1ad2fa/transformed/core-1.3.2/res
+com.uwetrottmann.seriesguide.widgets.test.widgets-jetified-viewpager2-1.1.0-beta01-8 /Users/irfanbilir/.gradle/caches/transforms-3/cc18d93221368789477b2bed61a42616/transformed/jetified-viewpager2-1.1.0-beta01/res
+com.uwetrottmann.seriesguide.widgets.test.widgets-androidTest-9 /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/build/generated/res/resValues/androidTest/debug
+com.uwetrottmann.seriesguide.widgets.test.widgets-androidTest-10 /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/build/generated/res/rs/androidTest/debug
+com.uwetrottmann.seriesguide.widgets.test.widgets-mergeDebugAndroidTestResources-11 /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.uwetrottmann.seriesguide.widgets.test.widgets-mergeDebugAndroidTestResources-12 /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.uwetrottmann.seriesguide.widgets.test.widgets-merged_res-13 /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/build/intermediates/merged_res/debugAndroidTest
+com.uwetrottmann.seriesguide.widgets.test.widgets-packaged_res-14 /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/build/intermediates/packaged_res/debug
+com.uwetrottmann.seriesguide.widgets.test.widgets-androidTest-15 /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/src/androidTest/res
+com.uwetrottmann.seriesguide.widgets.test.widgets-androidTestDebug-16 /Users/irfanbilir/Documents/SeriesGuide-dev/widgets/src/androidTestDebug/res

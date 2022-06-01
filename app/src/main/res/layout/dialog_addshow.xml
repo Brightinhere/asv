@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:paddingBottom="@dimen/large_padding">
+
+            <ProgressBar
+                android:id="@+id/progressBarAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+
+            <!-- match parent width so selectable background looks nicer -->
+            <RelativeLayout
+                android:id="@+id/containerShowInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:focusable="true">
+
+                <ImageView
+                    android:id="@+id/imageViewAddPoster"
+                    android:layout_width="@dimen/show_poster_width_large"
+                    android:layout_height="@dimen/show_poster_height_large"
+                    android:scaleType="centerInside"
+                    tools:ignore="ContentDescription"
+                    tools:src="@drawable/ic_photo_gray_24dp" />
+
+                <TextView
+                    android:id="@+id/textViewAddTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/large_padding"
+                    android:layout_marginRight="@dimen/large_padding"
+                    android:layout_toRightOf="@id/imageViewAddPoster"
+                    android:paddingTop="@dimen/default_padding"
+                    android:textAppearance="@style/TextAppearance.SeriesGuide.Headline6"
+                    tools:text="@string/action_shows_add" />
+
+                <TextView
+                    android:id="@+id/textViewAddReleased"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewAddTitle"
+                    android:layout_marginLeft="@dimen/large_padding"
+                    android:layout_marginRight="@dimen/large_padding"
+                    android:layout_toRightOf="@id/imageViewAddPoster"
+                    android:paddingBottom="@dimen/default_padding"
+                    android:textAppearance="@style/TextAppearance.SeriesGuide.Body2"
+                    tools:text="2014 / Continuing" />
+
+                <TextView
+                    android:id="@+id/textViewAddShowMeta"
+                    style="@style/Block.FlowText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewAddReleased"
+                    android:layout_marginLeft="@dimen/large_padding"
+                    android:layout_marginRight="@dimen/large_padding"
+                    android:layout_toRightOf="@+id/imageViewAddPoster"
+                    android:textAppearance="@style/TextAppearance.SeriesGuide.Body2"
+                    tools:text="Mon 07:00 PM on Showtime\n60 min" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/buttonAddLanguage"
+                style="@style/Widget.SeriesGuide.Button.Borderless.Default"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/containerShowInfo"
+                android:layout_marginLeft="@dimen/default_padding"
+                android:layout_marginTop="@dimen/default_padding"
+                android:layout_marginRight="@dimen/default_padding"
+                app:icon="@drawable/ic_language_white_24dp"
+                app:iconGravity="start"
+                tools:text="Deutsch" />
+
+            <TextView
+                android:id="@+id/textViewAddDescription"
+                style="@style/Block.FlowText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buttonAddLanguage"
+                android:layout_marginLeft="@dimen/large_padding"
+                android:layout_marginRight="@dimen/large_padding"
+                android:background="?attr/selectableItemBackground"
+                android:focusable="true"
+                android:maxWidth="@dimen/max_width_text_size_body"
+                android:textAppearance="@style/TextAppearance.SeriesGuide.Body2"
+                tools:text="@string/description_overview" />
+
+            <TextView
+                android:id="@+id/textViewAddGenresLabel"
+                style="@style/Block.WithTopMargin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewAddDescription"
+                android:layout_marginLeft="@dimen/large_padding"
+                android:layout_marginRight="@dimen/large_padding"
+                android:text="@string/show_genres"
+                android:textAppearance="@style/TextAppearance.SeriesGuide.Subtitle2" />
+
+            <TextView
+                android:id="@+id/textViewAddGenres"
+                style="@style/Block"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewAddGenresLabel"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/large_padding"
+                android:layout_marginRight="@dimen/large_padding"
+                android:background="?attr/selectableItemBackground"
+                android:focusable="true"
+                android:textAppearance="@style/TextAppearance.SeriesGuide.Body2"
+                tools:text="Comedy, Drama" />
+
+            <TextView
+                android:id="@+id/textViewAddRatingValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewAddGenres"
+                android:layout_marginLeft="@dimen/large_padding"
+                android:layout_marginTop="@dimen/large_padding"
+                android:text="@string/placeholder_rating"
+                android:textAppearance="@style/TextAppearance.SeriesGuide.Headline6"
+                tools:text="9.6" />
+
+            <TextView
+                android:id="@+id/textViewAddRatingRange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textViewAddRatingValue"
+                android:layout_marginRight="@dimen/default_padding"
+                android:layout_toRightOf="@+id/textViewAddRatingValue"
+                android:text="@string/format_rating_range"
+                android:textAppearance="@style/TextAppearance.SeriesGuide.Caption" />
+
+            <TextView
+                android:id="@+id/textViewAddRatingLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewAddRatingValue"
+                android:layout_alignLeft="@+id/textViewAddRatingValue"
+                android:layout_marginTop="-4dp"
+                android:text="@string/trakt"
+                android:textAppearance="@style/TextAppearance.SeriesGuide.Caption" />
+
+            <Button
+                android:id="@+id/buttonAddDisplaySimilar"
+                style="@style/Widget.SeriesGuide.Button.Borderless.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewAddRatingLabel"
+                android:layout_marginLeft="@dimen/default_padding"
+                android:layout_marginTop="@dimen/default_padding"
+                android:layout_marginRight="@dimen/default_padding"
+                android:drawablePadding="@dimen/default_padding"
+                android:text="@string/title_similar_shows"
+                app:icon="@drawable/ic_search_white_24dp"
+                app:iconGravity="start" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/containerAddStreamingSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buttonAddDisplaySimilar"
+                android:maxWidth="@dimen/max_width_text_size_body"
+                android:layout_marginStart="@dimen/default_padding"
+                android:layout_marginEnd="@dimen/default_padding">
+
+                <!-- MaterialButton ignores line breaks here (wtf?), so use separate TextView. -->
+                <Button
+                    android:id="@+id/buttonAddStreamingSearch"
+                    style="@style/Widget.SeriesGuide.Button.Borderless.Caption"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/action_stream"
+                    android:gravity="center_vertical|start"
+                    android:text="@string/action_stream"
+                    app:icon="@drawable/ic_play_arrow_black_24dp"
+                    app:layout_constraintEnd_toStartOf="@+id/buttonAddStreamingSearchInfo"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textViewAddStreamingSearch"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="36dp"
+                    android:contentDescription="@string/action_stream"
+                    android:textAppearance="@style/TextAppearance.SeriesGuide.Caption.Narrow"
+                    app:layout_constraintEnd_toStartOf="@+id/buttonAddStreamingSearchInfo"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/buttonAddStreamingSearch"
+                    tools:text="Watch provider + 1 more" />
+
+                <ImageButton
+                    android:id="@+id/buttonAddStreamingSearchInfo"
+                    style="?attr/borderlessButtonStyle"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/action_stream_info"
+                    android:src="@drawable/ic_info_control_24dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:contentDescription="@null"
+        android:src="?attr/sgColorDivider" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/default_padding"
+        android:paddingTop="@dimen/inline_padding"
+        android:paddingRight="@dimen/default_padding"
+        android:paddingBottom="@dimen/inline_padding">
+
+        <androidx.constraintlayout.helper.widget.Flow
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:constraint_referenced_ids="buttonNegative,buttonPositive"
+            app:flow_horizontalBias="1"
+            app:flow_horizontalStyle="packed"
+            app:flow_wrapMode="chain"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttonNegative"
+            style="?attr/buttonBarNegativeButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Button Negative With Long Text" />
+
+        <Button
+            android:id="@+id/buttonPositive"
+            style="?attr/buttonBarPositiveButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Button Positive" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

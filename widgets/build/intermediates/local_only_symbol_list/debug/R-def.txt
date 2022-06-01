@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+attr? click_remove_id
+attr? collapsed_height
+attr? drag_enabled
+attr? drag_handle_id
+attr? drag_scroll_start
+attr? drag_start_mode
+attr? drop_animation_duration
+attr? fling_handle_id
+attr? float_alpha
+attr? max_drag_scroll_speed
+attr? remove_animation_duration
+attr? remove_enabled
+attr? remove_mode
+attr? slide_shuffle_speed
+attr? sort_enabled
+attr? track_drag_sort
+attr? use_default_controller
+dimen drag_grip_ridge_gap
+dimen drag_grip_ridge_size
+dimen sg_sliding_tab_strip_indicator_size
+dimen sg_sliding_tab_strip_underline_size
+id clickRemove
+id flingRemove
+id onDown
+id onLongPress
+id onMove
+styleable DragSortListView collapsed_height drag_scroll_start max_drag_scroll_speed remove_mode track_drag_sort float_alpha slide_shuffle_speed remove_animation_duration drop_animation_duration drag_enabled sort_enabled remove_enabled drag_start_mode drag_handle_id fling_handle_id click_remove_id use_default_controller

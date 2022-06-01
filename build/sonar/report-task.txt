@@ -1,0 +1,6 @@
+projectKey=ASV
+serverUrl=http://localhost:9000
+serverVersion=9.4.0.54424
+dashboardUrl=http://localhost:9000/dashboard?id=ASV
+ceTaskId=AYC_PFbLCkcJv4RN038C
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYC_PFbLCkcJv4RN038C

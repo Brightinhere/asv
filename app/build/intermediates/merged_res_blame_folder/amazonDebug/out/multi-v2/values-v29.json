@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.battlelancer.seriesguide.app-mergeAmazonDebugResources-54:/values-v29/values-v29.xml",
+            "map": [
+                {
+                    "source": "/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/res/values-v29/donottranslate.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "84",
+                        "endLines": "8",
+                        "endColumns": "19",
+                        "endOffsets": "282"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "19",
+                        "endOffsets": "253"
+                    }
+                },
+                {
+                    "source": "/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/res/values-v29/themes.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "125",
+                        "endColumns": "81",
+                        "endOffsets": "202"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "258",
+                        "endColumns": "80",
+                        "endOffsets": "334"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+com.uwetrottmann.seriesguide.backend.test.backend-androidTest-0 /Users/irfanbilir/Documents/SeriesGuide-dev/backend/build/generated/res/resValues/androidTest/debug
+com.uwetrottmann.seriesguide.backend.test.backend-androidTest-1 /Users/irfanbilir/Documents/SeriesGuide-dev/backend/build/generated/res/rs/androidTest/debug
+com.uwetrottmann.seriesguide.backend.test.backend-mergeDebugAndroidTestResources-2 /Users/irfanbilir/Documents/SeriesGuide-dev/backend/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.uwetrottmann.seriesguide.backend.test.backend-mergeDebugAndroidTestResources-3 /Users/irfanbilir/Documents/SeriesGuide-dev/backend/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.uwetrottmann.seriesguide.backend.test.backend-merged_res-4 /Users/irfanbilir/Documents/SeriesGuide-dev/backend/build/intermediates/merged_res/debugAndroidTest
+com.uwetrottmann.seriesguide.backend.test.backend-packaged_res-5 /Users/irfanbilir/Documents/SeriesGuide-dev/backend/build/intermediates/packaged_res/debug
+com.uwetrottmann.seriesguide.backend.test.backend-androidTest-6 /Users/irfanbilir/Documents/SeriesGuide-dev/backend/src/androidTest/res
+com.uwetrottmann.seriesguide.backend.test.backend-androidTestDebug-7 /Users/irfanbilir/Documents/SeriesGuide-dev/backend/src/androidTestDebug/res

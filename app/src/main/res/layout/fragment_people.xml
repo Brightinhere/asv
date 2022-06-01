@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/listViewPeople"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:divider="@color/transparent"
+        android:paddingStart="@dimen/keyline_minus_16"
+        android:paddingTop="@dimen/default_padding"
+        android:paddingBottom="@dimen/default_padding"
+        android:theme="@style/ThemeOverlay.SeriesGuide.CheckableList"
+        tools:ignore="RtlSymmetry"
+        tools:listitem="@layout/item_person" />
+
+    <com.battlelancer.seriesguide.ui.widgets.EmptyView
+        android:id="@+id/emptyViewPeople"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:emptyViewButtonText="@string/action_try_again"
+        app:emptyViewMessage="@string/people_empty" />
+
+    <ProgressBar
+        android:id="@+id/progressBarPeople"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+</FrameLayout>

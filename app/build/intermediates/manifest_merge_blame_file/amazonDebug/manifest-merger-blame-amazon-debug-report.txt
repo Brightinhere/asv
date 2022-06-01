@@ -1,0 +1,1102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.uwetrottmann.seriesguide.amzn"
+4    android:versionCode="2106405"
+5    android:versionName="64.0.5" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:5:5-79
+11-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" /> <!-- Notification service -->
+12-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:6:5-67
+12-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+13-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:8:5-81
+13-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:8:22-78
+14    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Sync adapter -->
+14-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:9:5-66
+14-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:9:22-63
+15    <uses-permission
+15-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:11:5-13:38
+16        android:name="android.permission.GET_ACCOUNTS"
+16-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:12:9-55
+17        android:maxSdkVersion="22" />
+17-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:13:9-35
+18    <uses-permission
+18-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:14:5-16:38
+19        android:name="android.permission.MANAGE_ACCOUNTS"
+19-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:15:9-58
+20        android:maxSdkVersion="22" />
+20-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:16:9-35
+21    <uses-permission
+21-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:17:5-19:38
+22        android:name="android.permission.AUTHENTICATE_ACCOUNTS"
+22-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:18:9-64
+23        android:maxSdkVersion="22" />
+23-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:19:9-35
+24    <uses-permission android:name="android.permission.READ_SYNC_STATS" />
+24-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:20:5-74
+24-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:20:22-71
+25    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+25-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:21:5-77
+25-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:21:22-74
+26    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" /> <!-- Show shortcuts -->
+26-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:22:5-78
+26-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:22:22-75
+27    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> <!-- To schedule episode release notifications -->
+27-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:24:5-88
+27-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:24:22-85
+28    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+28-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:26:5-78
+28-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:26:22-76
+29
+30    <uses-feature
+30-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:28:5-30:36
+31        android:name="android.hardware.touchscreen"
+31-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:29:9-52
+32        android:required="false" /> <!-- On Android 11 (SDK 30), allow SeriesGuide to see apps providing extensions and the X Pass app. -->
+32-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:30:9-33
+33    <!-- https://developer.android.com/preview/privacy/package-visibility -->
+34    <queries>
+34-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:34:5-39:15
+35        <intent>
+35-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:35:9-37:18
+36            <action android:name="com.battlelancer.seriesguide.api.SeriesGuideExtension" />
+36-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:36:13-92
+36-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:36:21-89
+37        </intent>
+38
+39        <package android:name="com.battlelancer.seriesguide.x" />
+39-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:38:9-66
+39-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:38:18-63
+40    </queries>
+41
+42    <uses-permission android:name="com.android.vending.BILLING" /> <!-- JobIntentService manages wake lock on its own pre-O -->
+42-->[com.android.billingclient:billing-ktx:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/5290c73ede5b6b4c3868402a4c553f21/transformed/jetified-billing-ktx-4.0.0/AndroidManifest.xml:9:5-67
+42-->[com.android.billingclient:billing-ktx:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/5290c73ede5b6b4c3868402a4c553f21/transformed/jetified-billing-ktx-4.0.0/AndroidManifest.xml:9:22-64
+43    <uses-permission
+43-->[:api] /Users/irfanbilir/Documents/SeriesGuide-dev/api/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-12:38
+44        android:name="android.permission.WAKE_LOCK"
+44-->[:api] /Users/irfanbilir/Documents/SeriesGuide-dev/api/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-52
+45        android:maxSdkVersion="25" />
+45-->[:api] /Users/irfanbilir/Documents/SeriesGuide-dev/api/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-35
+46
+47    <application
+48        android:name="com.battlelancer.seriesguide.SgApp"
+48-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:42:9-58
+49        android:allowBackup="true"
+49-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:43:9-35
+50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+50-->[androidx.core:core:1.7.0] /Users/irfanbilir/.gradle/caches/transforms-3/edc170de79d193cd8c818050621e4f49/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+51        android:backupAgent="com.battlelancer.seriesguide.SgBackupAgent"
+51-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:44:9-73
+52        android:debuggable="true"
+53        android:fullBackupContent="@xml/sg_full_backup_rules"
+53-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:45:9-62
+54        android:fullBackupOnly="true"
+54-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:46:9-38
+55        android:hardwareAccelerated="true"
+55-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:47:9-43
+56        android:icon="@mipmap/ic_launcher"
+56-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:48:9-43
+57        android:label="@string/app_name"
+57-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:49:9-41
+58        android:restrictedAccountType="com.uwetrottmann.seriesguide.amzn"
+58-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:50:9-57
+59        android:roundIcon="@mipmap/ic_launcher_round"
+59-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:51:9-54
+60        android:supportsRtl="false"
+60-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:52:9-36
+61        android:testOnly="true"
+62        android:theme="@style/Theme.SeriesGuide.Launch" >
+62-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:53:9-56
+63
+64        <!-- Amazon In-App Purchasing -->
+65        <activity android:name="com.battlelancer.seriesguide.billing.amazon.AmazonBillingActivity" />
+65-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/amazon/AndroidManifest.xml:8:9-102
+65-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/amazon/AndroidManifest.xml:8:19-99
+66
+67        <receiver
+67-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/amazon/AndroidManifest.xml:9:9-16:20
+68            android:name="com.amazon.device.iap.ResponseReceiver"
+68-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/amazon/AndroidManifest.xml:10:13-66
+69            android:exported="true"
+69-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/amazon/AndroidManifest.xml:11:13-36
+70            android:permission="com.amazon.inapp.purchasing.Permission.NOTIFY" >
+70-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/amazon/AndroidManifest.xml:12:13-79
+71            <intent-filter>
+71-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/amazon/AndroidManifest.xml:13:13-15:29
+72                <action android:name="com.amazon.inapp.purchasing.NOTIFY" />
+72-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/amazon/AndroidManifest.xml:14:17-77
+72-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/amazon/AndroidManifest.xml:14:25-74
+73            </intent-filter>
+74        </receiver>
+75
+76        <!-- AndroidX testing, remove once minSdkVersion is 28 or higher. -->
+77        <uses-library
+77-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:56:9-58:40
+78            android:name="android.test.runner"
+78-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:57:13-47
+79            android:required="false" /> <!-- Samsung MultiWindow support -->
+79-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:58:13-37
+80        <meta-data
+80-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:61:9-63:36
+81            android:name="com.samsung.android.sdk.multiwindow.enable"
+81-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:62:13-70
+82            android:value="true" /> <!-- Database content provider -->
+82-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:63:13-33
+83        <provider
+84            android:name="com.battlelancer.seriesguide.provider.SeriesGuideProvider"
+85            android:authorities="com.uwetrottmann.seriesguide.amzn.provider"
+86            android:exported="true" /> <!-- File sharing content provider -->
+87        <provider
+88            android:name="androidx.core.content.FileProvider"
+89            android:authorities="com.uwetrottmann.seriesguide.amzn.fileprovider"
+90            android:exported="false"
+91            android:grantUriPermissions="true" >
+92            <meta-data
+93                android:name="android.support.FILE_PROVIDER_PATHS"
+94                android:resource="@xml/file_provider_paths" />
+95        </provider> <!-- Launch activity -->
+96        <activity
+96-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:84:9-103:20
+97            android:name="com.battlelancer.seriesguide.ui.ShowsActivity"
+97-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:85:13-73
+98            android:exported="true"
+98-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:86:13-36
+99            android:launchMode="singleTop" >
+99-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:87:13-43
+100            <intent-filter>
+100-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:88:13-91:29
+101                <action android:name="android.intent.action.MAIN" />
+101-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:89:17-69
+101-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:89:25-66
+102
+103                <category android:name="android.intent.category.LAUNCHER" />
+103-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:90:17-77
+103-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:90:27-74
+104            </intent-filter>
+105            <intent-filter>
+105-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:92:13-97:29
+106                <action android:name="com.battlelancer.seriesguide.api.action.VIEW_EPISODE" />
+106-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:93:17-95
+106-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:93:25-92
+107                <action android:name="com.battlelancer.seriesguide.api.action.VIEW_SHOW" />
+107-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:94:17-92
+107-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:94:25-89
+108
+109                <category android:name="android.intent.category.DEFAULT" />
+109-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:96:17-76
+109-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:96:27-73
+110            </intent-filter>
+111
+112            <!-- launcher shortcuts -->
+113            <meta-data
+113-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:100:13-102:53
+114                android:name="android.app.shortcuts"
+114-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:101:17-53
+115                android:resource="@xml/shortcuts" />
+115-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:102:17-50
+116        </activity> <!-- Hexagon -->
+117        <activity
+117-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:106:9-108:47
+118            android:name="com.battlelancer.seriesguide.backend.CloudSetupActivity"
+118-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:107:13-83
+119            android:label="@string/hexagon" /> <!-- Shows -->
+119-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:108:13-44
+120        <activity
+120-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:111:9-118:20
+121            android:name="com.battlelancer.seriesguide.ui.OverviewActivity"
+121-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:112:13-76
+122            android:exported="true"
+122-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:113:13-36
+123            android:parentActivityName="com.battlelancer.seriesguide.ui.ShowsActivity" >
+123-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:114:13-87
+124            <meta-data
+124-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:115:13-117:82
+125                android:name="android.app.default_searchable"
+125-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:116:17-62
+126                android:value="com.battlelancer.seriesguide.ui.SearchActivity" />
+126-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:117:17-79
+127        </activity>
+128        <activity android:name="com.battlelancer.seriesguide.shows.episodes.EpisodesActivity" />
+128-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:119:9-97
+128-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:119:19-94
+129        <activity
+129-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:120:9-122:45
+130            android:name="com.battlelancer.seriesguide.ui.ListsActivity"
+130-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:121:13-73
+131            android:label="@string/lists" />
+131-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:122:13-42
+132        <activity
+132-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:123:9-125:51
+133            android:name="com.battlelancer.seriesguide.history.HistoryActivity"
+133-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:124:13-52
+134            android:label="@string/user_stream" />
+134-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:125:13-48
+135        <activity
+135-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:126:9-151:20
+136            android:name="com.battlelancer.seriesguide.ui.SearchActivity"
+136-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:127:13-74
+137            android:exported="true"
+137-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:128:13-36
+138            android:launchMode="singleTop"
+138-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:129:13-43
+139            android:windowSoftInputMode="stateHidden" >
+139-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:130:13-54
+140
+141            <!-- Make this activity accessible from global search -->
+142            <intent-filter>
+142-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:132:13-134:29
+143                <action android:name="android.intent.action.SEARCH" />
+143-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:133:17-71
+143-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:133:25-68
+144            </intent-filter>
+145
+146            <meta-data
+146-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:135:13-137:54
+147                android:name="android.app.searchable"
+147-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:136:17-54
+148                android:resource="@xml/searchable" />
+148-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:137:17-51
+149
+150            <!-- Integrate with voice search: "OK Google, search for X on SeriesGuide" -->
+151            <intent-filter>
+151-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:140:13-143:29
+152                <action android:name="com.google.android.gms.actions.SEARCH_ACTION" />
+152-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:141:17-87
+152-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:141:25-84
+153
+154                <category android:name="android.intent.category.DEFAULT" />
+154-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:96:17-76
+154-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:96:27-73
+155            </intent-filter>
+156
+157            <!-- Receive links to shows -->
+158            <intent-filter>
+158-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:146:13-150:29
+159                <action android:name="android.intent.action.SEND" />
+159-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:147:17-69
+159-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:147:25-66
+160
+161                <category android:name="android.intent.category.DEFAULT" />
+161-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:96:17-76
+161-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:96:27-73
+162
+163                <data android:mimeType="text/plain" />
+163-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:149:17-55
+163-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:149:23-52
+164            </intent-filter>
+165        </activity>
+166        <activity android:name="com.battlelancer.seriesguide.shows.search.similar.SimilarShowsActivity" />
+166-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:152:9-79
+166-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:152:19-76
+167        <activity
+167-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:153:9-155:63
+168            android:name="com.battlelancer.seriesguide.shows.search.discover.TraktShowsActivity"
+168-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:154:13-69
+169            android:parentActivityName="com.battlelancer.seriesguide.ui.SearchActivity" /> <!-- Movies -->
+169-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:155:13-60
+170        <activity
+170-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:158:9-160:46
+171            android:name="com.battlelancer.seriesguide.ui.MoviesActivity"
+171-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:159:13-74
+172            android:label="@string/movies" />
+172-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:160:13-43
+173        <activity
+173-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:161:9-164:57
+174            android:name="com.battlelancer.seriesguide.movies.search.MoviesSearchActivity"
+174-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:162:13-63
+175            android:parentActivityName="com.battlelancer.seriesguide.ui.MoviesActivity"
+175-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:163:13-88
+176            android:windowSoftInputMode="stateHidden" />
+176-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:164:13-54
+177        <activity
+177-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:165:9-167:91
+178            android:name="com.battlelancer.seriesguide.movies.details.MovieDetailsActivity"
+178-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:166:13-64
+179            android:parentActivityName="com.battlelancer.seriesguide.ui.MoviesActivity" /> <!-- Settings -->
+179-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:167:13-88
+180        <activity android:name="com.battlelancer.seriesguide.preferences.MoreOptionsActivity" />
+180-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:170:9-69
+180-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:170:19-66
+181        <activity
+181-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:171:9-173:60
+182            android:name="com.battlelancer.seriesguide.preferences.AboutActivity"
+182-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:172:13-54
+183            android:label="@string/prefs_category_about" />
+183-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:173:13-57
+184        <activity
+184-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:174:9-186:20
+185            android:name="com.battlelancer.seriesguide.ui.SeriesGuidePreferences"
+185-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:175:13-82
+186            android:exported="true"
+186-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:176:13-36
+187            android:label="@string/preferences" >
+187-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:177:13-48
+188            <intent-filter>
+188-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:178:13-181:29
+189                <action android:name="android.intent.action.MANAGE_NETWORK_USAGE" />
+189-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:179:17-85
+189-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:179:25-82
+190
+191                <category android:name="android.intent.category.DEFAULT" />
+191-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:96:17-76
+191-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:96:27-73
+192            </intent-filter>
+193            <intent-filter>
+193-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:182:13-185:29
+194                <action android:name="android.intent.action.MAIN" />
+194-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:89:17-69
+194-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:89:25-66
+195
+196                <category android:name="android.intent.category.NOTIFICATION_PREFERENCES" />
+196-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:184:17-93
+196-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:184:27-90
+197            </intent-filter>
+198        </activity>
+199        <activity
+199-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:187:9-190:67
+200            android:name="com.battlelancer.seriesguide.extensions.ExtensionsConfigurationActivity"
+200-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:188:13-99
+201            android:exported="true"
+201-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:189:13-36
+202            android:label="@string/action_extensions_configure" /> <!-- Import and Export -->
+202-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:190:13-64
+203        <activity
+203-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:193:9-195:46
+204            android:name="com.battlelancer.seriesguide.dataliberation.DataLiberationActivity"
+204-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:194:13-94
+205            android:label="@string/backup" /> <!-- trakt -->
+205-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:195:13-43
+206        <activity
+206-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:198:9-200:45
+207            android:name="com.battlelancer.seriesguide.traktapi.ConnectTraktActivity"
+207-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:199:13-86
+208            android:label="@string/trakt" />
+208-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:200:13-42
+209        <activity
+209-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:201:9-215:20
+210            android:name="com.battlelancer.seriesguide.traktapi.TraktAuthActivity"
+210-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:202:13-83
+211            android:exported="true"
+211-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:205:13-36
+212            android:label="@string/connect_trakt"
+212-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:203:13-50
+213            android:launchMode="singleTask" >
+213-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:204:13-44
+214
+215            <!-- Support callback for external browser OAuth flow. -->
+216            <intent-filter>
+216-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:207:13-214:29
+217                <action android:name="android.intent.action.VIEW" />
+217-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:208:17-69
+217-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:208:25-66
+218
+219                <category android:name="android.intent.category.DEFAULT" />
+219-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:96:17-76
+219-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:96:27-73
+220                <category android:name="android.intent.category.BROWSABLE" />
+220-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:211:17-78
+220-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:211:27-75
+221
+222                <data android:scheme="sgoauth" />
+222-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:149:17-55
+223            </intent-filter>
+224        </activity>
+225        <activity
+225-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:216:9-218:57
+226            android:name="com.battlelancer.seriesguide.comments.TraktCommentsActivity"
+226-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:217:13-87
+227            android:windowSoftInputMode="stateHidden" /> <!-- Others -->
+227-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:218:13-54
+228        <activity android:name="com.battlelancer.seriesguide.billing.BillingActivity" />
+228-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:221:9-89
+228-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:221:19-86
+229        <activity
+229-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:222:9-224:50
+230            android:name="com.battlelancer.seriesguide.stats.StatsActivity"
+230-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:223:13-48
+231            android:label="@string/statistics" />
+231-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:224:13-47
+232        <activity
+232-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:225:9-228:85
+233            android:name="com.battlelancer.seriesguide.traktapi.QuickCheckInActivity"
+233-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:226:13-86
+234            android:exported="true"
+234-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:227:13-36
+235            android:taskAffinity="com.battlelancer.seriesguide.task.quickcheckin" />
+235-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:228:13-82
+236        <activity
+236-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:229:9-231:77
+237            android:name="com.battlelancer.seriesguide.ui.FullscreenImageActivity"
+237-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:230:13-83
+238            android:configChanges="orientation|keyboardHidden|screenSize" />
+238-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:231:13-74
+239        <activity android:name="com.battlelancer.seriesguide.people.PeopleActivity" />
+239-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:232:9-87
+239-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:232:19-84
+240        <activity android:name="com.battlelancer.seriesguide.people.PersonActivity" /> <!-- Notification service -->
+240-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:233:9-87
+240-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:233:19-84
+241        <receiver android:name="com.battlelancer.seriesguide.notifications.NotificationActionReceiver" />
+241-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:236:9-78
+241-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:236:19-75
+242        <receiver
+242-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:237:9-242:20
+243            android:name="com.battlelancer.seriesguide.notifications.NotificationAlarmReceiver"
+243-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:237:19-74
+244            android:exported="false" >
+244-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:238:13-37
+245            <intent-filter>
+245-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:239:13-241:29
+246                <action android:name="android.intent.action.BOOT_COMPLETED" />
+246-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:240:17-79
+246-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:240:25-76
+247            </intent-filter>
+248        </receiver> <!-- List widget configuration -->
+249        <activity
+249-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:245:9-252:20
+250            android:name="com.battlelancer.seriesguide.appwidget.ListWidgetPreferenceActivity"
+250-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:246:13-95
+251            android:exported="false"
+251-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:248:13-37
+252            android:taskAffinity="com.battlelancer.seriesguide.task.configuration" >
+252-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:247:13-83
+253            <intent-filter>
+253-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:249:13-251:29
+254                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+254-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:250:17-87
+254-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:250:25-84
+255            </intent-filter>
+256        </activity> <!-- Widgets -->
+257        <receiver
+257-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:255:9-269:20
+258            android:name="com.battlelancer.seriesguide.appwidget.ListWidgetProvider"
+258-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:256:13-85
+259            android:exported="false"
+259-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:258:13-37
+260            android:label="@string/app_name" >
+260-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:257:13-45
+261            <intent-filter>
+261-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:259:13-261:29
+262                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+262-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:260:17-84
+262-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:260:25-81
+263            </intent-filter>
+264            <intent-filter>
+264-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:262:13-264:29
+265                <action android:name="com.battlelancer.seriesguide.appwidget.UPDATE" />
+265-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:263:17-88
+265-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:263:25-85
+266            </intent-filter>
+267
+268            <meta-data
+268-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:266:13-268:62
+269                android:name="android.appwidget.provider"
+269-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:267:17-58
+270                android:resource="@xml/appwidget_v11_info" />
+270-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:268:17-59
+271        </receiver>
+272
+273        <service
+273-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:270:9-272:72
+274            android:name="com.battlelancer.seriesguide.appwidget.ListWidgetService"
+274-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:271:13-84
+275            android:permission="android.permission.BIND_REMOTEVIEWS" /> <!-- SeriesGuide Extension listener -->
+275-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:272:13-69
+276        <receiver
+276-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:275:9-278:47
+277            android:name="com.battlelancer.seriesguide.extensions.ExtensionActionReceiver"
+277-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:276:13-91
+278            android:exported="true" /> <!-- Built-in SeriesGuide extensions -->
+278-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:277:13-36
+279        <receiver
+279-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:281:9-294:20
+280            android:name="com.battlelancer.seriesguide.extensions.AmazonExtensionReceiver"
+280-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:282:13-91
+281            android:description="@string/description_extension_amazon"
+281-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:283:13-71
+282            android:exported="false"
+282-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:284:13-37
+283            android:icon="@mipmap/ic_app"
+283-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:285:13-42
+284            android:label="@string/extension_amazon" >
+284-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:286:13-53
+285            <intent-filter>
+285-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:288:13-290:29
+286                <action android:name="com.battlelancer.seriesguide.api.SeriesGuideExtension" />
+286-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:36:13-92
+286-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:36:21-89
+287            </intent-filter>
+288
+289            <meta-data
+289-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:291:13-293:107
+290                android:name="settingsActivity"
+290-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:292:17-48
+291                android:value="com.battlelancer.seriesguide.extensions.ExtensionsConfigurationActivity" />
+291-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:293:17-104
+292        </receiver>
+293
+294        <service
+294-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:295:9-298:72
+295            android:name="com.battlelancer.seriesguide.extensions.AmazonExtension"
+295-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:296:13-83
+296            android:exported="true"
+296-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:297:13-36
+297            android:permission="android.permission.BIND_JOB_SERVICE" />
+297-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:298:13-69
+298
+299        <receiver
+299-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:300:9-310:20
+300            android:name="com.battlelancer.seriesguide.extensions.YouTubeExtensionReceiver"
+300-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:301:13-92
+301            android:description="@string/description_extension_youtube"
+301-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:302:13-72
+302            android:exported="false"
+302-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:303:13-37
+303            android:icon="@mipmap/ic_app"
+303-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:304:13-42
+304            android:label="@string/extension_youtube" >
+304-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:305:13-54
+305            <intent-filter>
+305-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:288:13-290:29
+306                <action android:name="com.battlelancer.seriesguide.api.SeriesGuideExtension" />
+306-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:36:13-92
+306-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:36:21-89
+307            </intent-filter>
+308        </receiver>
+309
+310        <service
+310-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:311:9-314:72
+311            android:name="com.battlelancer.seriesguide.extensions.YouTubeExtension"
+311-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:312:13-84
+312            android:exported="true"
+312-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:313:13-36
+313            android:permission="android.permission.BIND_JOB_SERVICE" />
+313-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:314:13-69
+314
+315        <receiver
+315-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:316:9-326:20
+316            android:name="com.battlelancer.seriesguide.extensions.VodsterExtensionReceiver"
+316-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:317:13-92
+317            android:description="@string/extension_vodster_description"
+317-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:318:13-72
+318            android:exported="false"
+318-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:319:13-37
+319            android:icon="@mipmap/ic_app"
+319-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:320:13-42
+320            android:label="@string/extension_vodster" >
+320-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:321:13-54
+321            <intent-filter>
+321-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:288:13-290:29
+322                <action android:name="com.battlelancer.seriesguide.api.SeriesGuideExtension" />
+322-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:36:13-92
+322-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:36:21-89
+323            </intent-filter>
+324        </receiver>
+325
+326        <service
+326-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:327:9-330:72
+327            android:name="com.battlelancer.seriesguide.extensions.VodsterExtension"
+327-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:328:13-84
+328            android:exported="true"
+328-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:329:13-36
+329            android:permission="android.permission.BIND_JOB_SERVICE" />
+329-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:330:13-69
+330
+331        <receiver
+331-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:332:9-342:20
+332            android:name="com.battlelancer.seriesguide.extensions.WebSearchExtensionReceiver"
+332-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:333:13-94
+333            android:description="@string/description_extension_web_search"
+333-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:334:13-75
+334            android:exported="false"
+334-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:335:13-37
+335            android:icon="@mipmap/ic_app"
+335-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:336:13-42
+336            android:label="@string/web_search" >
+336-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:337:13-47
+337            <intent-filter>
+337-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:288:13-290:29
+338                <action android:name="com.battlelancer.seriesguide.api.SeriesGuideExtension" />
+338-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:36:13-92
+338-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:36:21-89
+339            </intent-filter>
+340        </receiver>
+341
+342        <service
+342-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:343:9-346:72
+343            android:name="com.battlelancer.seriesguide.extensions.WebSearchExtension"
+343-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:344:13-86
+344            android:exported="true"
+344-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:345:13-36
+345            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Sync service -->
+345-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:346:13-69
+346        <service
+346-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:349:9-360:19
+347            android:name="com.battlelancer.seriesguide.sync.SgAuthenticationService"
+347-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:350:13-85
+348            android:exported="true" >
+348-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:351:13-36
+349            <intent-filter>
+349-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:353:13-355:29
+350                <action android:name="android.accounts.AccountAuthenticator" />
+350-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:354:17-80
+350-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:354:25-77
+351            </intent-filter>
+352
+353            <meta-data
+353-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:357:13-359:55
+354                android:name="android.accounts.AccountAuthenticator"
+354-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:358:17-69
+355                android:resource="@xml/accountauth" />
+355-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:359:17-52
+356        </service>
+357        <service
+357-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:361:9-372:19
+358            android:name="com.battlelancer.seriesguide.sync.SgSyncService"
+358-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:362:13-75
+359            android:exported="true" >
+359-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:363:13-36
+360            <intent-filter>
+360-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:365:13-367:29
+361                <action android:name="android.content.SyncAdapter" />
+361-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:366:17-70
+361-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:366:25-67
+362            </intent-filter>
+363
+364            <meta-data
+364-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:369:13-371:60
+365                android:name="android.content.SyncAdapter"
+365-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:370:17-59
+366                android:resource="@xml/sync_seriesguide" />
+366-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:371:17-57
+367        </service>
+368
+369        <meta-data
+369-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:14:9-16:69
+370            android:name="com.google.android.gms.version"
+370-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:15:13-58
+371            android:value="@integer/google_play_services_version" />
+371-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:16:13-66
+372        <meta-data
+372-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:17:9-19:63
+373            android:name="com.facebook.sdk.ApplicationId"
+373-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:18:13-58
+374            android:value="@string/facebook_application_id" />
+374-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:19:13-60
+375
+376        <activity
+376-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:21:9-25:61
+377            android:name="com.firebase.ui.auth.KickoffActivity"
+377-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:22:13-64
+378            android:exported="false"
+378-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:23:13-37
+379            android:label=""
+379-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:24:13-29
+380            android:theme="@style/FirebaseUI.Transparent" />
+380-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:25:13-58
+381        <activity
+381-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:26:9-30:61
+382            android:name="com.firebase.ui.auth.ui.idp.SingleSignInActivity"
+382-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:27:13-76
+383            android:exported="false"
+383-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:28:13-37
+384            android:label=""
+384-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:29:13-29
+385            android:theme="@style/FirebaseUI.Transparent" />
+385-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:30:13-58
+386        <activity
+386-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:31:9-35:61
+387            android:name="com.firebase.ui.auth.ui.credentials.CredentialSaveActivity"
+387-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:32:13-86
+388            android:exported="false"
+388-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:33:13-37
+389            android:label=""
+389-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:34:13-29
+390            android:theme="@style/FirebaseUI.Transparent" />
+390-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:35:13-58
+391        <activity
+391-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:36:9-40:58
+392            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+392-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:37:13-81
+393            android:exported="false"
+393-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:38:13-37
+394            android:label="@string/fui_title_recover_password_activity"
+394-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:39:13-72
+395            android:windowSoftInputMode="adjustResize" />
+395-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:40:13-55
+396        <activity
+396-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:41:9-45:58
+397            android:name="com.firebase.ui.auth.ui.email.EmailActivity"
+397-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:42:13-71
+398            android:exported="false"
+398-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:43:13-37
+399            android:label="@string/fui_sign_in_default"
+399-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:44:13-56
+400            android:windowSoftInputMode="adjustResize" />
+400-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:45:13-55
+401        <activity
+401-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:46:9-50:77
+402            android:name="com.firebase.ui.auth.ui.phone.PhoneActivity"
+402-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:47:13-71
+403            android:exported="false"
+403-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:48:13-37
+404            android:label="@string/fui_sign_in_with_phone_number"
+404-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:49:13-66
+405            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
+405-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:50:13-74
+406        <activity
+406-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:51:9-55:58
+407            android:name="com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt"
+407-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:52:13-76
+408            android:exported="false"
+408-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:53:13-37
+409            android:label="@string/fui_title_welcome_back_idp_prompt"
+409-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:54:13-70
+410            android:windowSoftInputMode="adjustResize" />
+410-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:55:13-55
+411        <activity
+411-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:56:9-60:58
+412            android:name="com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt"
+412-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:57:13-83
+413            android:exported="false"
+413-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:58:13-37
+414            android:label="@string/fui_title_welcome_back_password_prompt"
+414-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:59:13-75
+415            android:windowSoftInputMode="adjustResize" />
+415-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:60:13-55
+416        <activity
+416-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:61:9-65:58
+417            android:name="com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt"
+417-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:62:13-84
+418            android:exported="false"
+418-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:63:13-37
+419            android:label="@string/fui_title_welcome_back_password_prompt"
+419-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:64:13-75
+420            android:windowSoftInputMode="adjustResize" />
+420-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:65:13-55
+421        <activity
+421-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:66:9-71:58
+422            android:name="com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity"
+422-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:67:13-82
+423            android:exported="false"
+423-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:68:13-37
+424            android:label=""
+424-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:69:13-29
+425            android:theme="@style/FirebaseUI.Transparent"
+425-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:70:13-58
+426            android:windowSoftInputMode="adjustResize" />
+426-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:71:13-55
+427        <activity
+427-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:72:9-76:58
+428            android:name="com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity"
+428-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:73:13-88
+429            android:exported="false"
+429-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:74:13-37
+430            android:label="@string/fui_sign_in_default"
+430-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:75:13-56
+431            android:windowSoftInputMode="adjustResize" />
+431-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:76:13-55
+432        <activity
+432-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:77:9-80:65
+433            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+433-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:78:13-80
+434            android:exported="false"
+434-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:79:13-37
+435            android:label="@string/fui_default_toolbar_title" />
+435-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:80:13-62
+436        <activity
+436-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:81:9-85:48
+437            android:name="com.facebook.FacebookActivity"
+437-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:82:13-57
+438            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+438-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:83:13-96
+439            android:label="@string/app_name" />
+439-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:84:13-45
+440        <activity
+440-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:86:9-98:20
+441            android:name="com.facebook.CustomTabActivity"
+441-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:87:13-58
+442            android:exported="true" >
+442-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:88:13-36
+443            <intent-filter>
+443-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:90:13-97:29
+444                <action android:name="android.intent.action.VIEW" />
+444-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:208:17-69
+444-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:208:25-66
+445
+446                <category android:name="android.intent.category.DEFAULT" />
+446-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:96:17-76
+446-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:96:27-73
+447                <category android:name="android.intent.category.BROWSABLE" />
+447-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:211:17-78
+447-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:211:27-75
+448
+449                <data android:scheme="@string/facebook_login_protocol_scheme" />
+449-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:149:17-55
+450            </intent-filter>
+451        </activity>
+452
+453        <provider
+453-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:100:9-104:38
+454            android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
+454-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:101:13-79
+455            android:authorities="com.uwetrottmann.seriesguide.amzn.authuiinitprovider"
+455-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:102:13-70
+456            android:exported="false"
+456-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:103:13-37
+457            android:initOrder="90" />
+457-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/2d08e511c1b97eb7105a72028a1244a3/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:104:13-35
+458
+459        <activity
+459-->[com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:23:9-27:75
+460            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+460-->[com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:24:13-93
+461            android:excludeFromRecents="true"
+461-->[com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:25:13-46
+462            android:exported="false"
+462-->[com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:26:13-37
+463            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+463-->[com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:27:13-72
+464        <!--
+465            Service handling Google Sign-In user revocation. For apps that do not integrate with
+466            Google Sign-In, this service will never be started.
+467        -->
+468        <service
+468-->[com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:33:9-37:51
+469            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+469-->[com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:34:13-89
+470            android:exported="true"
+470-->[com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:35:13-36
+471            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+471-->[com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:36:13-107
+472            android:visibleToInstantApps="true" />
+472-->[com.google.android.gms:play-services-auth:20.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/a0c0bba8b8288245ae930cdad1ed407a/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:37:13-48
+473
+474        <activity
+474-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+475            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+475-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+476            android:excludeFromRecents="true"
+476-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+477            android:exported="true"
+477-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+478            android:launchMode="singleTask"
+478-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+479            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+479-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+480            <intent-filter>
+480-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+481                <action android:name="android.intent.action.VIEW" />
+481-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:208:17-69
+481-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:208:25-66
+482
+483                <category android:name="android.intent.category.DEFAULT" />
+483-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:96:17-76
+483-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:96:27-73
+484                <category android:name="android.intent.category.BROWSABLE" />
+484-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:211:17-78
+484-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:211:27-75
+485
+486                <data
+486-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:149:17-55
+487                    android:host="firebase.auth"
+488                    android:path="/"
+489                    android:scheme="genericidp" />
+490            </intent-filter>
+491        </activity>
+492        <activity
+492-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+493            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+493-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+494            android:excludeFromRecents="true"
+494-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+495            android:exported="true"
+495-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+496            android:launchMode="singleTask"
+496-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+497            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+497-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+498            <intent-filter>
+498-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+499                <action android:name="android.intent.action.VIEW" />
+499-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:208:17-69
+499-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:208:25-66
+500
+501                <category android:name="android.intent.category.DEFAULT" />
+501-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:96:17-76
+501-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:96:27-73
+502                <category android:name="android.intent.category.BROWSABLE" />
+502-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:211:17-78
+502-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:211:27-75
+503
+504                <data
+504-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:149:17-55
+505                    android:host="firebase.auth"
+506                    android:path="/"
+507                    android:scheme="recaptcha" />
+508            </intent-filter>
+509        </activity>
+510
+511        <service
+511-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+512            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+512-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+513            android:enabled="true"
+513-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+514            android:exported="false" >
+514-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+515            <intent-filter>
+515-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+516                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+516-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+516-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+517
+518                <category android:name="android.intent.category.DEFAULT" />
+518-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:96:17-76
+518-->/Users/irfanbilir/Documents/SeriesGuide-dev/app/src/main/AndroidManifest.xml:96:27-73
+519            </intent-filter>
+520        </service>
+521        <service
+521-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+522            android:name="com.google.firebase.components.ComponentDiscoveryService"
+522-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:75:13-84
+523            android:directBootAware="true"
+523-->[com.google.firebase:firebase-common:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/dac627cba0fc351408f67f5c77ff92e1/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+524            android:exported="false" >
+524-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+525            <meta-data
+525-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+526                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+526-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+527                android:value="com.google.firebase.components.ComponentRegistrar" />
+527-->[com.google.firebase:firebase-auth:21.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/3e7c19fd34874fb3a89e2e192a1e4a80/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+528            <meta-data
+528-->[com.google.firebase:firebase-crashlytics:18.2.5] /Users/irfanbilir/.gradle/caches/transforms-3/db1a76638686052a6c0db87371af54f3/transformed/jetified-firebase-crashlytics-18.2.5/AndroidManifest.xml:18:13-20:85
+529                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+529-->[com.google.firebase:firebase-crashlytics:18.2.5] /Users/irfanbilir/.gradle/caches/transforms-3/db1a76638686052a6c0db87371af54f3/transformed/jetified-firebase-crashlytics-18.2.5/AndroidManifest.xml:19:17-115
+530                android:value="com.google.firebase.components.ComponentRegistrar" />
+530-->[com.google.firebase:firebase-crashlytics:18.2.5] /Users/irfanbilir/.gradle/caches/transforms-3/db1a76638686052a6c0db87371af54f3/transformed/jetified-firebase-crashlytics-18.2.5/AndroidManifest.xml:20:17-82
+531            <meta-data
+531-->[com.google.firebase:firebase-installations:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c631db3bf1692d875d4bcff78d5e29eb/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+532                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+532-->[com.google.firebase:firebase-installations:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c631db3bf1692d875d4bcff78d5e29eb/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+533                android:value="com.google.firebase.components.ComponentRegistrar" />
+533-->[com.google.firebase:firebase-installations:17.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/c631db3bf1692d875d4bcff78d5e29eb/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+534        </service>
+535
+536        <activity
+536-->[com.google.android.gms:play-services-base:18.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/fa1e8114388cde3c06ff5db880a076e2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+537            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+537-->[com.google.android.gms:play-services-base:18.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/fa1e8114388cde3c06ff5db880a076e2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+538            android:exported="false"
+538-->[com.google.android.gms:play-services-base:18.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/fa1e8114388cde3c06ff5db880a076e2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+539            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+539-->[com.google.android.gms:play-services-base:18.0.1] /Users/irfanbilir/.gradle/caches/transforms-3/fa1e8114388cde3c06ff5db880a076e2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+540
+541        <provider
+541-->[com.google.firebase:firebase-common:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/dac627cba0fc351408f67f5c77ff92e1/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+542            android:name="com.google.firebase.provider.FirebaseInitProvider"
+542-->[com.google.firebase:firebase-common:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/dac627cba0fc351408f67f5c77ff92e1/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+543            android:authorities="com.uwetrottmann.seriesguide.amzn.firebaseinitprovider"
+543-->[com.google.firebase:firebase-common:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/dac627cba0fc351408f67f5c77ff92e1/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+544            android:directBootAware="true"
+544-->[com.google.firebase:firebase-common:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/dac627cba0fc351408f67f5c77ff92e1/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+545            android:exported="false"
+545-->[com.google.firebase:firebase-common:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/dac627cba0fc351408f67f5c77ff92e1/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+546            android:initOrder="100" />
+546-->[com.google.firebase:firebase-common:20.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/dac627cba0fc351408f67f5c77ff92e1/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+547        <provider
+547-->[com.squareup.picasso:picasso:2.8] /Users/irfanbilir/.gradle/caches/transforms-3/1f6e248c1a74e94c0ad66f28c4551acf/transformed/jetified-picasso-2.8/AndroidManifest.xml:8:9-11:40
+548            android:name="com.squareup.picasso.PicassoProvider"
+548-->[com.squareup.picasso:picasso:2.8] /Users/irfanbilir/.gradle/caches/transforms-3/1f6e248c1a74e94c0ad66f28c4551acf/transformed/jetified-picasso-2.8/AndroidManifest.xml:9:13-64
+549            android:authorities="com.uwetrottmann.seriesguide.amzn.com.squareup.picasso"
+549-->[com.squareup.picasso:picasso:2.8] /Users/irfanbilir/.gradle/caches/transforms-3/1f6e248c1a74e94c0ad66f28c4551acf/transformed/jetified-picasso-2.8/AndroidManifest.xml:10:13-72
+550            android:exported="false" />
+550-->[com.squareup.picasso:picasso:2.8] /Users/irfanbilir/.gradle/caches/transforms-3/1f6e248c1a74e94c0ad66f28c4551acf/transformed/jetified-picasso-2.8/AndroidManifest.xml:11:13-37
+551        <provider
+551-->[androidx.emoji2:emoji2:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/91d421735ba02ebf8987ff9ae3c7a969/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+552            android:name="androidx.startup.InitializationProvider"
+552-->[androidx.emoji2:emoji2:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/91d421735ba02ebf8987ff9ae3c7a969/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+553            android:authorities="com.uwetrottmann.seriesguide.amzn.androidx-startup"
+553-->[androidx.emoji2:emoji2:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/91d421735ba02ebf8987ff9ae3c7a969/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+554            android:exported="false" >
+554-->[androidx.emoji2:emoji2:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/91d421735ba02ebf8987ff9ae3c7a969/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+555            <meta-data
+555-->[androidx.emoji2:emoji2:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/91d421735ba02ebf8987ff9ae3c7a969/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+556                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+556-->[androidx.emoji2:emoji2:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/91d421735ba02ebf8987ff9ae3c7a969/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+557                android:value="androidx.startup" />
+557-->[androidx.emoji2:emoji2:1.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/91d421735ba02ebf8987ff9ae3c7a969/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+558            <meta-data
+558-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/bdcbfd0bb1eb1394d6e7a7eddcfb30ab/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+559                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+559-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/bdcbfd0bb1eb1394d6e7a7eddcfb30ab/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+560                android:value="androidx.startup" />
+560-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/irfanbilir/.gradle/caches/transforms-3/bdcbfd0bb1eb1394d6e7a7eddcfb30ab/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+561        </provider>
+562
+563        <service
+563-->[androidx.room:room-runtime:2.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/9261a4cb67a96138a203c81f923c0e98/transformed/room-runtime-2.4.1/AndroidManifest.xml:25:9-28:40
+564            android:name="androidx.room.MultiInstanceInvalidationService"
+564-->[androidx.room:room-runtime:2.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/9261a4cb67a96138a203c81f923c0e98/transformed/room-runtime-2.4.1/AndroidManifest.xml:26:13-74
+565            android:directBootAware="true"
+565-->[androidx.room:room-runtime:2.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/9261a4cb67a96138a203c81f923c0e98/transformed/room-runtime-2.4.1/AndroidManifest.xml:27:13-43
+566            android:exported="false" />
+566-->[androidx.room:room-runtime:2.4.1] /Users/irfanbilir/.gradle/caches/transforms-3/9261a4cb67a96138a203c81f923c0e98/transformed/room-runtime-2.4.1/AndroidManifest.xml:28:13-37
+567        <service
+567-->[com.google.android.datatransport:transport-backend-cct:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b7ac9f62a9f0ff774d7a61b793ac0197/transformed/jetified-transport-backend-cct-3.1.1/AndroidManifest.xml:29:9-35:19
+568            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+568-->[com.google.android.datatransport:transport-backend-cct:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b7ac9f62a9f0ff774d7a61b793ac0197/transformed/jetified-transport-backend-cct-3.1.1/AndroidManifest.xml:30:13-103
+569            android:exported="false" >
+569-->[com.google.android.datatransport:transport-backend-cct:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b7ac9f62a9f0ff774d7a61b793ac0197/transformed/jetified-transport-backend-cct-3.1.1/AndroidManifest.xml:31:13-37
+570            <meta-data
+570-->[com.google.android.datatransport:transport-backend-cct:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b7ac9f62a9f0ff774d7a61b793ac0197/transformed/jetified-transport-backend-cct-3.1.1/AndroidManifest.xml:32:13-34:39
+571                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+571-->[com.google.android.datatransport:transport-backend-cct:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b7ac9f62a9f0ff774d7a61b793ac0197/transformed/jetified-transport-backend-cct-3.1.1/AndroidManifest.xml:33:17-94
+572                android:value="cct" />
+572-->[com.google.android.datatransport:transport-backend-cct:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/b7ac9f62a9f0ff774d7a61b793ac0197/transformed/jetified-transport-backend-cct-3.1.1/AndroidManifest.xml:34:17-36
+573        </service>
+574        <service
+574-->[com.google.android.datatransport:transport-runtime:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4904a92c0bdaf6c1c2d51502a22b34e8/transformed/jetified-transport-runtime-3.1.1/AndroidManifest.xml:26:9-30:19
+575            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+575-->[com.google.android.datatransport:transport-runtime:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4904a92c0bdaf6c1c2d51502a22b34e8/transformed/jetified-transport-runtime-3.1.1/AndroidManifest.xml:27:13-117
+576            android:exported="false"
+576-->[com.google.android.datatransport:transport-runtime:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4904a92c0bdaf6c1c2d51502a22b34e8/transformed/jetified-transport-runtime-3.1.1/AndroidManifest.xml:28:13-37
+577            android:permission="android.permission.BIND_JOB_SERVICE" >
+577-->[com.google.android.datatransport:transport-runtime:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4904a92c0bdaf6c1c2d51502a22b34e8/transformed/jetified-transport-runtime-3.1.1/AndroidManifest.xml:29:13-69
+578        </service>
+579
+580        <receiver
+580-->[com.google.android.datatransport:transport-runtime:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4904a92c0bdaf6c1c2d51502a22b34e8/transformed/jetified-transport-runtime-3.1.1/AndroidManifest.xml:32:9-34:40
+581            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+581-->[com.google.android.datatransport:transport-runtime:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4904a92c0bdaf6c1c2d51502a22b34e8/transformed/jetified-transport-runtime-3.1.1/AndroidManifest.xml:33:13-132
+582            android:exported="false" />
+582-->[com.google.android.datatransport:transport-runtime:3.1.1] /Users/irfanbilir/.gradle/caches/transforms-3/4904a92c0bdaf6c1c2d51502a22b34e8/transformed/jetified-transport-runtime-3.1.1/AndroidManifest.xml:34:13-37
+583
+584        <meta-data
+584-->[com.android.billingclient:billing:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/07d4b4f49317270ffffce62569eb6b1d/transformed/jetified-billing-4.0.0/AndroidManifest.xml:13:9-15:37
+585            android:name="com.google.android.play.billingclient.version"
+585-->[com.android.billingclient:billing:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/07d4b4f49317270ffffce62569eb6b1d/transformed/jetified-billing-4.0.0/AndroidManifest.xml:14:13-73
+586            android:value="4.0.0" />
+586-->[com.android.billingclient:billing:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/07d4b4f49317270ffffce62569eb6b1d/transformed/jetified-billing-4.0.0/AndroidManifest.xml:15:13-34
+587
+588        <activity
+588-->[com.android.billingclient:billing:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/07d4b4f49317270ffffce62569eb6b1d/transformed/jetified-billing-4.0.0/AndroidManifest.xml:17:9-21:75
+589            android:name="com.android.billingclient.api.ProxyBillingActivity"
+589-->[com.android.billingclient:billing:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/07d4b4f49317270ffffce62569eb6b1d/transformed/jetified-billing-4.0.0/AndroidManifest.xml:18:13-78
+590            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+590-->[com.android.billingclient:billing:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/07d4b4f49317270ffffce62569eb6b1d/transformed/jetified-billing-4.0.0/AndroidManifest.xml:19:13-96
+591            android:exported="false"
+591-->[com.android.billingclient:billing:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/07d4b4f49317270ffffce62569eb6b1d/transformed/jetified-billing-4.0.0/AndroidManifest.xml:20:13-37
+592            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+592-->[com.android.billingclient:billing:4.0.0] /Users/irfanbilir/.gradle/caches/transforms-3/07d4b4f49317270ffffce62569eb6b1d/transformed/jetified-billing-4.0.0/AndroidManifest.xml:21:13-72
+593    </application>
+594
+595</manifest>

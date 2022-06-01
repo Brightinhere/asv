@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="themeSelection">
+        <item>@string/theme_app_follow_system</item>
+        <item>@string/theme_app_dark</item>
+        <item>@string/theme_app_light</item>
+    </string-array>
+    <style name="Theme.SeriesGuide.Launch" parent="Theme.SeriesGuide.DayNight"/>
+</resources>

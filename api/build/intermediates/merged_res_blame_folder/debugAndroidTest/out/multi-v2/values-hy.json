@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.battlelancer.seriesguide.api.test.api-mergeDebugAndroidTestResources-5:/values-hy/values-hy.xml",
+            "map": [
+                {
+                    "source": "/Users/irfanbilir/.gradle/caches/transforms-3/edc170de79d193cd8c818050621e4f49/transformed/core-1.7.0/res/values-hy/values-hy.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

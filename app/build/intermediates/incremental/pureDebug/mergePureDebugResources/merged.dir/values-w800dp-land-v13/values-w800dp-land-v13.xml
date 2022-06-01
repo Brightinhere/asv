@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="isOverviewSinglePane">false</bool>
+    <item name="activity_overview" type="layout">@layout/activity_overview_multipane_wide</item>
+    <item name="fragment_show" type="layout">@layout/fragment_show_narrow</item>
+</resources>

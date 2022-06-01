@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Text styles -->
+    <style name="TextAppearance.SeriesGuide.Body1" parent="TextAppearance.Material3.BodyLarge" />
+
+    <style name="TextAppearance.SeriesGuide.Body2" parent="TextAppearance.Material3.BodyMedium" />
+    <style name="TextAppearance.SeriesGuide.Body2.Accent">
+        <item name="android:textColor">@color/sg_text_color_accent</item>
+    </style>
+    <style name="TextAppearance.SeriesGuide.Body2.Dim">
+        <item name="android:textColor">?attr/sgTextColorSecondaryDim</item>
+    </style>
+    <style name="TextAppearance.SeriesGuide.Body2.Error">
+        <item name="android:textColor">?attr/colorError</item>
+    </style>
+    <style name="TextAppearance.SeriesGuide.Body2.Secondary">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.SeriesGuide.Body2.Secondary.Narrow">
+        <item name="fontFamily">sans-serif-condensed</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="TextAppearance.SeriesGuide.Body2.Bold">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.SeriesGuide.Body2.Bold.Accent">
+        <item name="android:textColor">@color/sg_text_color_accent</item>
+    </style>
+    <style name="TextAppearance.SeriesGuide.Body2.Bold.Dim">
+        <item name="android:textColor">?attr/sgTextColorSecondaryDim</item>
+    </style>
+    <style name="TextAppearance.SeriesGuide.Body2.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="TextAppearance.SeriesGuide.Button" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="TextAppearance.SeriesGuide.Caption" parent="TextAppearance.Material3.BodySmall" />
+    <style name="TextAppearance.SeriesGuide.Caption.Dim">
+        <item name="android:textColor">?attr/sgTextColorSecondaryDim</item>
+    </style>
+    <style name="TextAppearance.SeriesGuide.Caption.Narrow">
+        <item name="fontFamily">sans-serif-condensed</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="TextAppearance.SeriesGuide.Caption.Narrow.Dim">
+        <item name="android:textColor">?attr/sgTextColorSecondaryDim</item>
+    </style>
+
+    <style name="TextAppearance.SeriesGuide.Headline4" parent="TextAppearance.Material3.HeadlineLarge" />
+    <style name="TextAppearance.SeriesGuide.Headline4.White">
+        <item name="android:textColor">@color/sg_white</item>
+    </style>
+
+    <style name="TextAppearance.SeriesGuide.Headline5" parent="TextAppearance.Material3.HeadlineSmall" />
+    <style name="TextAppearance.SeriesGuide.Headline6" parent="TextAppearance.Material3.TitleMedium" />
+    <style name="TextAppearance.SeriesGuide.Headline6.Dim">
+        <item name="android:textColor">?attr/sgTextColorSecondaryDim</item>
+    </style>
+
+    <style name="TextAppearance.SeriesGuide.Subtitle1" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance.SeriesGuide.Subtitle1.Bold">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.SeriesGuide.Subtitle1.Bold.Dim">
+        <item name="android:textColor">?attr/sgTextColorSecondaryDim</item>
+    </style>
+    <style name="TextAppearance.SeriesGuide.Subtitle1.Secondary">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.SeriesGuide.Subtitle2" parent="TextAppearance.Material3.TitleSmall" />
+
+    <style name="TextAppearance.SeriesGuide.Tab" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textColor">@color/sg_tab_color</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="TextAppearance.SeriesGuide.EmptyState" parent="TextAppearance.SeriesGuide.Headline6.Dim" />
+
+    <!-- Widget styles -->
+    <style name="Widget" />
+
+    <style name="Widget.SeriesGuide" parent="Widget" />
+
+    <!-- Buttons -->
+    <style name="Widget.SeriesGuide.Button" parent="Widget.Material3.Button" />
+    <style name="Widget.SeriesGuide.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton" />
+
+    <style name="Widget.SeriesGuide.Button.Borderless" parent="Widget.Material3.Button.TextButton">
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="Widget.SeriesGuide.Button.Borderless.Default">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif</item>
+        <item name="android:drawablePadding">@dimen/default_padding</item>
+    </style>
+
+    <style name="Widget.SeriesGuide.Button.Borderless.Sheet">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif</item>
+        <item name="android:textAppearance">@style/TextAppearance.SeriesGuide.Subtitle1</item>
+        <item name="android:paddingLeft">@dimen/large_padding</item>
+        <item name="android:paddingRight">@dimen/large_padding</item>
+        <item name="iconPadding">32dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <style name="Widget.SeriesGuide.Button.Borderless.Accent">
+        <item name="android:textColor">?attr/colorAccent</item>
+    </style>
+
+    <style name="Widget.SeriesGuide.Button.Borderless.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="iconTint">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Widget.SeriesGuide.Button.Borderless.Error">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.SeriesGuide.Button.Error</item>
+    </style>
+    
+    <style name="ThemeOverlay.SeriesGuide.Button.Error" parent="ThemeOverlay.Material3.Button.TextButton">
+        <item name="colorPrimary">?attr/colorError</item>
+    </style>
+
+    <style name="Widget.SeriesGuide.Button.MediaItem" parent="Widget.SeriesGuide.Button.Borderless.Caption">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">3</item>
+    </style>
+
+    <style name="Widget.SeriesGuide.Button.Borderless.Rating">
+        <item name="rippleColor">@color/sg_white_15</item>
+        <item name="android:padding">@dimen/default_padding</item>
+        <item name="android:textColor">@color/sg_white</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <style name="Widget.SeriesGuide.DistillationItem">
+        <item name="android:textAppearance">@style/TextAppearance.SeriesGuide.Subtitle1</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:layout_marginStart">@dimen/large_padding</item>
+        <item name="android:layout_marginEnd">@dimen/large_padding</item>
+    </style>
+
+    <style name="Widget.SeriesGuide.FilterBox">
+        <item name="android:paddingStart">@dimen/large_padding</item>
+        <item name="android:paddingEnd">@dimen/large_padding</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <!-- TextView -->
+    <style name="Widget.SeriesGuide.TextView" />
+
+    <style name="Widget.SeriesGuide.TextView.Body">
+        <item name="android:lineSpacingMultiplier">1.25</item>
+    </style>
+
+    <style name="Widget.SeriesGuide.TextView.SingleLine">
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- AppBar -->
+    <!-- Material3: for now keeping old style with elevation to avoid having to color status bar,
+         also new liftOnScroll flickers on scrolling. -->
+    <style name="Widget.SeriesGuide.AppBarLayout" parent="Widget.MaterialComponents.AppBarLayout.Surface">
+        <item name="android:background">?attr/sgColorTopAppBar</item>
+    </style>
+
+    <!-- Transparent background, disable shadow. -->
+    <style name="Widget.SeriesGuide.AppBarLayout.Transparent" parent="">
+        <item name="android:background">@color/transparent</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <!-- Toolbar -->
+    <style name="ThemeOverlay.SeriesGuide.Toolbar.Surface" parent="ThemeOverlay.Material3.Toolbar.Surface">
+        <item name="colorOnSurface">?attr/colorPrimary</item>
+        <item name="colorOnSurfaceVariant">?attr/colorPrimary</item>
+    </style>
+    <!-- Using OnSurface as toolbar typically used within AppBar which handles the background color. -->
+    <style name="Widget.SeriesGuide.Toolbar" parent="Widget.Material3.Toolbar.OnSurface">
+        <!-- Note: this theme overlay will only work if the style is applied directly to a Toolbar. -->
+        <item name="android:theme">@style/ThemeOverlay.SeriesGuide.Toolbar.Surface</item>
+    </style>
+    <!-- Toolbar which draws its own background. -->
+    <style name="Widget.SeriesGuide.Toolbar.Surface">
+        <item name="android:background">?attr/sgColorTopAppBar</item>
+    </style>
+
+    <style name="Widget.SeriesGuide.Toolbar.Gradient">
+        <item name="android:background">@drawable/background_actionbar_gradient</item>
+        <!-- Note: not overriding titleTextColor and subtitleTextColor as currently unused. -->
+        <!-- Note: this theme overlay will only work if the style is applied directly to a Toolbar. -->
+        <item name="android:theme">@style/ThemeOverlay.SeriesGuide.Toolbar.Gradient</item>
+    </style>
+
+    <style name="ThemeOverlay.SeriesGuide.Toolbar.Gradient" parent="ThemeOverlay.Material3.Toolbar.Surface">
+        <item name="colorControlNormal">@color/sg_on_dark_emphasis_medium</item>
+        <item name="colorControlHighlight">@color/sg_ripple_material_dark</item>
+        <item name="actionMenuTextColor">@color/sg_on_dark_emphasis_medium</item>
+    </style>
+
+    <!-- Tabs -->
+    <style name="ThemeOverLay.SeriesGuide.PrimaryAsColorOnSurface" parent="">
+        <item name="colorOnSurface">?attr/colorPrimary</item>
+    </style>
+    <style name="Widget.SeriesGuide.Tab">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/tab_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/tab_padding_horizontal</item>
+        <item name="android:textAppearance">@style/TextAppearance.SeriesGuide.Tab</item>
+        <item name="android:theme">@style/ThemeOverLay.SeriesGuide.PrimaryAsColorOnSurface</item>
+    </style>
+
+    <!-- BottomNavigationView -->
+    <style name="Widget.SeriesGuide.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <!-- Set different from colorSurface to prevent BottomNavigationView from using color to elevate. -->
+        <item name="android:background">?attr/sgColorTopAppBar</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.SeriesGuide.BottomNavigationView</item>
+    </style>
+
+    <style name="ThemeOverlay.SeriesGuide.BottomNavigationView" parent="">
+        <!-- Used for Widget.Material3.BottomNavigationView.ActiveIndicator color -->
+        <item name="colorSecondaryContainer" tools:ignore="PrivateResource">?attr/colorPrimaryContainer</item>
+        <!-- Used for Widget.Material3.BottomNavigationView itemIconTint -->
+        <item name="colorOnSecondaryContainer" tools:ignore="PrivateResource">?attr/colorOnPrimaryContainer</item>
+    </style>
+
+    <!-- Inline snackbar -->
+    <!-- Use of CoordinatorLayout shifts layouts down, counter by moving inline snackbar up. -->
+    <style name="Widget.SeriesGuide.InlineSnackbar">
+        <item name="android:layout_marginBottom">?attr/actionBarSize</item>
+    </style>
+
+    <!-- Dialogs -->
+    <style name="Animation.CheckinDialog" parent="android:Animation.Dialog">
+        <item name="android:windowExitAnimation">@anim/checkin_dialog_exit</item>
+    </style>
+
+    <!-- Grid view with no space between items. -->
+    <style name="Widget.SeriesGuide.Grid">
+        <item name="android:listSelector">?attr/selectableItemBackground</item>
+        <item name="android:drawSelectorOnTop">true</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+    </style>
+
+    <!-- Grid views with cards, with space between items.  -->
+    <!-- Note: Ripple breaks when setting selector on item instead of the List/GridView. -->
+    <style name="Widget.SeriesGuide.Grid.Cards">
+        <item name="android:paddingTop">@dimen/grid_topbottom_padding</item>
+        <item name="android:paddingBottom">@dimen/grid_topbottom_padding</item>
+        <item name="android:paddingLeft">@dimen/grid_leftright_padding</item>
+        <item name="android:paddingRight">@dimen/grid_leftright_padding</item>
+        <item name="android:horizontalSpacing">@dimen/grid_horizontal_spacing</item>
+        <item name="android:verticalSpacing">@dimen/grid_vertical_spacing</item>
+    </style>
+
+    <!-- Easy layouting -->
+    <style name="DefaultPadding" />
+
+    <style name="DefaultPadding.List">
+        <item name="android:paddingTop">@dimen/default_padding</item>
+        <item name="android:paddingBottom">@dimen/default_padding</item>
+        <item name="android:divider">@color/transparent</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="DefaultPadding.DialogContent">
+        <item name="android:paddingLeft">@dimen/larger_padding</item>
+        <item name="android:paddingTop">@dimen/larger_padding</item>
+        <item name="android:paddingRight">@dimen/larger_padding</item>
+    </style>
+
+    <style name="Block">
+        <item name="android:layout_marginLeft">@dimen/large_padding</item>
+        <item name="android:layout_marginRight">@dimen/large_padding</item>
+    </style>
+
+    <style name="Block.WithTopMargin">
+        <item name="android:layout_marginTop">@dimen/large_padding</item>
+        <item name="android:layout_marginBottom">@dimen/inline_padding</item>
+    </style>
+
+    <style name="Block.FlowText">
+        <item name="android:lineSpacingMultiplier">1.25</item>
+        <item name="android:maxEms">20</item>
+    </style>
+
+    <style name="Page">
+        <item name="android:padding">@dimen/large_padding</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- Note: for child of ScrollView override layout_height to wrap_content. -->
+    <style name="Page.Centered"/>
+
+    <style name="FirstRunColumn">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <!-- Panes -->
+    <style name="EpisodesPane">
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="DetailsPane">
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- ////////////////////////////////////////////// -->
+
+    <!-- Dark styles -->
+
+    <!-- ////////////////////////////////////////////// -->
+
+    <!-- Light styles -->
+
+</resources>
